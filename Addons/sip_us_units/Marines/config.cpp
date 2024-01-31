@@ -934,9 +934,9 @@ class CfgVehicles
             "SiP_m1911_mag",
             "SiP_m1911_mag"
         };
-        headgearList[] = {"cap_hbt"};
-        linkedItems[] = {"cap_hbt","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"cap_hbt","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        headgearList[] = {"H_Simc_MC_hat_1"};
+        linkedItems[] = {"H_Simc_MC_hat_1","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_Simc_MC_hat_1","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         uniformClass = "SiP_M1947_uniform";
         backpack = "";
     };
@@ -945,8 +945,8 @@ class CfgVehicles
         displayName = "Driver";
         editorSubcategory = "SiP_Vehicle_Crews_Editor_Subcategory";
         weapons[] = {"SiP_m1_carbine","Throw","Put"};
-        allowedHeadgear[] = {"cap_hbt"};
-        headgearList[] = {"cap_hbt",1};
+        allowedHeadgear[] = {"H_Simc_MC_hat_1"};
+        headgearList[] = {"H_Simc_MC_hat_1",1};
         magazines[] = 
         {
             "SiP_carbine_30_mag",
@@ -1000,7 +1000,7 @@ class CfgVehicles
         };
         linkedItems[] = 
         {
-            "cap_hbt",
+            "H_Simc_MC_hat_1",
             "V_Simc_61",
             "vn_b_item_map",
             "vn_b_item_compass",
@@ -1008,7 +1008,7 @@ class CfgVehicles
         };
         respawnLinkedItems[] =
         {
-            "cap_hbt",
+            "H_Simc_MC_hat_1",
             "V_Simc_61",
             "vn_b_item_map",
             "vn_b_item_compass",
@@ -1109,9 +1109,9 @@ class CfgVehicles
     class SiP_US_Marines_tank_commander: SiP_US_Marines_tank_bow
     {
         displayName = "Tank Commander";
-        headgearList[] = {"cap_hbt"};
-        linkedItems[] = {"cap_hbt","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
-        respawnLinkedItems[] = {"cap_hbt","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
+        headgearList[] = {"H_Simc_MC_hat_1"};
+        linkedItems[] = {"H_Simc_MC_hat_1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
+        respawnLinkedItems[] = {"H_Simc_MC_hat_1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
         weapons[] = {"SiP_m3a1_greasegun","SiP_m1911","Throw","Put"};
         magazines[] = 
         {

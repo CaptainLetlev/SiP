@@ -1617,10 +1617,20 @@ class CfgVehicles
             "SiP_m1911_mag",
             "SiP_m1911_mag"
         };
-        allowedHeadgear[] = {"cap_hbt"};
-        headgearList[] = {"cap_hbt",1};
-        linkedItems[] = {"cap_hbt","SiP_m1945_Vest_45","vn_b_item_map","SPE_US_ItemCompass","SPE_US_ItemWatch"};
-        respawnLinkedItems[] = {"cap_hbt","SiP_m1945_Vest_45","vn_b_item_map","SPE_US_ItemCompass","SPE_US_ItemWatch"};
+        allowedHeadgear[] = 
+        {
+            "SiP_m50_cap",
+            "SiP_m50_cap_bent",
+            "SiP_m50_cap_folded"
+        };
+        headgearList[] = 
+        {
+            "SiP_m50_cap",1,
+            "SiP_m50_cap_bent",1,
+            "SiP_m50_cap_folded",1
+        };
+        linkedItems[] = {"SiP_m50_cap","SiP_m1945_Vest_45","vn_b_item_map","SPE_US_ItemCompass","SPE_US_ItemWatch"};
+        respawnLinkedItems[] = {"SiP_m50_cap","SiP_m1945_Vest_45","vn_b_item_map","SPE_US_ItemCompass","SPE_US_ItemWatch"};
         backpack = "";
     };
     
