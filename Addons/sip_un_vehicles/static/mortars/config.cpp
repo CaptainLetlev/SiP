@@ -170,7 +170,7 @@ class cfgMagazines
     class ace_compat_SiP_81mm_he: SPE_8Rnd_81mmHE_M1_M43A1
     {
         author = "Letlev";
-        displayName = "M43A1 81mm HE Round";
+        displayName = "81mm M43A1 HE Round";
 		picture = "\WW2\SPE_Assets_t\Weapons\Equipment_t\Magazines\Mortars\M_80_HE_ca.paa";
         model = "\WW2\SPE_Assets_m\Weapons\AmmoBoxes_m\Mortars\SPE_Shell80.p3d";
         type = 256;
@@ -180,7 +180,7 @@ class cfgMagazines
     class ace_compat_SiP_81mm_smoke: SPE_8rnd_81mm_M1_M57_SmokeShell
     {
         author = "Letlev";
-        displayname = "M57 FS 81mm Smoke Round";
+        displayname = "81mm M57 FS Smoke Round";
         picture = "\WW2\SPE_Assets_t\Weapons\Equipment_t\Magazines\Mortars\M_80_Smoke_ca.paa";
         model = "\WW2\SPE_Assets_m\Weapons\AmmoBoxes_m\Mortars\SPE_Shell80.p3d";
         hiddenSelections[] = {"camo1"};
@@ -192,7 +192,7 @@ class cfgMagazines
     class ace_compat_SiP_81mm_wp: SPE_8Rnd_81mmWP_M1_M57
     {
         author = "Letlev";
-        displayName = "M57 81mm WP Round";
+        displayName = "81mm M57 WP Round";
 		picture = "\WW2\SPE_Assets_t\Weapons\Equipment_t\Magazines\Mortars\M_80_Smoke_ca.paa";
         model = "\WW2\SPE_Assets_m\Weapons\AmmoBoxes_m\Mortars\SPE_Shell80.p3d";
         hiddenSelections[] = {"camo1"};
@@ -204,7 +204,7 @@ class cfgMagazines
     class ace_compat_SiP_81mm_lume: vn_mortar_m29_mag_lume_x8
     {
         author = "Letlev";
-        displayName = "M301 81mm Illum Round";
+        displayName = "81mm M301 Illum Round";
         picture = "\SiP\Addons\sip_un_vehicles\static\mortars\data\UI\81mm_illum_mag_UI.paa";
         model = "\WW2\SPE_Assets_m\Weapons\AmmoBoxes_m\Mortars\SPE_Shell80.p3d";
         hiddenSelections[] = {"camo1"};
@@ -218,7 +218,7 @@ class cfgMagazines
     {
         scope = 2;
         author = "Letlev";
-        displayName = "M2 60mm HE Round";
+        displayName = "60mm M49A2 HE Round";
         displayNameShort = "";
         type = 256;
         count = 1;
@@ -231,7 +231,7 @@ class cfgMagazines
     class ace_compat_SiP_60mm_wp: vn_mortar_m2_mag_wp_x8
     {
         scope = 2;
-        displayName = "M2 60mm WP Round";
+        displayName = "60mm M302 WP Round";
         displayNameShort = "";
         type = 256;
         count = 1;
@@ -245,7 +245,7 @@ class cfgMagazines
     {
         scope = 2;
         author = "Letlev";
-        displayName = "M2 60mm Illum Round";
+        displayName = "60mm M83 Illum Round";
         displayNameShort = "";
         type = 256;
         count = 1;
@@ -279,7 +279,7 @@ class cfgMagazines
     class ace_compat_SiP_m2_107mm_he: SiP_M2_107mm_mortar_mag_he
     {
         scope = 2;
-        displayName = "M3 107mm HE";
+        displayName = "107mm M3 HE";
         type = 256;
         count = 1;
         mass = 20;
@@ -287,7 +287,7 @@ class cfgMagazines
     class ace_compat_SiP_M2_107mm_wp: SiP_M2_107mm_mortar_mag_wp
     {
         scope = 2;
-        displayName = "M2 107mm WP";
+        displayName = "107mm M2 WP";
         type = 256;
         count = 1;
         mass = 20;
@@ -315,7 +315,7 @@ class cfgMagazines
     {
         scope = 1;
         scopearsenal = 0;
-        displayName = "M328A1 107mm HE";
+        displayName = "107mm M328A1  HE";
         type = 256;
         count = 1;
         mass = 12.28;
@@ -324,7 +324,7 @@ class cfgMagazines
     {
         scope = 1;
         scopearsenal = 0;
-        displayName = "M328A1 107mm WP";
+        displayName = "107mm M328A1 WP";
         type = 256;
         count = 1;
         mass = 12.28;
@@ -333,7 +333,7 @@ class cfgMagazines
     {
         scope = 1;
         scopearsenal = 0;
-        displayName = "M325A2 107mm Ilum";
+        displayName = "107mm M325A2 Ilum";
         type = 256;
         count = 1;
         mass = 12.28;
@@ -421,6 +421,7 @@ class cfgVehicles
         class Turrets;
         class ACE_Actions;
     };
+    
     class vn_static_mortar_m29_base: Mortar_01_base_F
     {
         class Turrets: Turrets
@@ -493,7 +494,7 @@ class cfgVehicles
         class ACE_CSW: ACE_CSW
         {
             enabled = 1;
-            proxyWeapon = "ace_compat_sog_vn_mortar_m2";
+            proxyWeapon = "SiP_mortar_m2_mortar_weapon";
             magazineLocation = "_target selectionPosition 'pohon'";
             disassembleWeapon = "SiP_M2_60mm_tube_carry";
             disassembleTurret = "SiP_M2_60mm_baseplate";

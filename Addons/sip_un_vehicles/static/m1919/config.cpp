@@ -46,14 +46,14 @@ class CfgSoundShaders
     class SiP_M1919_closeShot_SoundShader
     {
         samples[] = {{"\SiP\Addons\sip_un_vehicles\static\m1919\m1919_shot.wss",1}};
-        volume = 0.75;
+        volume = 0.5;
         range = 50;
         rangecurve = "vn_weapon_close_volumecurve";
     };
     class SiP_m1919_close_distance_shot_soundshader
 	{
 		samples[] = {{"\SiP\Addons\sip_un_vehicles\static\m1919\m1919_shot.wss",1}};
-		volume = "0.75*(1-interior)";
+		volume = "0.5*(1-interior)";
 		range = 150;
 		rangecurve[] = {{0,0.2},{50,1},{100,0}};
 	};
@@ -794,7 +794,7 @@ class cfgVehicles
         class ACE_CSW: ACE_CSW
         {
             enabled = 1;
-            proxyWeapon = "SiP_m1919a4_static_weapon";
+            proxyWeapon = "SiP_m1919a6_static_weapon_bipod";
             magazineLocation = "_target selectionPosition 'bullet001_move_axis'";
             disassembleWeapon = "";
             disassembleTurret = "";
@@ -851,7 +851,7 @@ class cfgVehicles
         class ACE_CSW: ACE_CSW
         {
             enabled = 1;
-            proxyWeapon = "SiP_m1919a4_static_weapon";
+            proxyWeapon = "SiP_m1919a4_static_weapon_tripod";
             magazineLocation = "_target selectionPosition 'bullet001_move_axis'";
             disassembleWeapon = "";
             disassembleTurret = "";
