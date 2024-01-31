@@ -30,7 +30,7 @@ class CfgSoundShaders
     class SiP_Greasegun_closeShot_SoundShader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\M3A1_Greasegun\sounds\Greasegun_shot.wss",1}};
-        volume = "(2-interior)";
+        volume = "(1.5-interior)";
         range = 50;
         rangeCurve[] = {{0,1.5},{20,1.15},{40,0.25}};
         limitation = 0;
@@ -38,7 +38,7 @@ class CfgSoundShaders
     class SiP_Greasegun_close_distance_shot_soundshader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\M3A1_Greasegun\sounds\Greasegun_shot.wss",1}};
-        volume = "2*(1-interior)";
+        volume = "1.5*(1-interior)";
         range = 100;
         rangecurve[] = {{0,0},{10,1},{100,0}};
     };

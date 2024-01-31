@@ -26,15 +26,15 @@ class CfgSoundShaders
 {
     class SiP_bar_close_shot_soundshader
     {
-        samples[] = {{"\SiP\Addons\sip_un_weapons\M1918_BAR\sounds\m1918_bar_shot2.wss",1}};
-        volume = "0.25*(1-interior)";
+        samples[] = {{"\SiP\Addons\sip_un_weapons\M1918_BAR\sounds\BAR_shot.wss",1}};
+        volume = "1*(1-interior)";
         range = 30;
         rangecurve[] = {{0,1.0},{4,0.75},{10,0},{30,0}};
     };
     class SiP_bar_close_distance_shot_soundshader
     {
-        samples[] = {{"\SiP\Addons\sip_un_weapons\M1918_BAR\sounds\m1918_bar_shot2.wss",1}};
-        volume = "0.25*(1-interior)";
+        samples[] = {{"\SiP\Addons\sip_un_weapons\M1918_BAR\sounds\BAR_shot.wss",1}};
+        volume = "1*(1-interior)";
         range = 100;
         rangecurve[] = {{0,0},{10,1},{100,0}};
     };

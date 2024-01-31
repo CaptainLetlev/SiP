@@ -25,10 +25,11 @@ class CfgVehicles
     class ACE_medicalSupplyCrate;
 
     class SPE_BasicAmmunitionBox_US;
-    class Land_SPE_Ammocrate_US_02;
+    class SPE_US_Open_Ammocrate_Grenades_Frag;
     
     class vn_b_ammobox_full_11;
     class vn_b_ammobox_full_15;
+    class ace_compat_sog_box_82mm_he;
 
     class SiP_US_Resupply_medical: ACE_medicalSupplyCrate
     {
@@ -94,7 +95,7 @@ class CfgVehicles
         };
     };
 
-    class SiP_US_Resupply_Grenades: Land_SPE_Ammocrate_US_02
+    class SiP_US_Resupply_Grenades: SPE_US_Open_Ammocrate_Grenades_Frag
     {
         scope = 2;
         scopecurator = 2;
@@ -207,6 +208,33 @@ class CfgVehicles
             {
                 magazine = "ace_compat_SiP_60mm_lume";
                 count = 4;
+            };
+        };
+    };
+
+    class SiP_US_Resupply_107mm_Mortar: ace_compat_sog_box_82mm_he
+    {
+        scope = 2;
+        scopecurator = 2;
+        author = "Letlev";
+        displayName = "107mm Mortar Rounds";
+        editorCategory = "SiP_Korean_War_Items_Editor_Category";
+        editorSubcategory = "SiP_UN_Resupply_Boxes_Subcategory";
+        icon = "iconCrateAmmo";
+        armor = 400;
+        armorStructural = 1;
+        maximumLoad = 2900;
+        class TransportMagazines
+        {
+            class _xx_ace_compat_SiP_m2_107mm_he
+            {
+                magazine = "ace_compat_SiP_m2_107mm_he";
+                count = 10;
+            };
+            class _xx_ace_compat_SiP_M2_107mm_wp
+            {
+                magazine = "ace_compat_SiP_M2_107mm_wp";
+                count = 5;
             };
         };
     };

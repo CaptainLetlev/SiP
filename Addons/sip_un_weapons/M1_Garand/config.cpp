@@ -408,7 +408,7 @@ class cfgWeapons
         {
             class vn_empty
             {
-                fired = "[(_this select 0),(_this select 2),""fow_cartridge_m1_clip"",{},0.065,- 0.18,0.1] call WW2_fnc_M1_Empty;";
+                fired = "[(_this select 0),(_this select 2),""fow_cartridge_m1_clip"",{},0.065,- 0.18,0.1] call fow_main_fnc_ping;";
             };
         };
         muzzles[] = {"this","SiP_m1_garand_m7_gl_muzzle"};

@@ -242,7 +242,7 @@ class CfgSoundShaders
     class SiP_Thompson_closeShot_SoundShader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\Thompson\data\sounds\thompson_shot.wss",1}};
-        volume = "(1-interior)";
+        volume = "(0.75-interior)";
         range = 50;
         rangeCurve[] = {{0,1.5},{20,1.15},{40,0.25}};
         limitation = 0;
@@ -250,7 +250,7 @@ class CfgSoundShaders
     class SiP_Thompson_close_distance_shot_soundshader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\Thompson\data\sounds\thompson_shot.wss",1}};
-        volume = "(1-interior)";
+        volume = "(0.75-interior)";
         range = 450;
         rangeCurve[] = {{0,0},{15,0},{30,1.05},{100,1},{200,0.65},{400,0.25}};
         limitation = 0;

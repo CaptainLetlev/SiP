@@ -35,14 +35,14 @@ class CfgSoundShaders
     class SiP_carbine_shot_fp_soundShader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\Carbine\sounds\carbine_shot.wss",1}};
-        volume = 1;
+        volume = 1.5;
         range = 17;
         rangeCurve[] = {{0,1},{17,0}};
     };
     class SiP_carbine_close_shot_soundshader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\Carbine\sounds\carbine_shot.wss",1}};
-        volume = 1;
+        volume = 1.5;
         range = 95;
         rangeCurve[] = {{0,0},{17,0.9},{95,0}};
     };

@@ -11,7 +11,7 @@ class cfgPatches
             "weapons_f_vietnam_02_c",
             "weapons_f_vietnam_03",
             "weapons_f_vietnam_03_c",
-            "EAW_Chinese_Weapons",
+            "EAW_WeaponConfig",
             "WW2_SPE_Assets_c_Weapons_InfantryWeapons_c"
         };
         units[] = {};

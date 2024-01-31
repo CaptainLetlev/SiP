@@ -111,7 +111,7 @@ class cfgWeapons
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType
             {
-                soundsetshot[] = {"SiP_bazooka_shot_soundset","vn_launcher_rocket_tails_soundset"};
+                soundsetshot[] = {"SPE_bazooka_Shot_SoundSet","vn_launcher_rocket_tails_soundset"};
             };
         };
     };
@@ -128,7 +128,7 @@ class cfgWeapons
             class BaseSoundModeType;
             class StandardSound: BaseSoundModeType
             {
-                soundsetshot[] = {"SiP_M9_bazooka_shot_soundset","vn_launcher_rocket_tails_soundset"};
+                soundsetshot[] = {"SPE_bazooka_Shot_SoundSet","vn_launcher_rocket_tails_soundset"};
             };
         };
     };
@@ -139,7 +139,7 @@ class cfgMagazines
     class vn_m20a1b1_heat_mag;
     class vn_m20a1b1_wp_mag;
 
-    class LIB_1Rnd_60mm_M6;
+    class SPE_1Rnd_60mm_M6;
 
     class SiP_M28A2_heat_rocket: vn_m20a1b1_heat_mag
     {
@@ -154,7 +154,7 @@ class cfgMagazines
         displayName = "M30 WP Rocket";
         mass = 20;
     };
-    class SiP_M6A3_rocket: LIB_1Rnd_60mm_M6
+    class SiP_M6A3_rocket: SPE_1Rnd_60mm_M6
     {
         author = "Letlev";
         displayName = "M6A3 Rocket";
@@ -170,15 +170,20 @@ class cfgAmmo
 {
     class vn_m20a1b1_heat_ammo;
 
-    class LIB_60mm_M6;
+    class SPE_60mm_M6;
+    class SPE_60mm_M6_penetrator;
 
     class SiP_M28A2_ammo: vn_m20a1b1_heat_ammo
     {
         hit = 600;
     };
     
-    class SiP_M6A3_ammo: LIB_60mm_M6
+    class SiP_M6A3_ammo: SPE_60mm_M6
     {
-        hit = 300;
+        submunitionAmmo = "SiP_60mm_M6A3_penetrator";
     };
+    class SiP_60mm_M6A3_penetrator: SPE_60mm_M6_penetrator
+	{
+		hit = 100;
+	};
 };
