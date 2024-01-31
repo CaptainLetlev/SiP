@@ -12,7 +12,7 @@ class cfgPatches
             "weapons_f_vietnam_03",
             "weapons_f_vietnam_03_c",
             "vn_weapons",
-            "EAW_Chinese_Weapons"
+            "EAW_WeaponConfig"
         };
         units[] = {};
         weapons[] = 

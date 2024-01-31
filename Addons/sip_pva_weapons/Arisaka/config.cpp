@@ -12,7 +12,7 @@ class cfgPatches
             "weapons_f_vietnam_03",
             "weapons_f_vietnam_03_c",
             "vn_weapons",
-            "EAW_Chinese_Weapons"
+            "EAW_WeaponConfig"
         };
         units[] = {};
         weapons[] = 
@@ -31,6 +31,7 @@ class cfgPatches
 };
 
 class PointerSlot;
+class MuzzleSlot;
 
 class cfgWeapons
 {
@@ -38,37 +39,42 @@ class cfgWeapons
     class vn_melee_base: Pistol_Base_F{};
     class vn_hand_melee_base: vn_melee_base{};
 
-    class fow_rifleBolt_base;
-    class fow_w_type99: fow_rifleBolt_base
-    {
-        class Single;
-    };
-
     class EAW_Type38_Base;
     class EAW_Type38_NoCover: EAW_Type38_Base
     {
         class Single;
         class WeaponSlotsInfo;
     };
+    class EAW_Type99_Short: EAW_Type38_Base
+	{
+        class Single;
+        class WeaponSlotsInfo;
+    };
 
-    class SiP_type99: fow_w_type99
+    class SiP_type99: EAW_Type99_Short
     {
         author = "Letlev";
         displayName = "Type 99 Rifle";
+        baseWeapon = "SiP_type99";
+        class fow_BoltAction
+        {
+            param[] = {"GestureBolt_EAW_Type38",0.75,"FxCartridge_762",0.6,0.065,-0.18,0.1};
+            sounds[] = {"EAW_Bolting","EAW_Bolting","EAW_Bolting"};
+        };
         muzzles[] = {"this"};
         magazines[] = {"SiP_arisaka_5_mag","SiP_arisaka_5_t_mag"};
         modes[] = {"Single","AICQB","AIClose","AIMedium","AIFar","AIOpticmode1","AIOpticmode2"};
         class Single: Single
         {
-            sounds[] = {"StandardSound"};
-            class StandardSound
-            {
-                soundSetShot[] = {"EAW_Type38_SoundSet"};
-            };
             reloadTime = 1;
             dispersion = 0.00035;
             aiDispersionCoefY = 1.7;
             aiDispersionCoefX = 1.4;
+            sounds[] = {"StandardSound"};
+			class StandardSound
+			{
+				soundSetShot[] = {"EAW_Type99_SoundSet"};
+			};
         };
         class aicqb: Single
         {
@@ -147,7 +153,18 @@ class cfgWeapons
             aiRateOfFireDistance = 550;
             requiredOpticType = 1;
         };
-        class WeaponSlotsInfo;
+        class WeaponSlotsInfo: WeaponSlotsInfo
+		{
+			class MuzzleSlot: MuzzleSlot
+			{
+				linkProxy = "\A3\data_f\proxies\weapon_slots\MUZZLE";
+				compatibleItems[] = {"EAW_Type30_Bayonet_Attach"};
+				iconPosition[] = {0.0,0.45};
+				iconScale = 0.2;
+				iconPicture = "\A3\Weapons_F\Data\UI\attachment_muzzle.paa";
+				iconPinpoint = "Center";
+			};
+        };
     };
 
     class SiP_type38: EAW_Type38_NoCover

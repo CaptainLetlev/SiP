@@ -17,7 +17,7 @@ class cfgPatches
             "NORTH_weapons",
             "NORTH_weapons_cfg",
             "fow_weapons_c",
-            "EAW_Chinese_Weapons"
+            "EAW_WeaponConfig"
         };
         units[] = {};
         weapons[] = 
