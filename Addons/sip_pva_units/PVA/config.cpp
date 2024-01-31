@@ -9,7 +9,7 @@ class cfgPatches
             "characters_f_vietnam",
             "characters_f_vietnam_02",
             "characters_f_vietnam_03",
-            "WW2_Assets_c_Characters_Soviets_c_SOV_RKKA"
+            "EAW_Chinese_Infantry"
         };
         units[] = {"SiP_PVA_rifleman1","SiP_PVA_rifleman2","SiP_PVA_rifleman3","SiP_PVA_rifleman4","SiP_PVA_rifleman5","SiP_PVA_rifleman6","SiP_PVA_rifleman7","SiP_PVA_rifleman8","SiP_PVA_rifleman9","SiP_PVA_smg1","SiP_PVA_smg2","SiP_PVA_smg3","SiP_PVA_smg4","SiP_PVA_machinegunner","SiP_PVA_machinegunner2","SiP_PVA_sniper","SiP_PVA_NCO","SiP_PVA_Officer","SiP_PVA_driver","SiP_PVA_gunner","SiP_PVA_tank_crew","SiP_PVA_tank_commander"};
         weapons[] = {};
@@ -18,8 +18,9 @@ class cfgPatches
 
 class CfgVehicles
 {
-    class LIB_SOV_Soldier_base;
-    class SiP_PVA_rifleman1: LIB_SOV_Soldier_base
+    class EAW_Chinese_Rifleman_Base;
+
+    class SiP_PVA_rifleman1: EAW_Chinese_Rifleman_Base
     {
         displayName = "Rifleman (Mosin)";
         identityTypes[] = {"LanguageCHI_F","vn_o_asian_viet","Head_Asian"};
