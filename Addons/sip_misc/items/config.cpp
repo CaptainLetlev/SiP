@@ -80,3 +80,17 @@ class ACE_Triggers
         requires[] = {"SiP_10cap_detonator"};
     };
 };
+
+class CfgVehicles
+{
+	class ACE_RepairItem_Base;
+
+	class ACE_Wheel: ACE_RepairItem_Base
+	{
+		model = "\FOW\fow_structures_e\misc\fow_wheel.p3d";
+	};
+	class ACE_Track: ACE_RepairItem_Base
+	{
+		model = "\a3\Props_F_Tank\Military\TankAcc\TankTracks_01_short_F.p3d";
+	};
+};

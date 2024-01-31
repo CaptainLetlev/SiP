@@ -4,7 +4,10 @@ class cfgPatches
     {
         Name = "Suicide Is Painless - Korean War Mod - Core";
         Author = "Letlev";
-        requiredAddons[] = {};
+        requiredAddons[] = 
+        {
+            "WW2_SPE_Core_c_Core_c"
+        };
         units[] = {};
         weapons[] = {};
     };
@@ -25,12 +28,13 @@ class CfgMods
 
 class CfgFactionClasses
 {
+
     class SiP_PVA
     {
         displayName = "People's Volunteer Army";
         icon = "\SiP\Addons\sip_core\factions\pva.paa";
         priority = 300;
-        side = 3;
+        side = 0;
     };
     class SiP_PVA_w: SiP_PVA
     {
