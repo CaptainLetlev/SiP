@@ -40,8 +40,8 @@ class cfgWeapons
 		hiddenSelections[] = {"camo1","camo2","badge","insignia"};
 		hiddenSelectionsTextures[] = 
         {
-            "\SiP\Addons\sip_un_gear\France\uniform\data\fr_para_smock.paa",
-            "\SiP\Addons\sip_un_gear\France\uniform\data\fr_para_smock_legs.paa",
+            "\SiP\Addons\sip_un_units\France\uniform\data\fr_para_smock.paa",
+            "\SiP\Addons\sip_un_units\France\uniform\data\fr_para_smock_legs.paa",
             "",
             ""
         };
@@ -63,8 +63,8 @@ class cfgVehicles
 		hiddenSelections[] = {"camo1","camo2","badge","insignia"};
         hiddenSelectionsTextures[] = 
         {
-            "\SiP\Addons\sip_un_gear\France\uniform\data\fr_para_smock.paa",
-            "\SiP\Addons\sip_un_gear\France\uniform\data\fr_para_smock_legs.paa",
+            "\SiP\Addons\sip_un_units\France\uniform\data\fr_para_smock.paa",
+            "\SiP\Addons\sip_un_units\France\uniform\data\fr_para_smock_legs.paa",
             "",
             ""
         };

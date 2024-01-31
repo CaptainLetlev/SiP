@@ -64,8 +64,8 @@ class CfgVehicles
         magazines[] = {"SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag"};
         respawnWeapons[] = {"SiP_lee_enfield_no4_mki","Throw","Put"};
         respawnMagazines[] = {"SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag"};
-        allowedHeadgear[] = {"H_LIB_UK_Beret","cap_hbt"};
-        headgearList[] = {"H_LIB_UK_Beret",1,"cap_hbt",1};
+        allowedHeadgear[] = {"H_LIB_UK_Beret","SiP_m50_cap"};
+        headgearList[] = {"H_LIB_UK_Beret",1,"SiP_m50_cap",1};
         LIB_RandomizeHeadgear = 0;
         linkedItems[] = {"H_LIB_UK_Beret","SiP_P37_uk_vest","Big_Three_uk_fieldgear_od","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         respawnLinkedItems[] = {"H_LIB_UK_Beret","SiP_P37_uk_vest","Big_Three_uk_fieldgear_od","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
