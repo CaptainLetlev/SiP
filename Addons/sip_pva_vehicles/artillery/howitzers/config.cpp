@@ -131,12 +131,17 @@ class cfgMagazines
 
     class SiP_30x_152mm_HE: NORTH_10Shell_152mmHE_152h38_Inf
 	{
+        displayName = "30x 152mm HE shell crate";
+		displayNameShort = "152mm HE";
+		descriptionShort = "30rnd 152mm HE shell crate";
         count = 30;
         ammo = "SPE_S_105L28_Gr38";
     };
     class SiP_30x_152mm_SMK: SiP_30x_152mm_HE
 	{
-        count = 30;
+        displayName = "30x 152mm SMK shell crate";
+		displayNameShort = "152mm SMK";
+		descriptionShort = "30rnd 152mm Smoke shell crate";
         ammo = "SPE_S_105L28_Gr38_NB";
     };
 };

@@ -33,6 +33,7 @@ class cfgWeapons
     {
         displayName = "BM-13-16 132mm Launcher";
         magazineReloadTime = 5;
+        magazines[] = {"SiP_BM13_16rnd_Rocket_Mag"};
         modes[] = {"Firemode1","Firemode2","Firemode3"};
         class Firemode1: Burst1
         {
@@ -122,10 +123,10 @@ class cfgVehicles
                 weapons[] = {"SiP_BM13_weapon"};
                 magazines[] = 
                 {
-                    "LIB_16Rnd_BM13",
-                    "LIB_16Rnd_BM13",
-                    "LIB_16Rnd_BM13",
-                    "LIB_16Rnd_BM13"
+                    "SiP_BM13_16rnd_Rocket_Mag",
+                    "SiP_BM13_16rnd_Rocket_Mag",
+                    "SiP_BM13_16rnd_Rocket_Mag",
+                    "SiP_BM13_16rnd_Rocket_Mag"
                 };
             };
         };
@@ -157,5 +158,35 @@ class cfgVehicles
                 gunnerType = "SiP_KPA_gunner";
             };
         };
+    };
+};
+
+class cfgMagazines
+{
+    class LIB_16Rnd_BM13;
+
+    class SiP_BM13_16rnd_Rocket_Mag: LIB_16Rnd_BM13
+    {
+        displayName = "16x 132mm M-13 Rockets";
+        ammo = "SiP_BM13_M13_Rocket_Ammo";
+    };
+};
+
+class CfgAmmo
+{
+    class LIB_R_BM13_A3;
+
+    class LIB_R_BM13_fly;
+
+    class SiP_BM13_M13_Rocket_Ammo: LIB_R_BM13_A3
+	{
+        effectFly = "Missile0";
+        submunitionAmmo = "SiP_BM13_M13_Rocket_SubAmmo";
+        SoundSetExplosion[] = {"SPE_explo_tankShellHE_SoundSet","SPE_exploTail_midImpact_SoundSet","SPE_explo_debris_mid_SoundSet"};
+    };
+    class SiP_BM13_M13_Rocket_SubAmmo: LIB_R_BM13_fly
+	{
+        effectFly = "ArtilleryTrails";
+        SoundSetExplosion[] = {"SPE_explo_tankShellHE_SoundSet","SPE_exploTail_midImpact_SoundSet","SPE_explo_debris_mid_SoundSet"};
     };
 };
