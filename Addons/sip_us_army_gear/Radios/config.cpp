@@ -56,7 +56,7 @@ class SiP_Radios_prc6_radio_dialogue
         class NotepadImage: RadioImage
         {
             idc = -1;
-            text = "\WW2_Radios\addons\WW2_Radios\Short-Range\BC_611\Allied\data\BC611_radio_notes.paa";
+            text = "\WW2_Radios_SPE\addons\WW2_Radios\Short-Range\BC_611\Allied\data\BC611_radio_notes.paa";
             x = "((0.5 + 20) * (((getResolution select 4) min 1.2) / 40) + (safezoneX + (safezoneW - ((getResolution select 7) min 1.2))/2))";
             y = "(((9*-1) + 12.5) * ((((getResolution select 4) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((getResolution select 7) min 1.2) / 1.2))/2))";
             w = "(10 * (((getResolution select 4) min 1.2) / 40))";

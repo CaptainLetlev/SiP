@@ -27,7 +27,7 @@ class cfgVehicles
     class B_simc_US_m1945_roll;
     class B_simc_packboard_mortar_1;
     class B_simc_packboard_roket_2;
-    class B_simc_packboard_rajio_1;
+    class B_simc_MC_packboard_rajio_3;
     class B_simc_US_GP_left;
     class B_simc_USMC51_M41_flat_roll;
     class B_simc_USMC51_M41_M43_roll;
@@ -206,7 +206,7 @@ class cfgVehicles
         };
     };
     
-    class SiP_m1945_packboard_prc10: B_simc_packboard_rajio_1
+    class SiP_m1945_packboard_prc10: B_simc_MC_packboard_rajio_3
     {
         displayName = "[US] M-1945 Packboard (PRC10)";
         maximumLoad = 120;
@@ -524,10 +524,5 @@ class cfgVehicles
         tf_subtype = "digital_lr";
         tf_encryptionCode = "tf_independent_radio_code";
         tf_dialog = "vn_radiodialog_prc77";
-    };
-
-    class B_LIB_US_M2Flamethrower: B_LIB_AssaultPack_Base
-	{
-        model = "fow\fow_weapons\m2_ft\m2_fueltank.p3d";
     };
 };
