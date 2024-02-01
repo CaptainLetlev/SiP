@@ -14,15 +14,22 @@ class cfgPatches
         };
         units[] = 
         {
+            "SiP_m1919a6_low_base",
+            "SiP_m1919a6_bipod_base",
+
+            "SiP_m1919a4_tripod_base",
+            "SiP_m1919a4_low_base",
+
             "SiP_m1919a6_low",
             "SiP_m1919a6_bipod",
             
-            "SiP_m1919a4_high",
             "SiP_m1919a4_tripod",
             "SiP_m1919a4_low",
 
             "SiP_m1919a6_low_marines",
-            "SiP_m1919a4_high_marines",
+            "SiP_m1919a6_bipod_marines",
+
+            "SiP_m1919a4_tripod_marines",
             "SiP_m1919a4_low_marines"
         };
         weapons[] = 
@@ -51,12 +58,12 @@ class CfgSoundShaders
         rangecurve = "vn_weapon_close_volumecurve";
     };
     class SiP_m1919_close_distance_shot_soundshader
-	{
-		samples[] = {{"\SiP\Addons\sip_un_vehicles\static\m1919\m1919_shot.wss",1}};
-		volume = "0.5*(1-interior)";
-		range = 150;
-		rangecurve[] = {{0,0.2},{50,1},{100,0}};
-	};
+    {
+        samples[] = {{"\SiP\Addons\sip_un_vehicles\static\m1919\m1919_shot.wss",1}};
+        volume = "0.5*(1-interior)";
+        range = 150;
+        rangecurve[] = {{0,0.2},{50,1},{100,0}};
+    };
 };
 
 class CfgSoundsets
@@ -76,8 +83,8 @@ class CfgSoundsets
         };
     };
     class SiP_m1919_v_shot_soundset: SiP_m1919_shot_soundset
-	{
-		soundshaders[] = 
+    {
+        soundshaders[] = 
         {
             "vn_m1919_v_internal_shot_soundshader",
             "SiP_M1919_closeShot_SoundShader",
@@ -85,7 +92,7 @@ class CfgSoundsets
             "vn_m1919_medium_distance_shot_soundshader",
             "vn_m1919_far_distance_shot_soundshader"
         };
-	};
+    };
 };
 
 class cfgWeapons
@@ -124,7 +131,7 @@ class cfgWeapons
 
     class SPE_TankMGun_base;
     class SPE_M1919A4_coax: SPE_TankMGun_base
-	{
+    {
         class manual;
         class close;
         class short;
@@ -144,7 +151,7 @@ class cfgWeapons
 
     class SPE_MLMG_base;
     class SPE_M1919A4_tripod: SPE_MLMG_base
-	{
+    {
         class manual;
         class close;
         class short;
@@ -287,38 +294,38 @@ class cfgWeapons
             };
         };
         class GunParticles
-		{
-			class FireEffect
-			{
-				positionName = "usti hlavne";
-				directionName = "konec hlavne";
-				effectName = "MachineGunCloud";
-			};
-			class EjectEffect
-			{
-				positionName = "Nabojnicestart";
-				directionName = "Nabojniceend";
-				effectName = "SPE_30_06_Cartridge";
-			};
-			class AmmoBeltEject
-			{
-				effectName = "MachineGunEject1";
-				positionName = "Nabojnicestart2";
-				directionName = "Nabojniceend2";
-			};
-			class RifleAmmoCloud
-			{
-				positionName = "Nabojnicestart";
-				directionName = "Nabojniceend";
-				effectName = "SPE_RifleAmmoCloud";
-			};
-			class SmokeEffect
-			{
-				positionName = "usti hlavne";
-				directionName = "konec hlavne";
-				effectName = "SPE_RifleSmokeTrail";
-			};
-		};
+        {
+            class FireEffect
+            {
+                positionName = "usti hlavne";
+                directionName = "konec hlavne";
+                effectName = "MachineGunCloud";
+            };
+            class EjectEffect
+            {
+                positionName = "Nabojnicestart";
+                directionName = "Nabojniceend";
+                effectName = "SPE_30_06_Cartridge";
+            };
+            class AmmoBeltEject
+            {
+                effectName = "MachineGunEject1";
+                positionName = "Nabojnicestart2";
+                directionName = "Nabojniceend2";
+            };
+            class RifleAmmoCloud
+            {
+                positionName = "Nabojnicestart";
+                directionName = "Nabojniceend";
+                effectName = "SPE_RifleAmmoCloud";
+            };
+            class SmokeEffect
+            {
+                positionName = "usti hlavne";
+                directionName = "konec hlavne";
+                effectName = "SPE_RifleSmokeTrail";
+            };
+        };
     };
     
     class SiP_m1919a6_static_weapon: vn_m1919_v_06
@@ -399,38 +406,38 @@ class cfgWeapons
     class SiP_m1919a6_static_weapon_bipod: SiP_m1919a6_static_weapon
     {
         class GunParticles
-		{
-			class FireEffect
-			{
-				positionName = "usti hlavne";
-				directionName = "konec hlavne";
-				effectName = "MachineGunCloud";
-			};
-			class EjectEffect
-			{
-				positionName = "Nabojnicestart";
-				directionName = "Nabojniceend";
-				effectName = "SPE_30_06_Cartridge";
-			};
-			class AmmoBeltEject
-			{
-				effectName = "MachineGunEject1";
-				positionName = "Nabojnicestart2";
-				directionName = "Nabojniceend2";
-			};
-			class RifleAmmoCloud
-			{
-				positionName = "Nabojnicestart";
-				directionName = "Nabojniceend";
-				effectName = "SPE_RifleAmmoCloud";
-			};
-			class SmokeEffect
-			{
-				positionName = "usti hlavne";
-				directionName = "konec hlavne";
-				effectName = "SPE_RifleSmokeTrail";
-			};
-		};
+        {
+            class FireEffect
+            {
+                positionName = "usti hlavne";
+                directionName = "konec hlavne";
+                effectName = "MachineGunCloud";
+            };
+            class EjectEffect
+            {
+                positionName = "Nabojnicestart";
+                directionName = "Nabojniceend";
+                effectName = "SPE_30_06_Cartridge";
+            };
+            class AmmoBeltEject
+            {
+                effectName = "MachineGunEject1";
+                positionName = "Nabojnicestart2";
+                directionName = "Nabojniceend2";
+            };
+            class RifleAmmoCloud
+            {
+                positionName = "Nabojnicestart";
+                directionName = "Nabojniceend";
+                effectName = "SPE_RifleAmmoCloud";
+            };
+            class SmokeEffect
+            {
+                positionName = "usti hlavne";
+                directionName = "konec hlavne";
+                effectName = "SPE_RifleSmokeTrail";
+            };
+        };
     };
     
     class SiP_m1919a4_coax_weapon: SPE_M1919A4_coax
@@ -577,13 +584,14 @@ class cfgWeapons
 class cfgVehicles
 {
     class StaticMGWeapon;
+
     class SPE_StaticMGWeapon_base: StaticMGWeapon
-	{
+    {
         class Turrets;
         class ACE_Actions;
     };
     class SPE_M1919_M2: SPE_StaticMGWeapon_base
-	{
+    {
         class Turrets: Turrets
         {
             class MainTurret;
@@ -598,7 +606,7 @@ class cfgVehicles
     };
     
     class SPE_M1919_M2_Trench_Deployed: SPE_M1919_M2
-	{
+    {
         class Turrets: Turrets
         {
             class MainTurret;
@@ -612,12 +620,12 @@ class cfgVehicles
     };
 
     class SPE_MG_Bipod_base: SPE_StaticMGWeapon_base
-	{
+    {
         class Turrets;
         class ACE_Actions;
     };
     class SPE_M1919A6_Bipod: SPE_MG_Bipod_base
-	{
+    {
         class Turrets: Turrets
         {
             class MainTurret;
@@ -651,24 +659,12 @@ class cfgVehicles
         class ACE_CSW;
         class assembleInfo;
     };
-    class vn_static_m1919a4_high_base: vn_static_m1919a6_base
-	{
-        class Turrets: Turrets
-        {
-            class MainTurret;
-        };
-        class AnimationSources;
-        class ACE_Actions: ACE_Actions
-        {
-            class ACE_MainActions;
-        };
-        class ACE_CSW;
-        class assembleInfo;
-    };
 
     class SiP_m1919a6_low_base: vn_static_m1919a6_base
     {
         author = "Letlev";
+        displayName = "M1919A4 (Low)";
+        side = 1;
         editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
         vehicleClass = "SiP_Machineguns_vehicle_class";
         class Turrets: Turrets
@@ -737,7 +733,11 @@ class cfgVehicles
     };
     class SiP_m1919a6_bipod_base: SPE_M1919A6_Bipod
     {
+        scope = 1;
+        scopeCurator = 1;
         author = "Letlev";
+        displayName = "M1919A6 (Bipod)";
+        side = 1;
         editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
         vehicleClass = "SiP_Machineguns_vehicle_class";
         SPE_TrenchLegIK[] = {-1.73168,-1.23628};
@@ -750,38 +750,38 @@ class cfgVehicles
             };
         };
         class AnimationSources: AnimationSources
-		{
-			class ReloadAnim
-			{
-				source = "reload";
-				weapon = "SiP_m1919a6_static_weapon_bipod";
-			};
-			class ReloadMagazine
-			{
-				source = "reloadmagazine";
-				weapon = "SiP_m1919a6_static_weapon_bipod";
-			};
-			class ammo
-			{
-				source = "ammo";
-				weapon = "SiP_m1919a6_static_weapon_bipod";
-			};
-			class ammoRandom
-			{
-				source = "ammoRandom";
-				weapon = "SiP_m1919a6_static_weapon_bipod";
-			};
+        {
+            class ReloadAnim
+            {
+                source = "reload";
+                weapon = "SiP_m1919a6_static_weapon_bipod";
+            };
+            class ReloadMagazine
+            {
+                source = "reloadmagazine";
+                weapon = "SiP_m1919a6_static_weapon_bipod";
+            };
+            class ammo
+            {
+                source = "ammo";
+                weapon = "SiP_m1919a6_static_weapon_bipod";
+            };
+            class ammoRandom
+            {
+                source = "ammoRandom";
+                weapon = "SiP_m1919a6_static_weapon_bipod";
+            };
             class noCrew
-			{
-				source = "user";
-				animperiod = 1;
-			};
-			class Feet_LandContact
-			{
-				source = "user";
-				animPeriod = 1;
-				initPhase = 0;
-			};
+            {
+                source = "user";
+                animperiod = 1;
+            };
+            class Feet_LandContact
+            {
+                source = "user";
+                animPeriod = 1;
+                initPhase = 0;
+            };
         };
         class ACE_Actions: ACE_Actions
         {
@@ -806,7 +806,11 @@ class cfgVehicles
 
     class SiP_m1919a4_tripod_base: SPE_M1919_M2_Trench_Deployed
     {
+        scope = 1;
+        scopeCurator = 1;
         author = "Letlev";
+        displayName = "M1919A4 (Tripod)";
+        side = 1;
         editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
         vehicleClass = "SiP_Machineguns_vehicle_class";
         class Turrets: Turrets
@@ -818,28 +822,28 @@ class cfgVehicles
             };
         };
         class AnimationSources
-		{
-			class ReloadAnim
-			{
-				source = "reload";
-				weapon = "SiP_m1919a4_static_weapon_tripod";
-			};
-			class ReloadMagazine
-			{
-				source = "reloadmagazine";
-				weapon = "SiP_m1919a4_static_weapon_tripod";
-			};
-			class ammo
-			{
-				source = "ammo";
-				weapon = "SiP_m1919a4_static_weapon_tripod";
-			};
-			class ammoRandom
-			{
-				source = "ammoRandom";
-				weapon = "SiP_m1919a4_static_weapon_tripod";
-			};
-		};
+        {
+            class ReloadAnim
+            {
+                source = "reload";
+                weapon = "SiP_m1919a4_static_weapon_tripod";
+            };
+            class ReloadMagazine
+            {
+                source = "reloadmagazine";
+                weapon = "SiP_m1919a4_static_weapon_tripod";
+            };
+            class ammo
+            {
+                source = "ammo";
+                weapon = "SiP_m1919a4_static_weapon_tripod";
+            };
+            class ammoRandom
+            {
+                source = "ammoRandom";
+                weapon = "SiP_m1919a4_static_weapon_tripod";
+            };
+        };
         class ACE_Actions: ACE_Actions
         {
             class ACE_MainActions: ACE_MainActions
@@ -860,66 +864,13 @@ class cfgVehicles
             desiredAmmo = 250;
         };
     };
-    class SiP_m1919a4_high_base: vn_static_m1919a4_high_base
-    {
-        author = "Letlev";
-        editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
-        vehicleClass = "SiP_Machineguns_vehicle_class";
-        class Turrets: Turrets
-        {
-            class MainTurret: MainTurret
-            {
-                weapons[] = {"SiP_m1919a4_static_weapon"};
-                magazines[] = {"SiP_m1919_v_250_mag","SiP_m1919_v_250_mag","SiP_m1919_v_250_mag","SiP_m1919_v_250_mag","SiP_m1919_v_250_mag","SiP_m1919_v_250_mag"};
-            };
-        };
-        class AnimationSources: AnimationSources
-        {
-            class mg1_reload
-            {
-                source = "reload";
-                weapon = "SiP_m1919a4_static_weapon";
-            };
-            class mg1_muzzleflash_rot: mg1_reload
-            {
-                source = "ammorandom";
-            };
-            class mg1_reloadmagazine: mg1_reload
-            {
-                source = "reloadmagazine";
-            };
-            class mg1_revolving: mg1_reload
-            {
-                source = "revolving";
-            };
-        };
-        class ACE_Actions: ACE_Actions
-        {
-            class ACE_MainActions: ACE_MainActions
-            {
-                position = "";
-                selection = "mg1_otochlaven_recoil";
-            };
-        };
-        class ACE_CSW: ACE_CSW
-        {
-            enabled = 1;
-            proxyWeapon = "SiP_m1919a4_static_weapon";
-            magazineLocation = "_target selectionPosition 'mg1_magazine'";
-            disassembleWeapon = "";
-            disassembleTurret = "";
-            ammoLoadTime = 1;
-            ammoUnloadTime = 1;
-            desiredAmmo = 250;
-        };
-        class assembleInfo: assembleInfo
-        {
-            dissasembleTo[] = {};
-        };
-    }; 
     class SiP_m1919a4_low_base: SPE_M1919_M2
     {
+        scope = 1;
+        scopeCurator = 1;
         author = "Letlev";
+        displayName = "M1919A4 (Low)";
+        side = 1;
         editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
         vehicleClass = "SiP_Machineguns_vehicle_class";
         class Turrets: Turrets
@@ -931,28 +882,28 @@ class cfgVehicles
             };
         };
         class AnimationSources
-		{
-			class ReloadAnim
-			{
-				source = "reload";
-				weapon = "SPE_M1919A4_tripod";
-			};
-			class ReloadMagazine
-			{
-				source = "reloadmagazine";
-				weapon = "SPE_M1919A4_tripod";
-			};
-			class ammo
-			{
-				source = "ammo";
-				weapon = "SPE_M1919A4_tripod";
-			};
-			class ammoRandom
-			{
-				source = "ammoRandom";
-				weapon = "SPE_M1919A4_tripod";
-			};
-		};
+        {
+            class ReloadAnim
+            {
+                source = "reload";
+                weapon = "SPE_M1919A4_tripod";
+            };
+            class ReloadMagazine
+            {
+                source = "reloadmagazine";
+                weapon = "SPE_M1919A4_tripod";
+            };
+            class ammo
+            {
+                source = "ammo";
+                weapon = "SPE_M1919A4_tripod";
+            };
+            class ammoRandom
+            {
+                source = "ammoRandom";
+                weapon = "SPE_M1919A4_tripod";
+            };
+        };
         class ACE_Actions: ACE_Actions
         {
             class ACE_MainActions: ACE_MainActions
@@ -1009,46 +960,29 @@ class cfgVehicles
     {
         scope = 2;
         scopeCurator = 2;
-        displayName = "M1919A6 (Bipod)";
         faction = "SiP_US_Army";
         editorCategory = "SiP_US_Army_Editor_Category";
         crew = "SiP_US_Army_gunner";
         typicalCargo[] = {"SiP_US_Army_gunner"};
-        side = 1;
     };
 
-    class SiP_m1919a4_high: SiP_m1919a4_high_base
-    {
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1919A4 (High)";
-        faction = "SiP_US_Army";
-        editorCategory = "SiP_US_Army_Editor_Category";
-        crew = "SiP_US_Army_gunner";
-        typicalCargo[] = {"SiP_US_Army_gunner"};
-        side = 1;
-    };
     class SiP_m1919a4_tripod: SiP_m1919a4_tripod_base
     {
         scope = 2;
         scopeCurator = 2;
-        displayName = "M1919A4 (Tripod)";
         faction = "SiP_US_Army";
         editorCategory = "SiP_US_Army_Editor_Category";
         crew = "SiP_US_Army_gunner";
         typicalCargo[] = {"SiP_US_Army_gunner"};
-        side = 1;
     };
     class SiP_m1919a4_low: SiP_m1919a4_low_base
     {
         scope = 2;
         scopeCurator = 2;
-        displayName = "M1919A4 (low)";
         faction = "SiP_US_Army";
         editorCategory = "SiP_US_Army_Editor_Category";
         crew = "SiP_US_Army_gunner";
         typicalCargo[] = {"SiP_US_Army_gunner"};
-        side = 1;
     };
 
     class SiP_m1919a6_low_marines: SiP_m1919a6_low
@@ -1058,7 +992,15 @@ class cfgVehicles
         crew = "SiP_US_Marines_gunner";
         typicalCargo[] = {"SiP_US_Marines_gunner"};
     };
-    class SiP_m1919a4_high_marines: SiP_m1919a4_high
+    class SiP_m1919a6_bipod_marines: SiP_m1919a6_bipod_base
+    {
+        faction = "SiP_US_Marines";
+        editorCategory = "SiP_US_Marines_Editor_Category";
+        crew = "SiP_US_Marines_gunner";
+        typicalCargo[] = {"SiP_US_Marines_gunner"};
+    };
+
+    class SiP_m1919a4_tripod_marines: SiP_m1919a4_tripod
     {
         faction = "SiP_US_Marines";
         editorCategory = "SiP_US_Marines_Editor_Category";
