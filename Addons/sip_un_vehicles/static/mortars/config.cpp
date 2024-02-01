@@ -35,7 +35,7 @@ class cfgPatches
 
             "SiP_M1_81mm_mortar_weapon",
 
-            "SiP_mortar_m2_mortar_weapon"
+            "SiP_M2_mortar_weapon"
         };
         magazines[] = 
         {
@@ -48,8 +48,15 @@ class cfgPatches
             "ace_compat_SiP_60mm_wp",
             "ace_compat_SiP_60mm_lume",
 
-            "ace_compat_SiP_m2_107mm_he",
+            "SiP_M2_107mm_mortar_mag_he",
+            "SiP_M2_107mm_mortar_mag_wp",
+
+            "ace_compat_SiP_M2_107mm_he",
             "ace_compat_SiP_M2_107mm_wp",
+
+            "SiP_M30_107mm_mortar_mag_he",
+            "SiP_M30_107mm_mortar_mag_wp",
+            "SiP_M30_107mm_mortar_mag_lume",
 
             "ace_compat_SiP_m30_107mm_he",
             "ace_compat_SiP_m30_107mm_wp",
@@ -108,7 +115,7 @@ class cfgWeapons
         };
     };
 
-    class SiP_mortar_m2_mortar_weapon: vn_mortar_m2
+    class SiP_M2_mortar_weapon: vn_mortar_m2
     {
         class Single1: Single1
         {
@@ -276,7 +283,7 @@ class cfgMagazines
         initSpeed = 200;
     };
     
-    class ace_compat_SiP_m2_107mm_he: SiP_M2_107mm_mortar_mag_he
+    class ace_compat_SiP_M2_107mm_he: SiP_M2_107mm_mortar_mag_he
     {
         scope = 2;
         displayName = "107mm M3 HE";
@@ -391,7 +398,7 @@ class ACE_CSW_Groups
         vn_mortar_m2_mag_lume_x8 = 1;
     };
 
-    class ace_compat_SiP_m2_107mm_he
+    class ace_compat_SiP_M2_107mm_he
     {
         SiP_M2_107mm_mortar_mag_he = 1;
     };
@@ -486,7 +493,7 @@ class cfgVehicles
         {
             class MainTurret: MainTurret
             {
-                weapons[] = {"SiP_mortar_m2_mortar_weapon"};
+                weapons[] = {"SiP_M2_mortar_weapon"};
                 soundServo[] = {"fow\fow_sounds\vehicles\mortar\mortar_turn.wav",1.3,1,15};
                 soundServoVertical[] = {"fow\fow_sounds\vehicles\mortar\mortar_turn.wav",1.3,1,15};
             };
@@ -494,7 +501,7 @@ class cfgVehicles
         class ACE_CSW: ACE_CSW
         {
             enabled = 1;
-            proxyWeapon = "SiP_mortar_m2_mortar_weapon";
+            proxyWeapon = "SiP_M2_mortar_weapon";
             magazineLocation = "_target selectionPosition 'pohon'";
             disassembleWeapon = "SiP_M2_60mm_tube_carry";
             disassembleTurret = "SiP_M2_60mm_baseplate";
