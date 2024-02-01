@@ -58,7 +58,14 @@ class ace_medical_treatment_actions
     class Epinephrine: Morphine
     {
         displayName = "Inject Adrenaline";
+        displayNameProgress = "Injecting Adrenaline...";
         items[] = {"ACE_epinephrine","SiP_ACE_Items_adrenaline"};
+    };
+    class Adenosine: Morphine
+    {
+        displayName = "Apply Sulfa";
+        displayNameProgress = "Applying Sulfa...";
+        items[] = {"ACE_adenosine","SiP_ACE_Items_sulfa"};
     };
     class SurgicalKit: FieldDressing
     {
@@ -79,6 +86,7 @@ class CfgWeapons
     class ACE_splint;
     class ACE_morphine;
     class ACE_epinephrine;
+    class ACE_adenosine;
     class ACE_personalAidKit;
     class ACE_surgicalKit;
     class ACE_bodyBag;
@@ -129,6 +137,16 @@ class CfgWeapons
         author = "Letlev";
         displayName = "[US] Adrenaline Syrette";
         picture = "\SiP\Addons\sip_misc\medical\data\adrenaline_ui.paa";
+    };
+
+    class SiP_ACE_Items_sulfa: ACE_adenosine 
+    {
+        author = "Letlev";
+        displayName = "[US] Sulfa Bottle";
+        picture = "\vn\weapons_f_vietnam\ui\icon_vn_prop_med_antibiotics_ca.paa";
+        model = "\vn\objects_f_vietnam\meds\vn_med_01.p3d";
+        hiddenSelections[] = {"camo1"};
+        hiddenSelectionsTextures[] = {"\vn\objects_f_vietnam\meds\data\vn_med_antibiotics_co.paa"};
     };
 
     class SiP_ACE_Items_surgicalKit: ACE_surgicalKit
