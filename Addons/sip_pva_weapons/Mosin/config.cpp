@@ -82,7 +82,7 @@ class cfgWeapons
         {
             class vn
             {
-                fired = "[_this, 'NORTH_M39Boltinganim', 'LIB_Kar98K_Bolt',true] spawn vn_fnc_bolt_fired";
+                fired = "[_this, 'NORTH_M39Boltinganim', 'SPE_springfield_bolting',true] spawn vn_fnc_bolt_fired";
             };
         };
         modes[] = {"Single","AICQB","AIClose","AIMedium","AIFar"};
@@ -93,7 +93,7 @@ class cfgWeapons
             sounds[] = {"StandardSound"};
             class StandardSound
             {
-                soundSetShot[] = {"NORTH_m38_Shot_soundSet","vn_bolt_rifle_tails_soundset","vn_boltaction_trigger_reset_soundset"};
+                soundSetShot[] = {"vn_m9130_shot_soundset","vn_bolt_rifle_tails_soundset","vn_boltaction_trigger_reset_soundset"};
             };
         };
         class aicqb: aicqb

@@ -47,7 +47,7 @@ class cfgWeapons
             sounds[] = {"StandardSound"};
             class StandardSound
             {
-                soundsetshot[] = {"vn_l4_lmg_shot_soundset","vn_762x39mm_lmg_tails_soundset"};
+                soundsetshot[] = {"jsrs_zafir_shot_soundset","vn_762x39mm_lmg_tails_soundset"};
             };
             reloadTime = 0.096;
             soundBurst = 0;
