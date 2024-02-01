@@ -46,16 +46,16 @@ class PointerSlot;
 class CfgGesturesMale
 {
     class States
-	{
+    {
         class fow_gestureReload_basic;
 
         class fow_gesture_enfield_bolt: fow_gestureReload_basic
-		{
-			enableOptics = 0;
-			file = "\fow\fow_anims\weapons\w_enfield_bolt.rtm";
-			rightHandIKCurve[] = {0,1,0.013,0,0.017,0,0.992,0,0.996,1};
-			speed = -0.9;
-		};
+        {
+            enableOptics = 0;
+            file = "\fow\fow_anims\weapons\w_enfield_bolt.rtm";
+            rightHandIKCurve[] = {0,1,0.013,0,0.017,0,0.992,0,0.996,1};
+            speed = -0.9;
+        };
     };
 };
 
@@ -103,7 +103,7 @@ class cfgWeapons
         author = "Letlev";
         displayName = "P1907 Bayonet";
         picture = "\WW2\Assets_t\Weapons\Equipment_t\Weapons\MuzzleItem\Gear_ACC_P1903_Bayo_ca.paa";
-		model = "\WW2\Assets_m\Weapons\Rifles_m\WW2_Enfield_P1903_Bayonet.p3d";
+        model = "\WW2\Assets_m\Weapons\Rifles_m\WW2_Enfield_P1903_Bayonet.p3d";
         IMS_Bayonet_Item = "true";
         vn_melee_bayonet_length = 0.22;
         class ItemInfo: ItemInfo
@@ -118,14 +118,14 @@ class cfgWeapons
         displayName = "No.32 3.5x Scope";
         author = "Letlev";
         model = "sp_fwa_no32\sp_no32";
-		picture = "\sp_fwa_no32\icons\no32_icon_ca.paa";
+        picture = "\sp_fwa_no32\icons\no32_icon_ca.paa";
         weaponInfoType = "sp_fwa_scope_handler";
         class ItemInfo: InventoryOpticsItem_Base_F
         {
             mass = 10;
-			modelOptics = "\NORTH\NF_Misc\Attachments\Finoptics\reticle_noroptics.p3d";
-			optics = 1;
-			opticType = 1;
+            modelOptics = "\NORTH\NF_Misc\Attachments\Finoptics\reticle_noroptics.p3d";
+            optics = 1;
+            opticType = 1;
             class OpticsModes
             {
                 class Scope
@@ -157,26 +157,26 @@ class cfgWeapons
         scopearesenal = 2;
         displayName = "Lee-Enfield No.4 Mk.I";
         picture = "\fow\fow_weapons\lee_enfield\data\ui\w_enfield_ca.paa";
-		model = "fow\fow_weapons\lee_enfield\lodu_enfield";
-		handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Mark\LongRangeRifles\DMR_06\data\Anim\DMR_06.rtm"};
-		reloadAction = "fow_gesture_enfield_reload";
-		magazineReloadTime = 8.5;
-		reloadMagazineSound[] = {"fow\fow_sounds\weapons\smle\reload.wav",1.0,1,10};
-		drySound[] = {"fow\fow_sounds\weapons\smle\dry.wav",0.5011872,1,10};
-		aimTransitionSpeed = 0.8;
-		inertia = 0.7;
+        model = "fow\fow_weapons\lee_enfield\lodu_enfield";
+        handAnim[] = {"OFP2_ManSkeleton","\A3\Weapons_F_Mark\LongRangeRifles\DMR_06\data\Anim\DMR_06.rtm"};
+        reloadAction = "fow_gesture_enfield_reload";
+        magazineReloadTime = 8.5;
+        reloadMagazineSound[] = {"fow\fow_sounds\weapons\smle\reload.wav",1.0,1,10};
+        drySound[] = {"fow\fow_sounds\weapons\smle\dry.wav",0.5011872,1,10};
+        aimTransitionSpeed = 0.8;
+        inertia = 0.7;
         magazines[] = {"SiP_enfield_10_mag","SiP_enfield_10_t_mag"};
         recoil = "recoil_rifle_1";
         selectionFireAnim = "muzzleFlash";
-		discreteDistance[] = {300,600};
-		discreteDistanceInitIndex = 0;
+        discreteDistance[] = {300,600};
+        discreteDistanceInitIndex = 0;
         class EventHandlers: EventHandlers
-		{
-			class vn
-			{
-				fired = "[_this, 'fow_gesture_enfield_bolt', 'LIB_Kar98K_Bolt',true] spawn vn_fnc_bolt_fired";
-			};
-		};
+        {
+            class vn
+            {
+                fired = "[_this, 'fow_gesture_enfield_bolt', 'LIB_Kar98K_Bolt',true] spawn vn_fnc_bolt_fired";
+            };
+        };
         class GunParticles
         {
             class FirstEffect
@@ -311,26 +311,26 @@ class cfgWeapons
         picture = "\WW2\Assets_t\Weapons\Equipment_t\Weapons\Rifles\Gear_LeeEnfield_No1_X_ca.paa";
         model = "\WW2\Assets_m\Weapons\Rifles_m\CSA_Enfield_No1.p3d";
         hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"ww2\assets_t\weapons\rifles_t\csa38_enfield\smlemetal_co.paa"};
+        hiddenSelectionsTextures[] = {"ww2\assets_t\weapons\rifles_t\csa38_enfield\smlemetal_co.paa"};
         selectionFireAnim = "zasleh";
         deployedPivot = "bipod";
-		hasBipod = 0;
-		cameraDir = "eye_look";
-		memoryPointCamera = "eye";
-		discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
-		discreteDistanceInitIndex = 0;
+        hasBipod = 0;
+        cameraDir = "eye_look";
+        memoryPointCamera = "eye";
+        discreteDistance[] = {100,200,300,400,500,600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2000};
+        discreteDistanceInitIndex = 0;
         discreteDistanceCameraPoint[] = {"eye"};
-		distanceZoomMax = 300;
-		distanceZoomMin = 300;
+        distanceZoomMax = 300;
+        distanceZoomMin = 300;
         class EventHandlers: EventHandlers
-		{
-			class vn
-			{
-				fired = "[_this, 'LIB_GestureReload_Common_bolt_action', 'LIB_Kar98K_Bolt',true] spawn vn_fnc_bolt_fired";
-			};
-		};
+        {
+            class vn
+            {
+                fired = "[_this, 'LIB_GestureReload_Common_bolt_action', 'LIB_Kar98K_Bolt',true] spawn vn_fnc_bolt_fired";
+            };
+        };
         class Single: Single
-		{
+        {
             reloadTime = 1.6;
         };
         class WeaponSlotsInfo
@@ -363,7 +363,7 @@ class cfgWeapons
         maxZeroing = 1190;
         memoryPointCamera = "eye";
         class Single: Single
-		{
+        {
             reloadTime = 1;
         };
         class WeaponSlotsInfo

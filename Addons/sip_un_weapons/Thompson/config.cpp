@@ -39,6 +39,8 @@ class cfgWeapons
         displayName = "M1A1 Thompson";
         magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_t_mag","vn_m1a1_20_mag","vn_m1a1_20_t_mag"};
         magazinewell[] = {};
+        recoil = "vn_recoil_smg_m1928_tommy";
+		recoilProne = "vn_recoil_smg_m1928_tommy";
         modes[] = {"FullAuto","Single","close","short","medium","far_optic1"};
         class Single: Mode_SemiAuto
         {
@@ -257,7 +259,7 @@ class CfgSoundShaders
     };
 };
 
-class cfgsoundsets
+class CfgSoundSets
 {
     class SiP_Thompson_shot_soundset
     {
