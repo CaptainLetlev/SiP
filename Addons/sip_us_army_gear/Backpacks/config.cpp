@@ -4,18 +4,53 @@ class cfgPatches
     {
         Name = "Suicide Is Painless - Korean War Mod - US Backpacks";
         Author = "Letlev";
-        requiredAddons[] = {"simc_uaf_44_assets","simc_uaf_44_gare","simc_mc_67_assets"};
+        requiredAddons[] = 
+        {
+            "simc_uaf_44_assets",
+            "simc_uaf_44_gare",
+            "simc_mc_67_assets"
+        };
         units[] = 
         {
             "SiP_m1945_backpack_roll",
             "SiP_m1945_backpack_roll_etool",
+
+            "SiP_m1945_backpack_roll_etool_gren",
+            "SiP_m1945_backpack_roll_etool_bar",
+            "SiP_m1945_backpack_roll_etool_mg",
+            "SiP_m1945_backpack_roll_etool_sniper",
+            "SiP_m1945_backpack_roll_etool_shotgun_pistol",
+            "SiP_m1945_backpack_roll_etool_shotgun",
+
             "SiP_m1945_packboard_mortars",
+
             "SiP_m1945_packboard_m20bazooka",
+            "SiP_m1945_packboard_m9bazooka",
+
             "SiP_m1945_packboard_prc10",
+
             "SiP_m1945_gpbag",
             "SiP_m1945_gpbag_od",
             "SiP_m1945_gpbag_left",
             "SiP_m1945_gpbag_left_od",
+
+            "SiP_m1945_gpbag_left_od_45",
+            "SiP_m1945_gpbag_gren",
+            "SiP_m1945_gpbag_bar",
+            "SiP_m1945_gpbag_mg",
+            "SiP_m1945_gpbag_45",
+            "SiP_m1945_gpbag_45_od",
+            "SiP_m1945_gpbag_shotgun",
+            "SiP_m1945_gpbag_shotgun_pistol",
+            "SiP_m1945_gpbag_od_shotgun_pistol",
+
+            "SiP_m1941_marine_backpack_bar",
+            "SiP_m1941_marine_backpack_mg",
+            "SiP_m1941_marine_backpack_shotgun",
+            "SiP_m1941_marine_backpack_grenadier",
+            "SiP_m1941_marine_backpack_smg_pistol",
+            "SiP_m1941_marine_backpack_pistol",
+
             "SiP_SCR300_radio_pack"
         };
         weapons[] = {};
@@ -32,9 +67,8 @@ class cfgVehicles
     class B_simc_USMC51_M41_flat_roll;
     class B_simc_USMC51_M41_M43_roll;
     class B_simc_USMC51_M41_flat_M43_roll;
-    class B_LIB_AssaultPack_Base;
-    class LIB_M2_Tripod_Bag;
-    class B_LIB_US_Radio;
+    class B_SPE_US_Radio;
+    class B_SPE_US_Radio_packboard_light;
 
     class SiP_m1945_backpack_roll: B_simc_US_m1945_roll
     {
@@ -513,7 +547,7 @@ class cfgVehicles
         };
     };
     
-    class SiP_SCR300_radio_pack: B_LIB_US_Radio
+    class SiP_SCR300_radio_pack: B_SPE_US_Radio
     {
         displayName = "[US] SCR-300 Radiopack";
         maximumLoad = 120;
@@ -522,7 +556,17 @@ class cfgVehicles
         tf_hasLRradio = 1;
         tf_range = 20000;
         tf_subtype = "digital_lr";
-        tf_encryptionCode = "tf_independent_radio_code";
-        tf_dialog = "vn_radiodialog_prc77";
+        tf_encryptionCode = "tf_west_radio_code";
+    };
+    class SiP_SCR300_radio_packboard: B_SPE_US_Radio_packboard_light
+    {
+        displayName = "[US] SCR-300 Radio Packboard";
+        maximumLoad = 120;
+        mass = 21.2;
+        tf_dialogUpdate = "call TFAR_fnc_updateLRDialogToChannel;";
+        tf_hasLRradio = 1;
+        tf_range = 20000;
+        tf_subtype = "digital_lr";
+        tf_encryptionCode = "tf_west_radio_code";
     };
 };
