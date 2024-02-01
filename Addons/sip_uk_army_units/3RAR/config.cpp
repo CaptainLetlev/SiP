@@ -70,7 +70,7 @@ class CfgVehicles
         respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag"};
         items[] = {"fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
         respawnItems[] = {"fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
-        backpack = "SiP_bcfk_37_backpack_tommy";
+        backpack = "SiP_bcfk_44_backpack_tommy";
     };
     class SiP_BCFK_3rar_smg2: SiP_BCFK_3rar_smg1
     {
@@ -94,7 +94,7 @@ class CfgVehicles
         magazines[] = {"SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag"};
         respawnWeapons[] = {"SiP_bren","Throw","Put"};
         respawnMagazines[] = {"SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag","SiP_bren_30_mag"};
-        backpack = "SiP_bcfk_37_backpack_bren";
+        backpack = "SiP_bcfk_44_backpack_bren";
     };
     class SiP_BCFK_3rar_sniper: SiP_BCFK_3rar_rifleman1
     {
@@ -130,7 +130,7 @@ class CfgVehicles
         displayName = "Radio Operator";
         icon = "iconManRTO";
         cost = 400000;
-        backpack = "SiP_bcfk_37_backpack_rto";
+        backpack = "SiP_SCR300_radio_uk";
     };
     class SiP_BCFK_3rar_cpl: SiP_BCFK_3rar_rifleman1
     {
@@ -170,7 +170,7 @@ class CfgVehicles
         magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag"};
         respawnWeapons[] = {"SiP_m1928a1_thompson","SiP_webley_mkvi","Throw","Put"};
         respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag"};
-        backpack = "SiP_bcfk_37_backpack_tommy";
+        backpack = "SiP_bcfk_44_backpack_tommy";
     };
     class SiP_BCFK_3rar_2lt: SiP_BCFK_3rar_sgt
     {
@@ -188,7 +188,7 @@ class CfgVehicles
         respawnLinkedItems[] = {"fow_h_uk_jungle_hat_01","V_LIB_UK_P37_Officer_Blanco","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"lib_acc_no4_mk2_bayo","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
         respawnItems[] = {"lib_acc_no4_mk2_bayo","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
-        backpack = "SiP_bcfk_37_backpack";
+        backpack = "SiP_bcfk_44_backpack";
     };
     class SiP_BCFK_3rar_lt: SiP_BCFK_3rar_2lt
     {
@@ -225,7 +225,7 @@ class CfgVehicles
         };
         items[] = {"fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
         respawnItems[] = {"fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
-        backpack = "SiP_bcfk_37_backpack_sten2";
+        backpack = "SiP_bcfk_44_backpack_sten2";
     };
 };
 
@@ -235,7 +235,7 @@ class CfgGroups
     {
         class SiP_BCFK
         {
-            name = "BCF - Korea";
+            name = "BCF [Korea]";
             class SiP_3rar_Infantry_Sections
             {
                 name = "3 R.A.R Infantry Sections";

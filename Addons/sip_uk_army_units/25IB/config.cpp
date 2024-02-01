@@ -64,14 +64,22 @@ class CfgVehicles
         magazines[] = {"SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag"};
         respawnWeapons[] = {"SiP_lee_enfield_no4_mki","Throw","Put"};
         respawnMagazines[] = {"SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag"};
-        allowedHeadgear[] = {"H_LIB_UK_Beret","SiP_m50_cap"};
-        headgearList[] = {"H_LIB_UK_Beret",1,"SiP_m50_cap",1};
+        allowedHeadgear[] = 
+        {
+            "H_LIB_UK_Beret",
+            "SiP_m50_cap"
+        };
+        headgearList[] = 
+        {
+            "H_LIB_UK_Beret",1,
+            "SiP_m50_cap",1
+        };
         LIB_RandomizeHeadgear = 0;
         linkedItems[] = {"H_LIB_UK_Beret","SiP_P37_uk_vest","Big_Three_uk_fieldgear_od","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         respawnLinkedItems[] = {"H_LIB_UK_Beret","SiP_P37_uk_vest","Big_Three_uk_fieldgear_od","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"lib_acc_no4_mk2_bayo","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
         respawnItems[] = {"lib_acc_no4_mk2_bayo","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
-        backpack = "SiP_bcfk_37_backpack";
+        backpack = "SiP_bcfk_44_backpack";
         uniformClass = "SiP_m50_bush_jacket_uk_uniform";
     };
     class SiP_BCFK_25cib_rifleman2: SiP_BCFK_25cib_rifleman1
@@ -118,7 +126,7 @@ class CfgVehicles
         magazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag"};
         respawnWeapons[] = {"SiP_m3a1_greasegun","Throw","Put"};
         respawnMagazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag"};
-        backpack = "SiP_bcfk_37_backpack_grease";
+        backpack = "SiP_bcfk_44_backpack_grease";
     };
 
     class SiP_BCFK_25cib_autorifleman: SiP_BCFK_25cib_smg1
@@ -181,7 +189,7 @@ class CfgVehicles
         displayName = "Radio Operator";
         icon = "iconManRTO";
         cost = 400000;
-        backpack = "SiP_bcfk_37_backpack_rto";
+        backpack = "SiP_SCR300_radio_uk";
     };
 
     class SiP_BCFK_25cib_cpl: SiP_BCFK_25cib_rifleman1
@@ -226,7 +234,7 @@ class CfgVehicles
         respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag"};
         linkedItems[] = {"H_LIB_UK_Beret","SiP_P37_uk_vest_Pistol","G_sekop_43_OD7","SiP_UK_SMG_Magazine_Pouches","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         respawnLinkedItems[] = {"H_LIB_UK_Beret","SiP_P37_uk_vest_Pistol","G_sekop_43_OD7","SiP_UK_SMG_Magazine_Pouches","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        backpack = "SiP_bcfk_37_backpack_tommy";
+        backpack = "SiP_bcfk_44_backpack_tommy";
     };
     class SiP_BCFK_25cib_2lt: SiP_BCFK_25cib_sgt
     {
@@ -259,7 +267,7 @@ class CfgVehicles
         respawnLinkedItems[] = {"H_LIB_UK_Beret","SiP_P37_uk_vest_Pistol","G_sekop_43_OD7","SiP_UK_Magazine_Pouches","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"lib_acc_no4_mk2_bayo","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
         respawnItems[] = {"lib_acc_no4_mk2_bayo","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
-        backpack = "SiP_bcfk_37_backpack_sten2";
+        backpack = "SiP_bcfk_44_backpack_sten2";
     };
 
     class SiP_BCFK_can_tank_driver: SiP_US_Army_tank_driver
@@ -322,7 +330,7 @@ class CfgGroups
     {
         class SiP_BCFK
         {
-            name = "BCF - Korea";
+            name = "BCF [Korea]";
             class SiP_25CIB_Infantry_Sections
             {
                 name = "25th Canadian Infantry Brigade";

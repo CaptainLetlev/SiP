@@ -131,7 +131,7 @@ class CfgVehicles
         displayName = "Radio Operator";
         icon = "iconManRTO";
         cost = 400000;
-        backpack = "SiP_bcfk_37_backpack_rto";
+        backpack = "SiP_SCR300_radio_uk";
     };
     class SiP_BCFK_27ib_cpl: SiP_BCFK_27ib_rifleman1
     {
@@ -273,7 +273,7 @@ class CfgGroups
     {
         class SiP_BCFK
         {
-            name = "BCF - Korea";
+            name = "BCF [Korea]";
             class SiP_27IB_Infantry_Sections
             {
                 name = "27th Infantry Brigade";
