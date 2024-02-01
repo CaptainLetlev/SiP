@@ -3,10 +3,32 @@ class cfgPatches
     class SiP_Patch_m2hb_static
     {
         addonRootClass = "SiP_Patch_un_statics";
-        requiredAddons[] = {"static_f_vietnam","static_f_vietnam_c","weapons_v_f_vietnam"};
-        units[] = {"SiP_m2hb_high","SiP_m2hb_low","SiP_m2hb_high_marines","SiP_m2hb_low_marines"};
-        weapons[] = {"SiP_m2hb_static_weapon"};
-        magazines[] = {"ace_compat_sip_m2hb_100"};
+        requiredAddons[] = 
+        {
+            "static_f_vietnam",
+            "static_f_vietnam_c",
+            "weapons_v_f_vietnam"
+        };
+        units[] = 
+        {
+            "SiP_m2hb_high_base",
+            "SiP_m2hb_low_base",
+
+            "SiP_m2hb_high",
+            "SiP_m2hb_low",
+
+            "SiP_m2hb_high_marines",
+            "SiP_m2hb_low_marines"
+        };
+        weapons[] = 
+        {
+            "SiP_m2hb_static_weapon"
+        };
+        magazines[] = 
+        {
+            "SiP_m2_v_100_mag",
+            "ace_compat_sip_m2hb_100"
+        };
     };
 };
 
@@ -101,6 +123,7 @@ class cfgWeapons
 class cfgMagazines
 {
     class vn_m2_v_100_mag;
+
     class SiP_m2_v_100_mag: vn_m2_v_100_mag
     {
         author = "Letlev";
@@ -142,6 +165,7 @@ class cfgVehicles
         class Turrets;
         class ACE_Actions;
     };
+
     class vn_static_m2_high_base: StaticMGWeapon
     {
         class Turrets: Turrets
@@ -156,6 +180,7 @@ class cfgVehicles
         class ACE_CSW;
         class assembleInfo;
     };
+    
     class vn_static_m2_low_base: vn_static_m2_high_base
     {
         class Turrets: Turrets
@@ -174,6 +199,8 @@ class cfgVehicles
     class SiP_m2hb_high_base: vn_static_m2_high_base
     {
         author = "Letlev";
+        displayName = "M2HB";
+        side = 1;
         editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
         vehicleClass = "SiP_Machineguns_vehicle_class";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_un_vehicles\static\m2\data\m2_gun.paa","vn\static_f_vietnam\m2\data\vn_static_m2_high_02_co.paa"};
@@ -229,6 +256,8 @@ class cfgVehicles
     class SiP_m2hb_low_base: vn_static_m2_low_base
     {
         author = "Letlev";
+        side = 1;
+        displayName = "M2HB (High)";
         editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
         vehicleClass = "SiP_Machineguns_vehicle_class";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_un_vehicles\static\m2\data\m2_gun_low.paa","vn\static_f_vietnam\m2\data\vn_static_m2_low_02_co.paa"};
@@ -285,25 +314,19 @@ class cfgVehicles
     {
         scope = 2;
         scopeCurator = 2;
-        displayName = "M2HB (High)";
         faction = "SiP_US_Army";
         editorCategory = "SiP_US_Army_Editor_Category";
         crew = "SiP_US_Army_gunner";
         typicalCargo[] = {"SiP_US_Army_gunner"};
-        side = 1;
     };
     class SiP_m2hb_low: SiP_m2hb_low_base
     {
         scope = 2;
         scopeCurator = 2;
-        displayName = "M2HB (Low)";
         faction = "SiP_US_Army";
         editorCategory = "SiP_US_Army_Editor_Category";
-        editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
-        vehicleClass = "SiP_Machineguns_vehicle_class";
         crew = "SiP_US_Army_gunner";
         typicalCargo[] = {"SiP_US_Army_gunner"};
-        side = 1;
     };
     
     class SiP_m2hb_high_marines: SiP_m2hb_high
