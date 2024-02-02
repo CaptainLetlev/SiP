@@ -886,22 +886,22 @@ class cfgVehicles
             class ReloadAnim
             {
                 source = "reload";
-                weapon = "SPE_M1919A4_tripod";
+                weapon = "SiP_m1919a6_static_weapon_bipod";
             };
             class ReloadMagazine
             {
                 source = "reloadmagazine";
-                weapon = "SPE_M1919A4_tripod";
+                weapon = "SiP_m1919a6_static_weapon_bipod";
             };
             class ammo
             {
                 source = "ammo";
-                weapon = "SPE_M1919A4_tripod";
+                weapon = "SiP_m1919a6_static_weapon_bipod";
             };
             class ammoRandom
             {
                 source = "ammoRandom";
-                weapon = "SPE_M1919A4_tripod";
+                weapon = "SiP_m1919a6_static_weapon_bipod";
             };
         };
         class ACE_Actions: ACE_Actions
