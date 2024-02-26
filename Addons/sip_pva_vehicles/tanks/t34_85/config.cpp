@@ -11,6 +11,9 @@ class cfgPatches
         };
         units[] = 
         {
+            "SiP_t34_85_base",
+            "SiP_KPA_t34_85_base",
+
             "SiP_PVA_t34_85",
             "SiP_KPA_t34_85"
         };
@@ -230,6 +233,7 @@ class cfgWeapons
 class cfgMagazines
 {
     class LIB_63rnd_DT;
+
     class SiP_63rnd_DT_mag: LIB_63rnd_DT
     {
         displayName = "DT MG Ammo";
@@ -1114,7 +1118,7 @@ class cfgVehicles
                     class Sight_Triangles: Static_Line
                     {
                         Type[] = {1,1,1,0};
-                        Text = "\SiP\Addons\sip_pva_vehicles\tanks\t34_85\data\Big_Three_t3485_sight.paa";
+                        Text = "\SiP\Addons\sip_pva_vehicles\tanks\t34_85\data\SiP_t3485_sight_ca.paa";
                         x = "0.359896 * safeZoneWAbs + safeZoneXAbs";
                         y[] = {{"position",{"0.473148 * safezoneH + safezoneY","safeZoneH/2.75"},"tank_sight_distance"},"LIB_Get_Control_Parameter"};
                         w = "0.280312 * safeZoneWAbs";

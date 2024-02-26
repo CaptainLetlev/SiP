@@ -21,6 +21,7 @@ class cfgPatches
 class cfgWeapons
 {
     class SiP_dt29_coax;
+
     class SiP_dt29_ba64: SiP_dt29_coax
     {
         class GunParticles
@@ -49,6 +50,7 @@ class cfgVehicles
             class MainTurret;
         };
     };
+
     class SiP_ba64: FA_BA64
     {
         author = "Letlev";
@@ -62,6 +64,7 @@ class cfgVehicles
         crew = "SiP_PVA_driver";
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] = {"FA_WW2_Armored_Cars\ba64\textures\hull_clean_co.paa"};
+        weapons[] = {"vn_CivCarHorn1"}; 
         class Turrets: Turrets
         {
             class MainTurret: MainTurret
