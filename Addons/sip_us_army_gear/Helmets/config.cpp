@@ -3,7 +3,6 @@ class cfgPatches
 	class SiP_Patch_US_Army_Headgear
 	{
 		Name = " Suicide Is Painless - Korean War Mod - US Army Headgear";
-		Author = "Letlev";
 		addonRootClass = "SiP_Patch_us_army_gear";
 		requiredAddons[] = 
 		{

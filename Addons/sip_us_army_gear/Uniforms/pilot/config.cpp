@@ -2,7 +2,7 @@ class cfgPatches
 {
 	class SiP_Patch_Pilot_uniform
 	{
-		addonRootClass = "SiP_Patch_US_Uniforms";
+		addonRootClass = "SiP_Patch_US_Army_Uniforms";
 		requiredAddons[] = 
 		{
 			"WW2_Assets_c_Characters_Americans_c_US_Airforce_Gear",
@@ -33,6 +33,7 @@ class cfgWeapons
 			uniformClass = "SiP_heli_pilot_uniform_base";
 			hiddenSelections[] = {"camo","front","back","left","right"};
 		};
+		class XtdGearInfo{};
 	};
 
 	class SiP_USAF_Transport_pilot_uniform: SiP_heli_pilot_uniform

@@ -3,7 +3,7 @@ class cfgPatches
     class SiP_Patch_us_radio
     {
         Name = "Suicide Is Painless - Korean War Mod - US Radios";
-        Author = "Letlev";
+        addonRootClass = "SiP_Patch_us_army_gear";
         requiredAddons[] = 
         {
             "weapons_f_vietnam_c",
@@ -46,7 +46,7 @@ class SiP_Radios_prc6_radio_dialogue
         class RadioImage: RscPicture
         {
             idc = -1;
-            text = "\SiP\Addons\sip_us_army_gear\Radios\UI\PRC6_radio_background.paa";
+            text = "\SiP\Addons\sip_us_army_gear\Radios\UI\PRC6_radio_background_ca.paa";
             colorText[] = {1,1,1,1};
             x = "(((11*-1) + 20) * (((getResolution select 4) min 1.2) / 40) + (safezoneX + (safezoneW - ((getResolution select 7) min 1.2))/2))";
             y = "(((11*-1) + 12.5) * ((((getResolution select 4) min 1.2) / 1.2) / 25) + (safezoneY + (safezoneH - (((getResolution select 7) min 1.2) / 1.2))/2))";
@@ -195,7 +195,7 @@ class cfgWeapons
         descriptionshort = "Korean War Era SR Radio";
         model = "\fow\fow_characters\us\lodu_us_scr";
         editorPreview = "";
-        picture = "\SiP\Addons\sip_us_army_gear\Radios\UI\PRC6_UI.paa";
+        picture = "\SiP\Addons\sip_us_army_gear\Radios\UI\PRC6_ui_ca.paa";
         tf_parent = "SiP_radio_us_prc6";
         tf_dialog = "SiP_Radios_prc6_radio_dialogue";
     };

@@ -24,9 +24,13 @@ class CfgWeapons
         author = "Letlev";
         displayname = "[US] M1952 Flak Jacket";
         picture = "\simc_uaf_67_preview\icons\falk_ca.paa";
-        model = "\simc_uaf_65\vest_flak_open.p3d";
-        hiddenSelections[] = {""};
-        hiddenSelectionsTextures[] = {""};
+        model = "\simc_uaf_65\vest_flak_belt_open.p3d";
+        hiddenSelections[] = {"camo","band"};
+        hiddenSelectionsTextures[] = 
+        {
+            "",
+            ""
+        };
         modelOptics = "\A3\Weapons_F\empty";
         visionMode[] = {"Normal","Normal"};
         descriptionShort = "US Flak Jacket";
@@ -34,10 +38,14 @@ class CfgWeapons
         {
             type = 616;
             hmdType = 0;
-            uniformModel = "\simc_uaf_65\vest_flak_open.p3d";
-            modelOff = "\simc_uaf_65\vest_flak_open.p3d";
-            hiddenSelections[] = {""};
-            hiddenSelectionsTextures[] = {""};
+            uniformModel = "\simc_uaf_65\vest_flak_belt_open.p3d";
+            modelOff = "\simc_uaf_65\vest_flak_belt_open.p3d";
+            hiddenSelections[] = {"camo","band"};
+            hiddenSelectionsTextures[] = 
+            {
+                "",
+                ""
+            };
             mass = 1;
         };
     };
@@ -53,9 +61,13 @@ class CfgGlasses
         author = "Letlev";
         displayname = "[US] M1952 Flak Jacket";
         picture = "\simc_uaf_67_preview\icons\falk_ca.paa";
-        model = "\simc_uaf_65\vest_flak_open.p3d";
-        hiddenSelections[] = {""};
-        hiddenSelectionsTextures[] = {""};
+        model = "\simc_uaf_65\vest_flak_belt_open.p3d";
+        hiddenSelections[] = {"camo","band"};
+        hiddenSelectionsTextures[] = 
+        {
+            "",
+            ""
+        };
         mass = 2;
     };
 };
