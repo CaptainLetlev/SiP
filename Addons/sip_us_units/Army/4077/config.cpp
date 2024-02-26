@@ -51,7 +51,7 @@ class CfgVehicles
 		displayName = "Trapper";
 		identityTypes[] = {"LanguageENG_F","SiP_Trapper"};
 		genericNames = "TrapperMcIntyre";
-		hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_units\Army\data\civ_clothes\red_hawaii.paa","\SiP\Addons\sip_us_units\Army\data\civ_clothes\red_hawaii.paa","",""};
+		hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_units\Army\data\civ_clothes\red_hawaii_co.paa","\SiP\Addons\sip_us_units\Army\data\civ_clothes\red_hawaii_co.paa","",""};
 		uniformClass = "SiP_Hawaii_Shirt_Red";
 	};
 	class SiP_beej: SiP_hawkeye_pierce
@@ -59,7 +59,7 @@ class CfgVehicles
 		displayName = "B.J.";
 		identityTypes[] = {"LanguageENG_F","SiP_BJ"};
 		genericNames = "BeejHunicut";
-		hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_units\Army\data\civ_clothes\yellow_hawaii.paa","\SiP\Addons\sip_us_units\Army\data\civ_clothes\yellow_hawaii.paa","",""};
+		hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_units\Army\data\civ_clothes\yellow_hawaii_co.paa","\SiP\Addons\sip_us_units\Army\data\civ_clothes\yellow_hawaii_co.paa","",""};
 		uniformClass = "SiP_Hawaii_Shirt_yellow";
 	};
 };

@@ -78,47 +78,142 @@ class CfgVehicles
         weapons[] = {"SiP_m1_garand","Throw","Put"};
         magazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
         respawnWeapons[] = {"SiP_m1_garand","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
-        headgearList[] = {"SiP_M1C_Helmet_1bt_187rct"};
-        LIB_RandomizeHeadgear = 0;
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_rifleman1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_rifleman1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_fak_NS3_net6",1
+        };
+        SPE_RandomizeHeadgear = 1;
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_rifleman1_bayo","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_rifleman1_bayo","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_m1_garand","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_m1_garand","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool";
@@ -140,50 +235,146 @@ class CfgVehicles
         weapons[] = {"SiP_m1a1_carbine","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
         respawnWeapons[] = {"SiP_m1a1_carbine","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_pfc_NS1","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         uniformClass = "SiP_m51_ab_uniform_pvt";
     };
-    class SiP_US_Army_1bn_187_smg1: SiP_US_Army_1bn_187_rifleman1
+    class SiP_US_Army_1bn_187_smg1: SiP_US_Army_1bn_187_rifleman2
     {
         displayName = "SMG-Soldier (Thompson)";
         cost = 115000;
@@ -241,8 +432,8 @@ class CfgVehicles
             "vn_m1a1_30_mag",
             "vn_m1a1_30_mag"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool";
@@ -300,8 +491,8 @@ class CfgVehicles
             "vn_m3a1_mag",
             "vn_m3a1_mag"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
         uniformClass = "SiP_m51_ab_uniform";
     };
@@ -315,35 +506,35 @@ class CfgVehicles
         weapons[] = {"SiP_m1918A2_bar","Throw","Put"};
         magazines[] = 
         {
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag"
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag"
         };
         respawnWeapons[] = {"SiP_m1918A2_bar","Throw","Put"};
         respawnMagazines[] = 
         {
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag"
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_BAR","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_BAR","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_BAR_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_BAR_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool_bar";
         class SpeechVariants
         {
@@ -376,11 +567,11 @@ class CfgVehicles
             "ace_compat_sip_m1919_250",
             "ace_compat_sip_m1919_250",
             "ace_compat_sip_m1919_250",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m1919a6","SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
@@ -396,14 +587,14 @@ class CfgVehicles
             "ace_compat_sip_m1919_250",
             "ace_compat_sip_m1919_250",
             "ace_compat_sip_m1919_250",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_MG","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_MG","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_MG","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_MG","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool_mg";
     };
     class SiP_US_Army_1bn_187_sniper: SiP_US_Army_1bn_187_rifleman1
@@ -415,45 +606,45 @@ class CfgVehicles
         weapons[] = {"SiP_m1d_garand_scope","SiP_m1911","Throw","Put"};
         magazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
         respawnWeapons[] = {"SiP_m1d_garand_scope","SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
@@ -507,8 +698,8 @@ class CfgVehicles
             "vn_m3a1_mag",
             "SiP_M28A2_heat_rocket"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_carbine","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_carbine","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_packboard_m20bazooka";
@@ -559,8 +750,8 @@ class CfgVehicles
             "vn_m1897_buck_mag",
             "vn_m1897_buck_mag"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_rifleman3","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1945_Vest_rifleman3","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_rifleman_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1945_Vest_rifleman_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_m1897","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_m1897","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool_shotgun";
@@ -571,42 +762,42 @@ class CfgVehicles
         weapons[] = {"SiP_m1_garand_gl","Throw","Put"};
         magazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
         respawnWeapons[] = {"SiP_m1_garand_gl","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
         backpack = "SiP_m1945_backpack_roll_etool_gren";
     };
@@ -618,46 +809,46 @@ class CfgVehicles
         weapons[] = {"SiP_m1a1_carbine","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
         respawnWeapons[] = {"SiP_m1a1_carbine","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
-        linkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1bt_187rct","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        backpack = "SiP_m1945_packboard_prc10";
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_NS1","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        backpack = "SiP_m1945_packboard_prc10_radio";
     };
     class SiP_US_Army_1bn_187_Corporal: SiP_US_Army_1bn_187_rifleman1
     {
@@ -678,58 +869,153 @@ class CfgVehicles
         weapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
-        headgearList[] = {"SiP_M1C_Helmet_cpl_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_cpl_1bt_187rct","SiP_m1944_Vest_carbine_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_cpl_1bt_187rct","SiP_m1944_Vest_carbine_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1","SiP_m1945_Vest_rifleman2_45_1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_cpl_NS1","SiP_m1945_Vest_rifleman2_45_1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
     class SiP_US_Army_1bn_187_Sergeant: SiP_US_Army_1bn_187_Corporal
@@ -750,46 +1036,141 @@ class CfgVehicles
         weapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
         magazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
         respawnWeapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
-        headgearList[] = {"SiP_M1C_Helmet_sgt_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_sgt_1bt_187rct","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_sgt_1bt_187rct","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_sgt_NS1","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
@@ -811,58 +1192,153 @@ class CfgVehicles
         weapons[] = {"SiP_m2_carbine","SiP_m1911","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m2_carbine","SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
-        headgearList[] = {"SiP_M1C_Helmet_sgt_1stclass_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_sgt_1stclass_1bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_sgt_1stclass_1bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_sfc_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
     class SiP_US_Army_1bn_187_Master_Sergeant: SiP_US_Army_1bn_187_Sergeant
@@ -874,12 +1350,107 @@ class CfgVehicles
             "\simc_uaf_44\data\m43_1_co.paa",
             "\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_Master_Sergeant_ca.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         weapons[] = {"SiP_m1a1_thompson","SiP_m1911","Throw","Put"};
-        magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_thompson","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        headgearList[] = {"SiP_M1C_Helmet_master_sgt_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_master_sgt_1bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_master_sgt_1bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_msgt_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
     class SiP_US_Army_1bn_187_1st_Sergeant: SiP_US_Army_1bn_187_Sergeant
@@ -888,12 +1459,107 @@ class CfgVehicles
         uniformClass = "SiP_m51_ab_uniform_1sgt";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_1st_Sergeant_ca.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         weapons[] = {"SiP_m3a1_greasegun","SiP_m1911","Throw","Put"};
-        magazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m3a1_greasegun","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        headgearList[] = {"SiP_M1C_Helmet_first_sgt_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_first_sgt_1bt_187rct","SiP_m1945_Vest_smg_sidearm","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_first_sgt_1bt_187rct","SiP_m1945_Vest_smg_sidearm","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1","SiP_m1945_Vest_smg_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_sgt_NS1","SiP_m1945_Vest_smg_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
     class SiP_US_Army_1bn_187_2lt: SiP_US_Army_1bn_187_Sergeant
@@ -904,12 +1570,107 @@ class CfgVehicles
         uniformClass = "SiP_m51_ab_uniform_2lt";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_2ndlt_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_2lt_ca.paa"};
         weapons[] = {"SiP_m1a1_thompson","SiP_m1911","Throw","Put"};
-        magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_thompson","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        headgearList[] = {"SiP_M1C_Helmet_2ndlt_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_2ndlt_1bt_187rct","SiP_m1945_Vest_smg_sidearm","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2ndlt_1bt_187rct","SiP_m1945_Vest_smg_sidearm","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1","SiP_m1945_Vest_smg_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_second_Lt_NS1","SiP_m1945_Vest_smg_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
     class SiP_US_Army_1bn_187_1lt: SiP_US_Army_1bn_187_2lt
@@ -919,12 +1680,107 @@ class CfgVehicles
         uniformClass = "SiP_m51_ab_uniform_1lt";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_1stlt_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_1lt_ca.paa"};
         weapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         respawnWeapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
-        headgearList[] = {"SiP_M1C_Helmet_1stlt_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_1stlt_1bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_1stlt_1bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
+        respawnMagazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_first_Lt_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
     };
     class SiP_US_Army_1bn_187_captain: SiP_US_Army_1bn_187_2lt
@@ -934,12 +1790,107 @@ class CfgVehicles
         uniformClass = "SiP_m51_ab_uniform_capt";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_cap_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_cpt_ca.paa"};
         weapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         respawnWeapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
-        headgearList[] = {"SiP_M1C_Helmet_captain_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_captain_1bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_captain_1bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
+        respawnMagazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_Captain_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
     };
     class SiP_US_Army_1bn_187_major: SiP_US_Army_1bn_187_2lt
@@ -949,12 +1900,107 @@ class CfgVehicles
         uniformClass = "SiP_m51_ab_uniform_maj";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_maj_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_major_ca.paa"};
         weapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        headgearList[] = {"SiP_M1C_Helmet_major_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_major_1bt_187rct","SiP_m1944_Vest_carbine_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_major_1bt_187rct","SiP_m1944_Vest_carbine_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
+        respawnMagazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1","SiP_m1945_Vest_rifleman2_45_1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_Major_NS1","SiP_m1945_Vest_rifleman2_45_1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
     };
     class SiP_US_Army_1bn_187_ltcol: SiP_US_Army_1bn_187_major
@@ -964,16 +2010,111 @@ class CfgVehicles
         uniformClass = "SiP_m51_ab_uniform_ltcol";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_ltcol_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_ltcol_ca.paa"};
         weapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        headgearList[] = {"SiP_M1C_Helmet_ltcol_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_ltcol_1bt_187rct","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_ltcol_1bt_187rct","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_LtCol_NS1","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
     
-    class SiP_US_Army_2bn_187_rifleman1: SiP_US_Army_rifleman1
+    class SiP_US_Army_2bn_187_rifleman1: SiP_US_Army_1bn_187_rifleman1
     {
         displayName = "Rifleman (Garand)";
         identityTypes[] = {"LanguageENG_F","Head_EURO","LIB_Glasses"};
@@ -989,78 +2130,273 @@ class CfgVehicles
         role = "Rifleman";
         icon = "iconManRifleman";
         weapons[] = {"SiP_m1_garand","Throw","Put"};
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         respawnWeapons[] = {"SiP_m1_garand","Throw","Put"};
-        respawnMagazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        respawnMagazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         editorPreview = "\simc_uaf_44_preview\preview\ua_goon_m43.jpg";
-        headgearList[] = {"SiP_M1C_Helmet_2bt_187rct"};
-        LIB_RandomizeHeadgear = 0;
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_rifleman1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_rifleman1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_fak_NS3_net6",1
+        };
+        SPE_RandomizeHeadgear = 1;
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_rifleman1_bayo","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_rifleman1_bayo","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_m1_garand","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_m1_garand","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool";
         uniformClass = "SiP_m51_ab_uniform";
     };
-    class SiP_US_Army_2bn_187_rifleman2: SiP_US_Army_2bn_187_rifleman1
+    class SiP_US_Army_2bn_187_rifleman2: SiP_US_Army_1bn_187_rifleman2
     {
         displayName = "Rifleman (Carbine)";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         weapons[] = {"SiP_m1a1_carbine","Throw","Put"};
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag"};
+        magazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag"};
         respawnWeapons[] = {"SiP_m1a1_carbine","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag"};
+        llowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_pfc_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         uniformClass = "SiP_m51_ab_uniform_pvt";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_1stclass_ca.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
     };
-    class SiP_US_Army_2bn_187_smg1: SiP_US_Army_2bn_187_rifleman1
+    class SiP_US_Army_2bn_187_smg1: SiP_US_Army_1bn_187_smg1
     {
         displayName = "SMG-Soldier (Thompson)";
         cost = 115000;
         threat[] = {0.7,0.1,0.1};
         icon = "iconManRecon";
         role = "Assault";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         uniformClass = "SiP_m51_ab_uniform_pvt";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_1stclass_ca.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         weapons[] = {"SiP_m1928a1_thompson","Throw","Put"};
         magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag"};
         respawnWeapons[] = {"SiP_m1928a1_thompson","Throw","Put"};
         respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
-    class SiP_US_Army_2bn_187_smg2: SiP_US_Army_2bn_187_smg1
+    class SiP_US_Army_2bn_187_smg2: SiP_US_Army_1bn_187_smg2
     {
         displayName = "SMG-Soldier (Grease Gun)";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         weapons[] = {"SiP_m3a1_greasegun","Throw","Put"};
         magazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag"};
         respawnWeapons[] = {"SiP_m3a1_greasegun","Throw","Put"};
         respawnMagazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         uniformClass = "SiP_m51_ab_uniform";
     };
-    class SiP_US_Army_2bn_187_autorifleman: SiP_US_Army_2bn_187_smg1
+    class SiP_US_Army_2bn_187_autorifleman: SiP_US_Army_1bn_187_autorifleman
     {
         displayName = "Auto-Rifleman";
         icon = "iconManSMG";
         role = "MachineGunner";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         cost = 125000;
         threat[] = {1,0.1,0.4};
         weapons[] = {"SiP_m1918A2_bar","Throw","Put"};
-        magazines[] = {"vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag"};
+        magazines[] = {"vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag"};
         respawnWeapons[] = {"SiP_m1918A2_bar","Throw","Put"};
-        respawnMagazines[] = {"vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag","vn_m1918_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_BAR","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_BAR","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag","vn_m1918_t_mag"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_BAR_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_BAR_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool_bar";
         class SpeechVariants
         {
@@ -1072,40 +2408,43 @@ class CfgVehicles
             class en: Default{};
         };
     };
-    class SiP_US_Army_2bn_187_machinegunner: SiP_US_Army_2bn_187_smg1
+    class SiP_US_Army_2bn_187_machinegunner: SiP_US_Army_1bn_187_machinegunner
     {
         displayName = "Machine Gunner";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         icon = "iconManMG";
         role = "MachineGunner";
         cost = 125000;
         threat[] = {1,0.1,0.4};
         weapons[] = {"SiP_m1919a6","SiP_m1911","Throw","Put"};
-        magazines[] = {"ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1919a6","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_MG","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_MG","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","ace_compat_sip_m1919_250","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_MG","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_MG","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool_mg";
     };
-    class SiP_US_Army_2bn_187_sniper: SiP_US_Army_2bn_187_rifleman1
+    class SiP_US_Army_2bn_187_sniper: SiP_US_Army_1bn_187_sniper
     {
         displayName = "Sniper (Garand)";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         role = "Marksman";
         cost = 350000;
         accuracy = 3.9;
         weapons[] = {"SiP_m1903a4_Springfield_scope","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag"};
+        magazines[] = {"vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag"};
         respawnWeapons[] = {"SiP_m1903a4_Springfield_scope","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag","SiP_springfield_5_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag","vn_m1903_mag"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
     };
-    class SiP_US_Army_2bn_187_m20_bazooka: SiP_US_Army_2bn_187_rifleman2
+    class SiP_US_Army_2bn_187_m20_bazooka: SiP_US_Army_1bn_187_m20_bazooka
     {
         displayName = "Bazooka Soldier (M20)";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         icon = "iconManAT";
         role = "MissileSpecialist";
         cost = 190000;
@@ -1114,8 +2453,8 @@ class CfgVehicles
         magazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag"};
         respawnWeapons[] = {"SiP_m3a1_greasegun","SiP_m20_super_bazooka","Throw","Put"};
         respawnMagazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_carbine","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_carbine","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_packboard_m20bazooka";
@@ -1129,9 +2468,10 @@ class CfgVehicles
             class en: Default{};
         };
     };
-    class SiP_US_Army_2bn_187_shotgunner: SiP_US_Army_2bn_187_rifleman1
+    class SiP_US_Army_2bn_187_shotgunner: SiP_US_Army_1bn_187_shotgunner
     {
         displayName = "Shotgunner (Trenchgun)";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         cost = 115000;
         threat[] = {0.7,0.1,0.1};
         icon = "iconManRecon";
@@ -1140,176 +2480,572 @@ class CfgVehicles
         magazines[] = {"vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag"};
         respawnWeapons[] = {"SiP_m1897_trenchgun","Throw","Put"};
         respawnMagazines[] = {"vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag","vn_m1897_buck_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_rifleman3","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_rifleman3","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_rifleman_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_rifleman_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_m1897","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_m1897","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool_shotgun";
     };
-    class SiP_US_Army_2bn_187_grenadier: SiP_US_Army_2bn_187_rifleman1
+    class SiP_US_Army_2bn_187_grenadier: SiP_US_Army_1bn_187_grenadier
     {
         displayName = "Grenadier";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         weapons[] = {"SiP_m1_garand_gl","Throw","Put"};
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         respawnWeapons[] = {"SiP_m1_garand_gl","Throw","Put"};
-        respawnMagazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        respawnMagazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         backpack = "SiP_m1945_backpack_roll_etool_gren";
     };
     class SiP_US_Army_2bn_187_rto: SiP_US_Army_2bn_187_smg2
     {
         displayName = "Radio Operator";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         icon = "iconManRTO";
         cost = 400000;
         weapons[] = {"SiP_m1a1_carbine","Throw","Put"};
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag"};
+        magazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag"};
         respawnWeapons[] = {"SiP_m1a1_carbine","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        backpack = "SiP_m1945_packboard_prc10";
+        respawnMagazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        backpack = "SiP_m1945_packboard_SCR300_radio";
     };
-    class SiP_US_Army_2bn_187_Corporal: SiP_US_Army_2bn_187_rifleman1
+    class SiP_US_Army_2bn_187_Corporal: SiP_US_Army_1bn_187_Corporal
     {
         displayName = "Corporal";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         icon = "iconManLeader";
         cost = 115000;
         uniformClass = "SiP_m51_ab_uniform_cpl";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_Corporal_co.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         weapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1944_Vest_carbine_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1944_Vest_carbine_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1","SiP_m1945_Vest_rifleman2_45_1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_cpl_NS1","SiP_m1945_Vest_rifleman2_45_1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
-    class SiP_US_Army_2bn_187_Sergeant: SiP_US_Army_2bn_187_Corporal
+    class SiP_US_Army_2bn_187_Sergeant: SiP_US_Army_1bn_187_Sergeant
     {
         displayName = "Sergeant";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         cost = 200000;
         uniformClass = "SiP_m51_ab_uniform_sgt";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_Staff_Sergeant_ca.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         weapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         respawnWeapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_sgt_NS1","SiP_m1945_Vest_rifleman1_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
     };
-    class SiP_US_Army_2bn_187_Sergeant_1stclass: SiP_US_Army_2bn_187_Sergeant
+    class SiP_US_Army_2bn_187_Sergeant_1stclass: SiP_US_Army_1bn_187_Sergeant_1stclass
     {
         displayName = "Sergeant First Class";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         uniformClass = "SiP_m51_ab_uniform_sfc";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_Tech_Sergeant_ca.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         weapons[] = {"SiP_m2_carbine","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m2_carbine","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_sfc_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
-    class SiP_US_Army_2bn_187_Master_Sergeant: SiP_US_Army_2bn_187_Sergeant
+    class SiP_US_Army_2bn_187_Master_Sergeant: SiP_US_Army_1bn_187_Master_Sergeant
     {
         displayName = "Master Sergeant";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         uniformClass = "SiP_m51_ab_uniform_msg";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_Master_Sergeant_ca.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         weapons[] = {"SiP_m1a1_thompson","SiP_m1911","Throw","Put"};
-        magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_thompson","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        allowedHeadgear[] =
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net6",
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net1",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net2",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net3",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net4",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net5",
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net6"
+        };
+        headgearList[] = 
+        {
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS3_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS1_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS2_net6",1,
+
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net1",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net2",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net3",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net4",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net5",1,
+            "H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_fak_NS3_net6",1
+        };
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_msgt_NS1","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
-    class SiP_US_Army_2bn_187_1st_Sergeant: SiP_US_Army_2bn_187_Sergeant
+    class SiP_US_Army_2bn_187_1st_Sergeant: SiP_US_Army_1bn_187_1st_Sergeant
     {
         displayName = "First Sergeant";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         uniformClass = "SiP_m51_ab_uniform_1sgt";
         hiddenSelectionsTextures[] = {"\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\data\m43_1_co.paa","\simc_uaf_44\patches\US_Shld_1st_Sergeant_ca.paa","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa",""};
         weapons[] = {"SiP_m3a1_greasegun","SiP_m1911","Throw","Put"};
-        magazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m3a1_greasegun","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
-        headgearList[] = {"SiP_M1C_Helmet_2bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_smg_sidearm","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2bt_187rct","SiP_m1945_Vest_smg_sidearm","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnMagazines[] = {"vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m3a1_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
+        headgearList[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_smg_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_2bn_187RCT_NS1","SiP_m1945_Vest_smg_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
-    class SiP_US_Army_2bn_187_2lt: SiP_US_Army_2bn_187_Sergeant
+    class SiP_US_Army_2bn_187_2lt: SiP_US_Army_1bn_187_2lt
     {
         displayName = "2nd Lieutenant";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         icon = "iconManOfficer";
         cost = 450000;
         uniformClass = "SiP_m51_ab_uniform_2lt";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_2ndlt_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_2lt_ca.paa"};
         weapons[] = {"SiP_m1a1_thompson","SiP_m1911","Throw","Put"};
-        magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_thompson","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        respawnMagazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         headgearList[] = {"SiP_M1C_Helmet_2ndlt_2bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_2ndlt_2bt_187rct","SiP_m1945_Vest_smg_sidearm","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_2ndlt_2bt_187rct","SiP_m1945_Vest_smg_sidearm","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"SiP_M1C_Helmet_2ndlt_2bt_187rct","SiP_m1945_Vest_smg_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"SiP_M1C_Helmet_2ndlt_2bt_187rct","SiP_m1945_Vest_smg_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1945_backpack_roll_etool";
     };
-    class SiP_US_Army_2bn_187_1lt: SiP_US_Army_2bn_187_2lt
+    class SiP_US_Army_2bn_187_1lt: SiP_US_Army_1bn_187_1lt
     {
         displayName = "1st Lieutenant";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         cost = 500000;
         uniformClass = "SiP_m51_ab_uniform_1lt";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_1stlt_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_1lt_ca.paa"};
         weapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         respawnWeapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        respawnMagazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         headgearList[] = {"SiP_M1C_Helmet_1stlt_2bt_187rct"};
         linkedItems[] = {"SiP_M1C_Helmet_1stlt_2bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
         respawnLinkedItems[] = {"SiP_M1C_Helmet_1stlt_2bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
     };
-    class SiP_US_Army_2bn_187_captain: SiP_US_Army_2bn_187_2lt
+    class SiP_US_Army_2bn_187_captain: SiP_US_Army_1bn_187_captain
     {
         displayName = "Captain";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         cost = 500000;
         uniformClass = "SiP_m51_ab_uniform_capt";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_cap_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_cpt_ca.paa"};
         weapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         respawnWeapons[] = {"SiP_m1_garand","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag","SiP_m1_garand_mag"};
+        respawnMagazines[] = {"vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag","vn_m1_garand_mag"};
         headgearList[] = {"SiP_M1C_Helmet_captain_2bt_187rct"};
         linkedItems[] = {"SiP_M1C_Helmet_captain_2bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
         respawnLinkedItems[] = {"SiP_M1C_Helmet_captain_2bt_187rct","SiP_m1945_Vest_gpbag_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
     };
-    class SiP_US_Army_2bn_187_major: SiP_US_Army_2bn_187_2lt
+    class SiP_US_Army_2bn_187_major: SiP_US_Army_1bn_187_major
     {
         displayName = "Major";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         cost = 550000;
         uniformClass = "SiP_m51_ab_uniform_maj";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_maj_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_major_ca.paa"};
         weapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        respawnMagazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         headgearList[] = {"SiP_M1C_Helmet_major_1bt_187rct"};
-        linkedItems[] = {"SiP_M1C_Helmet_major_1bt_187rct","SiP_m1944_Vest_carbine_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
-        respawnLinkedItems[] = {"SiP_M1C_Helmet_major_1bt_187rct","SiP_m1944_Vest_carbine_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
+        linkedItems[] = {"SiP_M1C_Helmet_major_1bt_187rct","SiP_m1945_Vest_rifleman2_45_1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
+        respawnLinkedItems[] = {"SiP_M1C_Helmet_major_1bt_187rct","SiP_m1945_Vest_rifleman2_45_1","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","mapcas_addon_od7"};
         backpack = "SiP_m1945_backpack_roll_etool_sniper";
     };
-    class SiP_US_Army_2bn_187_ltcol: SiP_US_Army_2bn_187_major
+    class SiP_US_Army_2bn_187_ltcol: SiP_US_Army_1bn_187_ltcol
     {
         displayName = "Lieutenant Colonel";
+        editorSubcategory = "SiP_2bn_187_Editor_Subcategory";
         cost = 600000;
         uniformClass = "SiP_m51_ab_uniform_ltcol";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_ltcol_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","\SiP\Addons\sip_us_units\Army\data\patches\187RCT_ca.paa","\simc_uaf_44\patches\US_Shld_ltcol_ca.paa"};
         weapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        magazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         respawnWeapons[] = {"SiP_m1a1_carbine","SiP_m1911","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_carbine_15_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag","SiP_m1911_mag"};
+        respawnMagazines[] = {"vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_carbine_15_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag","vn_m1911_mag"};
         headgearList[] = {"SiP_M1C_Helmet_ltcol_2bt_187rct"};
         linkedItems[] = {"SiP_M1C_Helmet_ltcol_2bt_187rct","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         respawnLinkedItems[] = {"SiP_M1C_Helmet_ltcol_2bt_187rct","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
@@ -1322,9 +3058,9 @@ class CfgVehicles
         cost = 650000;
         uniformClass = "SiP_m51_uniform_col";
         hiddenSelectionsTextures[] = {"\SiP\Addons\sip_us_army_gear\Uniforms\textures\uniform\m51_1_col_co.paa","\simc_uaf_44\data\m43_1_co.paa","","","","","\simc_uaf_44\patches\US_Shld_col_ca.paa"};
-        headgearList[] = {"SiP_M1_Helmet_NS_Col"};
-        linkedItems[] = {"SiP_M1_Helmet_NS_Col","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"SiP_M1_Helmet_NS_Col","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        headgearList[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_Col_NS1"};
+        linkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_Col_NS1","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_hssn_SiP_M1C_Helmet_1bn_187RCT_Col_NS1","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
     };
 };
 

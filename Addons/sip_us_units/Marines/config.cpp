@@ -63,46 +63,46 @@ class CfgVehicles
         weapons[] = {"SiP_m1_garand","Throw","Put"};
         magazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
         respawnWeapons[] = {"SiP_m1_garand","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag"
         };
         allowedHeadgear[] = {"H_Simc_M1_tan_cl_2",1,"H_Simc_M1_muggen_3",1};
         headgearList[] = {"H_Simc_M1_tan_cl_2",0.5,"H_Simc_M1_muggen_3",0.5};
-        LIB_RandomizeHeadgear = 0;
+        SPE_RandomizeHeadgear = 1;
         linkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_USMC_Vest_Cartridge_nife","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_simc_US_Bandoleer_left"};
         respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_USMC_Vest_Cartridge_nife","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_simc_US_Bandoleer_left"};
         items[] = {"vn_b_m1_garand","vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
@@ -125,48 +125,48 @@ class CfgVehicles
         weapons[] = {"SiP_m1_carbine","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
         respawnWeapons[] = {"SiP_m1_carbine","Throw","Put"};
         respawnMagazines[] =
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
         linkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_61","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_simc_US_Bandoleer_left"};
         respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_61","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_simc_US_Bandoleer_left"};
@@ -220,8 +220,8 @@ class CfgVehicles
             "vn_m1a1_30_mag",
             "vn_m1a1_30_mag"
         };
-        linkedItems[] = {"H_Simc_M1_tan_cl_2","SiP_m1945_Vest_smg","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_sekop_43_OD7"};
-        respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","SiP_m1945_Vest_smg","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_sekop_43_OD7"};
+        linkedItems[] = {"H_Simc_M1_tan_cl_2","SiP_m1945_Vest_smg_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_sekop_43_OD7"};
+        respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","SiP_m1945_Vest_smg_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_sekop_43_OD7"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "B_simc_USMC51_M41_flat_roll";
@@ -291,28 +291,28 @@ class CfgVehicles
         weapons[] = {"SiP_m1918A2_bar","Throw","Put"};
         magazines[] = 
         {
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag"
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag"
         };
         respawnWeapons[] = {"SiP_m1918A2_bar","Throw","Put"};
         respawnMagazines[] = 
         {
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag",
-            "vn_m1918_mag"
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag",
+            "vn_m1918_t_mag"
         };
         linkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_USMC_Vest_bar_OD7","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_sekop_43_OD7"};
         respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_USMC_Vest_bar_OD7","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_sekop_43_OD7"};
@@ -339,11 +339,11 @@ class CfgVehicles
             "ace_compat_sip_m1919_250",
             "ace_compat_sip_m1919_250",
             "ace_compat_sip_m1919_250",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m1919a6","SiP_m1911","Throw","Put"};
         respawnMagazines[] =
@@ -359,11 +359,11 @@ class CfgVehicles
             "ace_compat_sip_m1919_250",
             "ace_compat_sip_m1919_250",
             "ace_compat_sip_m1919_250",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         linkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_61_60_2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_sekop_43_OD7"};
         respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_61_60_2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_sekop_43_OD7"};
@@ -378,54 +378,54 @@ class CfgVehicles
         weapons[] = {"SiP_m1903a4_Springfield_scope","SiP_m1911","Throw","Put"};
         magazines[] = 
         {
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m1903a4_Springfield_scope","SiP_m1911","Throw","Put"};
         respawnMagazines[] =
         {
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1903_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         linkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_USMC_Vest_Cartridge_GP","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_simc_US_Bandoleer_left"};
         respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","V_Simc_USMC_Vest_Cartridge_GP","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","G_simc_US_Bandoleer_left"};
@@ -439,64 +439,64 @@ class CfgVehicles
         weapons[] = {"SiP_m1c_garand_scope","SiP_m1911","Throw","Put"};
         magazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m1c_garand_scope","SiP_m1911","Throw","Put"};
         respawnMagazines[] =
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
     };
     class SiP_US_Marines_m9_bazooka: SiP_US_Marines_rifleman2
@@ -509,53 +509,53 @@ class CfgVehicles
         weapons[] = {"SiP_m1_carbine","SiP_m9a1_bazooka","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
             "SiP_M6A3_rocket"
         };
         respawnWeapons[] = {"SiP_m1_carbine","SiP_m9a1_bazooka","Throw","Put"};
         respawnMagazines[] =
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
             "SiP_M6A3_rocket"
         };
         linkedItems[] = {"SiP_M1_Helmet_NS","SiP_m1945_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
@@ -570,43 +570,43 @@ class CfgVehicles
         weapons[] = {"SiP_m2_carbine","SiP_m20_super_bazooka","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
             "SiP_M28A2_heat_rocket"
         };
         respawnWeapons[] = {"SiP_m2_carbine","SiP_m20_super_bazooka","Throw","Put"};
         respawnMagazines[] =
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
             "SiP_M28A2_heat_rocket"
         };
         backpack = "SiP_m1945_packboard_m20bazooka";
@@ -668,27 +668,27 @@ class CfgVehicles
         weapons[] = {"SiP_m1_garand_gl","Throw","Put"};
         magazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
             "vn_22mm_m17_frag_mag",
             "vn_22mm_m17_frag_mag",
             "vn_22mm_m17_frag_mag",
@@ -703,27 +703,27 @@ class CfgVehicles
         respawnWeapons[] = {"SiP_m1_garand_gl","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
+            "vn_m1_garand_mag",
             "vn_22mm_m17_frag_mag",
             "vn_22mm_m17_frag_mag",
             "vn_22mm_m17_frag_mag",
@@ -742,7 +742,7 @@ class CfgVehicles
         displayName = "Radio Operator";
         icon = "iconManRTO";
         cost = 400000;
-        backpack = "SiP_m1945_packboard_prc10";
+        backpack = "SiP_m1945_packboard_prc10_radio";
     };
     class SiP_US_Marines_NCO1: SiP_US_Marines_rifleman1
     {
@@ -763,7 +763,7 @@ class CfgVehicles
             "vn_m1a1_30_mag",
             "vn_m1a1_30_mag",
             "vn_m1a1_30_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m1928a1_thompson","SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
@@ -779,7 +779,7 @@ class CfgVehicles
             "vn_m1a1_30_mag",
             "vn_m1a1_30_mag",
             "vn_m1a1_30_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag"
         };
         linkedItems[] = {"H_Simc_M1_muggen_3","V_Simc_USMC_Vest_SMG_OD7_sekop","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         respawnLinkedItems[] = {"H_Simc_M1_muggen_3","V_Simc_USMC_Vest_SMG_OD7_sekop","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
@@ -791,49 +791,49 @@ class CfgVehicles
         weapons[] = {"SiP_m2_carbine","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
             "SiP_mk2_grenade_mag",
             "SiP_mk2_grenade_mag"
         };
         respawnWeapons[] = {"SiP_m2_carbine","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
             "SiP_mk2_grenade_mag",
             "SiP_mk2_grenade_mag"
         };
-        linkedItems[] = {"H_Simc_M1_muggen_3","V_Simc_USMC_Vest_SMG_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"H_Simc_M1_muggen_3","V_Simc_USMC_Vest_SMG_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_Simc_M1_muggen_3","SiP_m1945_Vest_rifleman2_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_Simc_M1_muggen_3","SiP_m1945_Vest_rifleman2_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         backpack = "SiP_m1941_marine_backpack_pistol";
     };
     class SiP_US_Marines_officer: SiP_US_Marines_NCO1
@@ -844,54 +844,54 @@ class CfgVehicles
         weapons[] = {"SiP_m2_carbine","SiP_m1911","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m2_carbine","SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         linkedItems[] = {"H_Simc_M1_muggen_3","SiP_m1945_Vest_rifleman2_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         respawnLinkedItems[] = {"H_Simc_M1_muggen_3","SiP_m1945_Vest_rifleman2_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
@@ -907,32 +907,32 @@ class CfgVehicles
         weapons[] = {"SiP_m1911","Throw","Put"};
         magazines[] = 
         {
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
         {
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         headgearList[] = {"H_Simc_MC_hat_1"};
         linkedItems[] = {"H_Simc_MC_hat_1","SiP_m1945_Vest_45","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
@@ -949,54 +949,54 @@ class CfgVehicles
         headgearList[] = {"H_Simc_MC_hat_1",1};
         magazines[] = 
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
         respawnWeapons[] = {"SiP_m1_carbine","Throw","Put"};
         respawnMagazines[] =
         {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_30_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
         linkedItems[] = 
         {
@@ -1022,8 +1022,8 @@ class CfgVehicles
     {
         displayName = "Gunner";
         editorSubcategory = "SiP_Vehicle_Crews_Editor_Subcategory";
-        linkedItems[] = {"H_Simc_M1_tan_cl_2","SiP_m1945_Vest_smg","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
-        respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","SiP_m1945_Vest_smg","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        linkedItems[] = {"H_Simc_M1_tan_cl_2","SiP_m1945_Vest_smg_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
+        respawnLinkedItems[] = {"H_Simc_M1_tan_cl_2","SiP_m1945_Vest_smg_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         backpack = "";
@@ -1061,8 +1061,8 @@ class CfgVehicles
             "vn_m3a1_mag"
         };
         headgearList[] = {"H_LIB_US_Helmet_Tank"};
-        linkedItems[] = {"H_LIB_US_Helmet_Tank","SiP_m1945_Vest_smg","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
-        respawnLinkedItems[] = {"H_LIB_US_Helmet_Tank","SiP_m1945_Vest_smg","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
+        linkedItems[] = {"H_LIB_US_Helmet_Tank","SiP_m1945_Vest_smg_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
+        respawnLinkedItems[] = {"H_LIB_US_Helmet_Tank","SiP_m1945_Vest_smg_gpbag","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
         items[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         respawnItems[] = {"vn_b_item_firstaidkit","vn_b_item_firstaidkit","vn_b_item_firstaidkit"};
         uniformClass = "U_Simc_P44_trop";
@@ -1075,32 +1075,32 @@ class CfgVehicles
         respawnWeapons[] = {"SiP_m1_carbine","Throw","Put"};
         magazines[] = 
         {
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
         respawnMagazines[] =
         {
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_mag"
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag",
+            "vn_carbine_15_mag"
         };
-        linkedItems[] = {"H_LIB_US_Helmet_Tank","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
-        respawnLinkedItems[] = {"H_LIB_US_Helmet_Tank","SiP_m1944_Vest_carbine","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
+        linkedItems[] = {"H_LIB_US_Helmet_Tank","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
+        respawnLinkedItems[] = {"H_LIB_US_Helmet_Tank","SiP_m1944_Vest_rifleman2","vn_b_item_map","vn_b_item_compass","vn_b_item_watch","vn_b_item_radio_urc10"};
     };
     class SiP_US_Marines_tank_gunner: SiP_US_Marines_tank_bow
     {
@@ -1125,11 +1125,11 @@ class CfgVehicles
             "vn_m3a1_mag",
             "vn_m3a1_mag",
             "vn_m3a1_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
         respawnWeapons[] = {"SiP_m3a1_greasegun","SiP_m1911","Throw","Put"};
         respawnMagazines[] = 
@@ -1144,11 +1144,11 @@ class CfgVehicles
             "vn_m3a1_mag",
             "vn_m3a1_mag",
             "vn_m3a1_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag",
-            "SiP_m1911_mag"
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag",
+            "vn_m1911_mag"
         };
     };
 
