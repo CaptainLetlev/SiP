@@ -3,7 +3,7 @@ class cfgPatches
     class SiP_Patch_kpa_nvgs
     {
         Name = "Suicide Is Painless - Korean War Mod - KPA nvgs";
-        Author = "Letlev";
+        addonRootClass = "SiP_Patch_kpa_gear";
         requiredAddons[] = 
         {
             "simc_uaf_44_gare"

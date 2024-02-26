@@ -117,8 +117,8 @@ class CfgVehicles
 		magazines[] = {"vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag"};
 		respawnWeapons[] = {"SiP_dp28","Throw","Put"};
 		respawnMagazines[] = {"vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag","vn_dp28_mag"};
-		linkedItems[] = {"SiP_kpa_cap","SiP_KPA_fieldbelt","SiP_KPA_DP_Backpack_nvg_slot"};
-		respawnLinkedItems[] = {"SiP_kpa_cap","SiP_KPA_fieldbelt","SiP_KPA_DP_Backpack_nvg_slot"};
+		linkedItems[] = {"SiP_kpa_cap","SiP_KPA_fieldbelt","SiP_KPA_PPSh_Pouches_nvg_slot"};
+		respawnLinkedItems[] = {"SiP_kpa_cap","SiP_KPA_fieldbelt","SiP_KPA_PPSh_Pouches_nvg_slot"};
 		backpack = "SiP_KPA_backpack_dp28";
 	};
 	class SiP_KPA_machinegunner2: SiP_KPA_machinegunner
@@ -160,8 +160,8 @@ class CfgVehicles
 		hiddenSelections[] = {"Camo","Camo1"};
 		hiddenSelectionsTextures[] = 
         {
-            "\SiP\Addons\sip_kpa_gear\uniforms\data\textures\kpa_officer_uniform_top.paa",
-            "\SiP\Addons\sip_kpa_gear\uniforms\data\textures\kpa_officer_uniform_lower.paa"
+            "\SiP\Addons\sip_kpa_gear\uniforms\data\textures\kpa_officer_uniform_top_co.paa",
+            "\SiP\Addons\sip_kpa_gear\uniforms\data\textures\kpa_officer_uniform_lower_co.paa"
         };
 		uniformClass = "SiP_KPA_Officer_Uniform";
 		weapons[] = {"SiP_nagant_revolver","Throw","Put"};

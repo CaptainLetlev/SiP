@@ -3,7 +3,7 @@ class cfgPatches
     class SiP_Patch_kpa_backpacks
     {
         Name = "Suicide Is Painless - Korean War Mod - KPA Backpacks";
-        Author = "Letlev";
+        addonRootClass = "SiP_Patch_kpa_gear";
         requiredAddons[] = 
         {
             "EAW_Chinese_Infantry"
@@ -43,6 +43,7 @@ class cfgVehicles
             };
         };
     };
+    
     class SiP_KPA_backpack_ppsh: SiP_KPA_backpack
     {
         scope = 1;
