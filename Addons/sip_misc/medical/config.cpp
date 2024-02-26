@@ -3,7 +3,7 @@ class cfgPatches
     class SiP_Patch_misc_medical
     {
         Name = " Suicide Is Painless - Korean War Mod - Medical";
-        Author = "Letlev";
+        addonRootClass = "SiP_Patch_misc";
         requiredAddons[] = 
         {
             "ace_medical_treatment"
@@ -95,7 +95,7 @@ class CfgWeapons
     {
         author = "Letlev";
         displayName = "[US] Bandage (Gauze)";
-        picture = "\SiP\Addons\sip_misc\medical\data\bandage_ui.paa";
+        picture = "\SiP\Addons\sip_misc\medical\data\bandage_ui_ca.paa";
         model = "\A3\Characters_F_Orange\Headgear\H_HeadBandage_F.p3d";
         hiddenSelections[] = {"Camo"};
         hiddenSelectionsTextures[] = {"\A3\Characters_F_Orange\Headgear\Data\H_HeadBandage_clean_CO.paa"};
@@ -112,7 +112,7 @@ class CfgWeapons
     {
         author = "Letlev";
         displayName = "[US] Tourniquet";
-        picture = "\SiP\Addons\sip_misc\medical\data\tourniquet_ui.paa";
+        picture = "\SiP\Addons\sip_misc\medical\data\tourniquet_ui_ca.paa";
         model = "\a3\Characters_F_Enoch\Facewear\G_Blindfold_01_F.p3d";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"\A3\Characters_F_Enoch\Facewear\data\G_Blindfold_01_White_CO"};
@@ -122,21 +122,21 @@ class CfgWeapons
     {
         author = "Letlev";
         displayName = "[US] Splint";
-        picture = "\SiP\Addons\sip_misc\medical\data\splint_ui.paa";
+        picture = "\SiP\Addons\sip_misc\medical\data\splint_ui_ca.paa";
     };
 
     class SiP_ACE_Items_morphine: ACE_morphine
     {
         author = "Letlev";
         displayName = "[US] Morphine Syrette";
-        picture = "\SiP\Addons\sip_misc\medical\data\morphine_ui.paa";
+        picture = "\SiP\Addons\sip_misc\medical\data\morphine_ui_ca.paa";
     };
 
     class SiP_ACE_Items_adrenaline: ACE_epinephrine
     {
         author = "Letlev";
         displayName = "[US] Adrenaline Syrette";
-        picture = "\SiP\Addons\sip_misc\medical\data\adrenaline_ui.paa";
+        picture = "\SiP\Addons\sip_misc\medical\data\adrenaline_ui_ca.paa";
     };
 
     class SiP_ACE_Items_sulfa: ACE_adenosine 

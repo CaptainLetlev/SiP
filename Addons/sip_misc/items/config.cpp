@@ -4,7 +4,7 @@ class cfgPatches
 	class SiP_Patch_misc_items
 	{
 		Name = " Suicide Is Painless - Korean War Mod - Items";
-		Author = "Letlev";
+		addonRootClass = "SiP_Patch_misc";
 		requiredAddons[] = 
 		{
 			"ace_flashlights",
@@ -35,7 +35,7 @@ class CfgWeapons
 		author = "Letlev";
 		displayName = "[US] M51 Entrenching Tool";
 		descriptionShort = "$STR_VN_M_M51_ETOOL_01_DS";
-		picture = "\SiP\Addons\sip_misc\items\data\UI\etool_ui.paa";
+		picture = "\SiP\Addons\sip_misc\items\data\UI\etool_ui_ca.paa";
 		model = "\vn\weapons_f_vietnam\melee\m51\vn_m_m51_etool_01";
 	};
 	class SiP_EntrenchingTool_m43: SiP_EntrenchingTool
@@ -52,7 +52,7 @@ class CfgWeapons
 	{
 		author = "Letlev";
 		displayName = "[US] 10 Cap Blasting Machine";
-		picture = "\SiP\Addons\sip_misc\items\data\UI\blasting_machine_ui.paa";
+		picture = "\SiP\Addons\sip_misc\items\data\UI\blasting_machine_ui_ca.paa";
 		model = "\WW2\Assets_m\Weapons\Mines_m\Inv\IF_Ladung_pm_inv.p3d";
 		descriptionShort = "Standard US Handheld detonator";
 		ace_explosives_triggerType = "SiP_10cap_detonator_trigger";
@@ -76,7 +76,7 @@ class ACE_Triggers
     {
         isAttachable = 1;
         displayName = "10 Cap Blasting Machine";
-        picture = "\SiP\Addons\sip_misc\items\data\UI\blasting_machine_ui.paa";
+        picture = "\SiP\Addons\sip_misc\items\data\UI\blasting_machine_ui_ca.paa";
         requires[] = {"SiP_10cap_detonator"};
     };
 };
