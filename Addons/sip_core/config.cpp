@@ -19,7 +19,7 @@ class CfgMods
     {
         dir = "SiP";
         name = "Suicide Is Painless - Korean War Mod";
-        picture = "\SiP\Addons\sip_core\SiPlogo.paa";
+        picture = "\SiP\Addons\sip_core\SiPlogo_ca.paa";
         hidePicture = "true";
         hideName = "true";
         action = "";
