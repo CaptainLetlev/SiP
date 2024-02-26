@@ -30,10 +30,15 @@ class cfgWeapons
         scope = 2;
         author = "Letlev";
         displayName = "[PVA] Standard Uniform";
-        picture = "\SiP\Addons\sip_pva_gear\uniforms\data\UI\pva_uniform_ui.paa";
+        picture = "\SiP\Addons\sip_pva_gear\uniforms\data\UI\pva_uniform_ui_ca.paa";
         class ItemInfo: ItemInfo
         {
             uniformClass = "SiP_PVA_rifleman1";
+        };
+        class XtdGearInfo
+        {
+            model = "u_hssn_SiP_PVA_uniform";
+            style = "standard";
         };
     };
     
@@ -42,10 +47,15 @@ class cfgWeapons
         scope = 2;
         author = "Letlev";
         displayName = "[PVA] Officer Uniform";
-        picture = "\SiP\Addons\sip_pva_gear\uniforms\data\UI\pva_uniform_ui.paa";
+        picture = "\SiP\Addons\sip_pva_gear\uniforms\data\UI\pva_uniform_ui_ca.paa";
         class ItemInfo: ItemInfo
         {
             uniformClass = "SiP_PVA_Officer";
+        };
+        class XtdGearInfo
+        {
+            model = "u_hssn_SiP_PVA_uniform";
+            style = "officer";
         };
     };
 
@@ -56,6 +66,50 @@ class cfgWeapons
         class ItemInfo: ItemInfo
         {
             uniformClass = "SiP_PVA_rifleman1_w";
+        };
+        class XtdGearInfo
+        {
+            model = "u_hssn_SiP_PVA_uniform";
+            style = "winter";
+        };
+    };
+};
+
+class XtdGearModels
+{
+    class CfgWeapons 
+    {		
+        class u_hssn_SiP_PVA_uniform
+        {
+            label = "";
+            author = "Letlev";
+            options[]=
+            {
+                "style"
+            };
+            class style
+            {
+                label = "Style";
+                hiddenselection = "camo";
+                values[]=
+                {
+                    "standard",
+                    "officer",
+                    "winter"
+                };
+                class standard
+                {
+                    label = "Standard";
+                };
+                class officer
+                {
+                    label = "Officer";
+                };
+                class winter
+                {
+                    label = "Winter";
+                };
+            };
         };
     };
 };

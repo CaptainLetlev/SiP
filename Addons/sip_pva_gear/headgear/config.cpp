@@ -3,9 +3,11 @@ class cfgPatches
     class SiP_Patch_PVA_Headgear
     {
         Name = " Suicide Is Painless - Korean War Mod - PVA Headgear";
-        Author = "Letlev";
         addonRootClass = "SiP_Patch_pva_gear";
-        requiredAddons[] = {"SiP_Patch_pva_gear"};
+        requiredAddons[] = 
+        {
+            "SiP_Patch_pva_gear"
+        };
         units[] = {};
         weapons[] = {};
     };
@@ -54,6 +56,11 @@ class cfgWeapons
             hiddenSelections[] = {"camo_0","camo_1"};
             hiddenSelectionsTextures[] = {"\SiP\Addons\sip_pva_gear\headgear\data\ushanka_ifa.paa",""};
         };
+        class XtdGearInfo
+        {
+            model = "H_hssn_SiP_PVA_Ushanka";
+            earflaps = "folded";
+        };
     };
     class SiP_PVA_Ushanka2: H_LIB_SOV_Ushanka2
     {
@@ -67,6 +74,50 @@ class cfgWeapons
             hiddenSelections[] = {"camo_0","camo_1"};
             hiddenSelectionsTextures[] = {"\SiP\Addons\sip_pva_gear\headgear\data\ushanka_ifa.paa",""};
             uniformModel = "\WW2\Assets_m\Characters\Soviets_m\SOV_RKKA\LEN_Ushanka2.p3d";
+        };
+        class XtdGearInfo
+        {
+            model = "H_hssn_SiP_PVA_Ushanka";
+            earflaps = "unfolded";
+        };
+    };
+};
+
+class XtdGearModels 
+{
+    class CfgWeapons 
+    {
+        class H_hssn_SiP_PVA_Ushanka
+        {
+            label = "";
+            author = "Letlev";
+            options[]=
+            {
+                "earflaps"
+            };
+            class earflaps
+            {
+                label = "Ear Flaps";
+                changeingame = 1;
+                changedelay = 1;
+                values[]=
+                {
+                    "folded",
+                    "unfolded"
+                };
+                class folded
+                {
+                    label = "Folded";
+                    actionlabel = "Fold Earflaps";
+                    icon = "\WW2\Assets_t\Characters\Pictures_t\Clothing\H_SOV_RKKA_Ushanka_ca.paa";
+                };
+                class unfolded
+                {
+                    label = "Unfolded";
+                    actionlabel = "Unfold Earflaps";
+                    icon = "\WW2\Assets_t\Characters\Pictures_t\Clothing\H_SOV_RKKA_Ushanka2_ca.paa";
+                };                
+            };            
         };
     };
 };
