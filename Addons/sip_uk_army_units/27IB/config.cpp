@@ -33,7 +33,7 @@ class CfgVehicles
         respawnMagazines[] = {"SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag"};
         allowedHeadgear[] = {"fow_h_uk_jungle_hat_03",1,"H_LIB_UK_Helmet_Mk3_Net",1};
         headgearList[] = {"fow_h_uk_jungle_hat_03",0.5,"H_LIB_UK_Helmet_Mk3_Net",0.5};
-        LIB_RandomizeHeadgear = 0;
+        SPE_RandomizeHeadgear = 1;
         linkedItems[] = {"fow_h_uk_jungle_hat_03","SiP_P37_uk_vest","Big_Three_uk_fieldgear_od","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         respawnLinkedItems[] = {"fow_h_uk_jungle_hat_03","SiP_P37_uk_vest","Big_Three_uk_fieldgear_od","vn_b_item_map","vn_b_item_compass","vn_b_item_watch"};
         items[] = {"lib_acc_no4_mk2_bayo","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
@@ -45,9 +45,9 @@ class CfgVehicles
     {
         displayName = "Rifleman (Carbine)";
         weapons[] = {"SiP_m1_carbine","Throw","Put"};
-        magazines[] = {"SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag"};
+        magazines[] = {"vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag"};
         respawnWeapons[] = {"SiP_m1_carbine","Throw","Put"};
-        respawnMagazines[] = {"SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag","SiP_carbine_30_mag"};
+        respawnMagazines[] = {"vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag","vn_carbine_30_mag"};
         items[] = {"vn_b_carbine","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
         respawnItems[] = {"vn_b_carbine","fow_i_fak_uk","fow_i_fak_uk","fow_i_fak_uk"};
     };
@@ -58,7 +58,7 @@ class CfgVehicles
         threat[] = {0.7,0.1,0.1};
         icon = "iconManRecon";
         role = "Assault";
-        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_Lcpl_co.paa","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa",""};
+        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_Lcpl_ca.paa","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa",""};
         uniformClass = "SiP_m50_bush_jacket_uk_lcpl";
         weapons[] = {"SiP_m1928a1_thompson","Throw","Put"};
         magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag"};
@@ -140,7 +140,7 @@ class CfgVehicles
         icon = "iconManLeader";
         cost = 115000;
         uniformClass = "SiP_m50_bush_jacket_uk_cpl";
-        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_cpl_co.paa","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa",""};
+        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_cpl_ca.paa","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa",""};
         weapons[] = {"SiP_lee_enfield_no4_mki","SiP_webley_mkvi","Throw","Put"};
         magazines[] = {"SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag"};
         respawnWeapons[] = {"SiP_lee_enfield_no4_mki","SiP_webley_mkvi","Throw","Put"};
@@ -153,7 +153,7 @@ class CfgVehicles
         displayName = "Sergeant";
         cost = 200000;
         uniformClass = "SiP_m50_bush_jacket_uk_sgt";
-        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_sgt_co.paa","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa",""};
+        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_sgt_ca.paa","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa",""};
         weapons[] = {"SiP_sten_mkv","SiP_webley_mkvi","Throw","Put"};
         magazines[] = {"vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag"};
         respawnWeapons[] = {"SiP_sten_mkv","SiP_webley_mkvi","Throw","Put"};
@@ -166,7 +166,7 @@ class CfgVehicles
     {
         displayName = "Colour Sergeant";
         uniformClass = "SiP_m50_bush_jacket_uk_csgt";
-        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_csgt_co.paa","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa",""};
+        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_csgt_ca.paa","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa",""};
         weapons[] = {"SiP_m1928a1_thompson","SiP_webley_mkvi","Throw","Put"};
         magazines[] = {"vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","vn_m1a1_30_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag"};
         respawnWeapons[] = {"SiP_m1928a1_thompson","SiP_webley_mkvi","Throw","Put"};
@@ -179,7 +179,7 @@ class CfgVehicles
         icon = "iconManOfficer";
         cost = 450000;
         uniformClass = "SiP_m50_bush_jacket_uk_2lt";
-        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_2lt_co.paa"};
+        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_2lt_ca.paa"};
         weapons[] = {"SiP_lee_enfield_no4_mki","SiP_webley_mkvi","Throw","Put"};
         magazines[] = {"SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_enfield_10_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag"};
         respawnWeapons[] = {"SiP_lee_enfield_no4_mki","SiP_webley_mkvi","Throw","Put"};
@@ -195,7 +195,7 @@ class CfgVehicles
         displayName = "Lieutenant";
         cost = 500000;
         uniformClass = "SiP_m50_bush_jacket_uk_lt";
-        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_lt_co.paa"};
+        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bush_jacket_od7_co.paa","","","","\SiP\Addons\sip_uk_army_units\27IB\patches\27IN_Brig_ca.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\uk_bot_od7_co.paa","\SiP\Addons\sip_uk_army_gear\Uniforms\textures\ranks\uk_rank_lt_ca.paa"};
         weapons[] = {"SiP_sten_mkv","SiP_webley_mkvi","Throw","Put"};
         magazines[] = {"vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","vn_sten_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag","SiP_webley_6_mag"};
         respawnWeapons[] = {"SiP_sten_mkv","SiP_webley_mkvi","Throw","Put"};

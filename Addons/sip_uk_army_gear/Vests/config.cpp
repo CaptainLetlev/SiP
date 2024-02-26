@@ -3,7 +3,7 @@ class cfgPatches
     class SiP_Patch_uk_vests
     {
         Name = "Suicide Is Painless - Korean War Mod - UK Vests";
-        Author = "Letlev";
+        addonRootClass = "SiP_Patch_uk_gear";
         requiredAddons[] = 
         {
             "WW2_Assets_c_Characters_British_c_UK_Army_Gear",
@@ -13,7 +13,9 @@ class cfgPatches
         weapons[] = 
         {
             "SiP_P37_crew_vest",
-            "SiP_P37_can_vest"
+            "SiP_P37_can_vest",
+            "SiP_P37_uk_vest",
+            "SiP_P37_uk_vest_Pistol"
         };
     };
 };
@@ -96,4 +98,64 @@ class cfgWeapons
 			mass = 15;
 		};
 	};
+};
+
+class XtdGearInfos
+{
+    class CfgWeapons
+    {
+        class SiP_P37_uk_vest
+        {
+            model = "B_hssn_SiP_BCFK_P44_Backpack";
+            config = "SiP_P37_uk_vest";
+        };
+        class SiP_P37_uk_vest_Pistol
+        {
+            model = "B_hssn_SiP_BCFK_P44_Backpack";
+            config = "SiP_P37_uk_vest_Pistol";
+        };
+        class SiP_P37_crew_vest
+        {
+            model = "B_hssn_SiP_BCFK_P44_Backpack";
+            config = "SiP_P37_crew_vest";
+        };
+    };
+};	
+
+class XtdGearModels
+{
+    class CfgWeapons
+    {		
+        class V_hssn_SiP_P37_uk_vest
+        {
+            label = "";
+            author = "Letlev";
+            options[]=
+            {
+                "config"
+            };
+            class config
+            {
+                label = "Configuration";
+                values[]=
+                {
+                    "SiP_P37_uk_vest",
+                    "SiP_P37_uk_vest_Pistol",
+                    "SiP_P37_crew_vest"
+                };
+                class SiP_P37_uk_vest
+                {
+                    label = "Standard";
+                };
+                class SiP_P37_uk_vest_Pistol
+                {
+                    label = "Sidearm";
+                };
+                class SiP_P37_crew_vest
+                {
+                    label = "Basic";
+                };
+            };	
+        };
+    };
 };

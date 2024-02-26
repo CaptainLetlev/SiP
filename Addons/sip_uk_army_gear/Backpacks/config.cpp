@@ -51,10 +51,11 @@ class cfgVehicles
     {
         scope = 2;
         scopeArsenal = 2;
+        author = "Letlev";
         displayName = "[BCFK] Pattern '37 Pack";
         hiddenSelectionsTextures[] = 
         {
-            "SiP\Addons\sip_uk_army_gear\Backpacks\data\textures\backpack_p37.paa"
+            "SiP\Addons\sip_uk_army_gear\Backpacks\data\textures\backpack_p37_co.paa"
         };
         class TransportMagazines
         {
@@ -177,6 +178,7 @@ class cfgVehicles
     {
         scope = 2;
         scopeArsenal = 2;
+        author = "Letlev";
         displayName = "[BCFK] Pattern '44 Pack";
         class TransportMagazines
         {
@@ -191,6 +193,7 @@ class cfgVehicles
     {
         scope = 2;
         scopeArsenal = 2;
+        author = "Letlev";
         displayName = "[BCFK] Pattern '44 Pack (E-Tool)";
         class TransportMagazines
         {
@@ -338,6 +341,54 @@ class cfgVehicles
             };
         };
     };
+};
 
+class XtdGearInfos
+{
+    class CfgVehicles
+    {
+        class SiP_bcfk_44_backpack
+        {
+            model = "B_hssn_SiP_BCFK_P44_Backpack";
+            variant = "SiP_bcfk_44_backpack";
+        };
+        class SiP_bcfk_44_backpack_etool
+        {
+            model = "B_hssn_SiP_BCFK_P44_Backpack";
+            variant = "SiP_bcfk_44_backpack_etool";
+        };
+    };
+};	
 
+class XtdGearModels
+{
+    class CfgVehicles 
+    {		
+        class B_hssn_SiP_BCFK_P44_Backpack
+        {
+            label = "";
+            author = "Letlev";
+            options[]=
+            {
+                "variant"
+            };
+            class variant
+            {
+                label = "Variant";
+                values[]=
+                {
+                    "SiP_bcfk_44_backpack",
+                    "SiP_bcfk_44_backpack_etool"
+                };
+                class SiP_bcfk_44_backpack
+                {
+                    label = "Standard";
+                };
+                class SiP_bcfk_44_backpack_etool
+                {
+                    label = "E-Tool";
+                };
+            };	
+        };
+    };
 };
