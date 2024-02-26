@@ -144,7 +144,7 @@ class cfgMagazines
     class SiP_bren_30_mag: vn_l1a1_30_02_mag
     {
         author = "Letlev";
-        displayName = "30Rnd. Bren Mag";
+        displayName = "30Rnd .303 Bren Mag";
         picture = "\sp_fwa_bren\icons\mag_bren_icon_ca.paa";
         modelSpecialIsProxy = 1;
         modelSpecial = "sp_fwa_bren\sp_bren_303_30";
@@ -152,7 +152,7 @@ class cfgMagazines
     };
     class SiP_bren_30_t_mag: SiP_bren_30_mag
     {
-        displayName = "30Rnd. Bren Mag (Tracer)";
+        displayName = "30Rnd .303 Bren Mag (Tracer)";
         tracersEvery = 1;
         lastRoundsTracer = 30;
     };

@@ -37,54 +37,6 @@ class cfgPatches
     };
 };
 
-class CfgSoundShaders
-{
-    class vn_rpg2_close_shot_soundshader;
-
-    class SiP_bazooka_close_shot_soundshader: vn_rpg2_close_shot_soundshader
-    {
-        samples[] = {{"\SiP\Addons\sip_un_weapons\Bazooka\sounds\m20_bazooka_shot1.ogg",1}};
-    };
-
-    class SiP_M9_bazooka_close_shot_soundshader: SiP_bazooka_close_shot_soundshader
-    {
-        samples[] = {{"A3\Sounds_F\arsenal\weapons\Launchers\NLAW\nlaw",1}};
-    };
-};
-
-class cfgsoundsets
-{
-    class vn_rpg2_shot_soundset;
-
-    class SiP_bazooka_shot_soundset: vn_rpg2_shot_soundset
-    {
-        soundshaders[] = 
-        {
-            "vn_rpg2_closure_soundshader",
-            "vn_rpg2_interior_shot_soundshader",
-            "vn_rpg2_interior_distance_shot_soundshader",
-            "SiP_Bazooka_close_shot_soundshader",
-            "vn_rpg2_close_distance_shot_soundshader",
-            "vn_rpg2_medium_distance_shot_soundshader",
-            "vn_rpg2_far_distance_shot_soundshader"
-        };
-    };
-
-    class SiP_M9_bazooka_shot_soundset: vn_rpg2_shot_soundset
-    {
-        soundshaders[] = 
-        {
-            "vn_rpg2_closure_soundshader",
-            "vn_rpg2_interior_shot_soundshader",
-            "vn_rpg2_interior_distance_shot_soundshader",
-            "SiP_M9_bazooka_close_shot_soundshader",
-            "vn_rpg2_close_distance_shot_soundshader",
-            "vn_rpg2_medium_distance_shot_soundshader",
-            "vn_rpg2_far_distance_shot_soundshader"
-        };
-    };
-};
-
 class cfgWeapons
 {
     class vn_Launcher_Base_F;
@@ -103,7 +55,7 @@ class cfgWeapons
     {
         author = "Letlev";
         displayName = "M20 Super Bazooka";
-        picture = "\SiP\Addons\sip_un_weapons\Bazooka\m20_superbazooka_ui.paa";
+        picture = "\SiP\Addons\sip_un_weapons\Bazooka\data\textures\UI\m20_superbazooka_ui_ca.paa";
         magazines[] = {"SiP_M28A2_heat_rocket","SiP_M30_smoke_rocket"};
         class single: single
         {
@@ -120,7 +72,7 @@ class cfgWeapons
     {
         author = "Letlev";
         displayName = "M9A1 Bazooka";
-        picture = "\SiP\Addons\sip_un_weapons\Bazooka\m9a1_bazooka_ui.paa";
+        picture = "\SiP\Addons\sip_un_weapons\Bazooka\data\textures\UI\m9a1_bazooka_ui_ca.paa";
         magazines[] = {"SiP_M6A3_rocket"};
         class single: single
         {

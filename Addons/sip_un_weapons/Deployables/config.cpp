@@ -200,7 +200,7 @@ class cfgWeapons
         author = "Letlev";
         displayName = "Mortar Baseplate M1 81mm";
         model = "NORTH\NF_Static\81krh32\bags\81krh32_Tripod_launcher.p3d";
-        picture = "\SiP\Addons\sip_un_weapons\Deployables\data\UI\m1_81mm_baseplate_ui.paa";
+        picture = "\SiP\Addons\sip_un_weapons\Deployables\data\UI\m1_81mm_baseplate_ui_ca.paa";
         class ace_csw
         {
             type = "mount";

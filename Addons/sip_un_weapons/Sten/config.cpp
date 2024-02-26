@@ -153,3 +153,17 @@ class cfgWeapons
         reloadAction = "LIB_GestureReload_Sten";
     };
 };
+
+class cfgMagazines
+{
+    class vn_smgmag_base;
+
+    class vn_sten_mag: vn_smgmag_base
+	{
+        displayName = "32Rnd 9mm Sten Mag";
+    };
+    class vn_sten_t_mag: vn_sten_mag
+	{
+        displayName = "32Rnd 9mm Sten Mag (Tracer)";
+    };
+};

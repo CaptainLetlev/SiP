@@ -400,14 +400,14 @@ class cfgMagazines
     class SiP_enfield_10_mag: LIB_10Rnd_770x56
     {
         author = "Letlev";
-        displayName = "10Rnd. 7.7x56 Clip";
+        displayName = "2x 5Rnd .303 Lee-Enfield Clips";
         picture = "\NORTH\NF_weapons\nor\smle\data\UI\SMLE_mag_CA.paa";
         model = "\NORTH\NF_weapons\nor\smle\smle_mag.p3d";
         ammo = "vn_77x56";
     };
     class SiP_enfield_10_t_mag: SiP_enfield_10_mag
     {
-        displayName = "10Rnd. 7.7x56 Clip (Tracer)";
+        displayName = "2x 5Rnd .303 Lee-Enfield Clips (Tracer)";
         tracersEvery = 1;
         lastRoundsTracer = 10;
     };

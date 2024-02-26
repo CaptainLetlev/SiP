@@ -134,7 +134,7 @@ class cfgMagazines
         scope = 1;
         scopeArsenal = 1;
         author = "Letlev";
-        displayName = "250Rnd Belt .30-06";
+        displayName = "250Rnd .30-06 M1919 Belt";
         model = "\WW2\SPE_Assets_m\Weapons\WeaponsMagazines_m\SPE_M1919_Mag.p3d";
         picture = "\WW2\SPE_Assets_t\Weapons\Equipment_t\Magazines\MachineGun_Light\M_50Rnd_762x63_ca.paa";
         mass = 20;
@@ -145,7 +145,7 @@ class cfgMagazines
         scope = 1;
         scopeArsenal = 1;
         author = "Letlev";
-        displayName = "100Rnd Belt .30-06";
+        displayName = "100Rnd .30-06 M1919 Belt";
         ammo = "vn_762x63";
         mass = 15;
     };
@@ -155,7 +155,7 @@ class cfgMagazines
         scope = 1;
         scopeArsenal = 1;
         author = "Letlev";
-        displayName = "50Rnd Belt .30-06";
+        displayName = "50Rnd .30-06 M1919 Belt";
         ammo = "vn_762x63";
         mass = 10;
     };

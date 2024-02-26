@@ -23,11 +23,7 @@ class cfgPatches
 
             "SiP_m1903a3_Springfield"
         };
-        magazines[] = 
-        {
-            "SiP_springfield_5_mag",
-            "SiP_springfield_5_t_mag"
-        };
+        magazines[] = {};
     };
 };
 
@@ -68,7 +64,6 @@ class cfgWeapons
     {
         author = "Letlev";
         displayName = "M1903A4 Springfield";
-        magazines[] = {"SiP_springfield_5_mag","SiP_springfield_5_t_mag"};
         magazineWell[] = {};
         class Single: Single
         {
@@ -176,20 +171,17 @@ class cfgWeapons
 
 class cfgMagazines
 {
-    class vn_m1903_mag;
+    class vn_riflemag_base;
 
-    class SiP_springfield_5_mag: vn_m1903_mag
-    {
-        author = "Letlev";
-        displayName = "5Rnd .30-06 Clip";
+    class vn_m1903_mag: vn_riflemag_base
+	{
+        displayName = "5Rnd .30-06 Springfield Clip";
         picture = "\fow\fow_weapons\m1903\data\ui\m_m1903_ca.paa";
         model = "\fow\fow_weapons\m1903\m1903_clip.p3d";
     };
-    class SiP_springfield_5_t_mag: SiP_springfield_5_mag
-    {
-        displayName = "5Rnd .30-06 Clip (Tracers)";
-        tracersEvery = 1;
-        lastRoundsTracer = 5;
+    class vn_m1903_t_mag: vn_m1903_mag
+	{
+        displayName = "5Rnd .30-06 Springfield Clip (Tracers)";
     };
 };
 

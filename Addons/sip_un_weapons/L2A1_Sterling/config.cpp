@@ -182,13 +182,71 @@ class cfgMagazines
     class SiP_sterling_34_mag: vn_f1_smg_mag
     {
         author = "Letlev";
-        displayName = "34Rnd. Sterling Magazine";
+        displayName = "34Rnd. 9mm Sterling Magazine";
         mass = 8;
     };
     class SiP_sterling_34_t_mag: SiP_sterling_34_mag
     {
-        displayName = "34Rnd. Sterling Magazine (Tracer)";
+        displayName = "34Rnd. 9mm Sterling Magazine (Tracer)";
         tracersEvery = 1;
         lastRoundsTracer = 10;
+    };
+};
+
+class XtdGearInfos
+{
+    class CfgWeapons
+    {	
+        ////Sterling////
+        class SiP_L2A1_Sterling
+        {
+            model = "W_hssn_SiP_weapon_sterling_folding_stock";
+            stock = "unfold_stock";
+        };
+        class SiP_L2A1_Sterling_f
+        {
+            model = "W_hssn_SiP_weapon_sterling_folding_stock";
+            stock = "fold_stock";
+        };
+    };
+};
+
+class XtdGearModels
+{
+    class CfgWeapons 
+    {		
+        //Folding Stock
+        class W_hssn_SiP_weapon_sterling_folding_stock
+        {
+            label = "";
+            author = "Letlev";
+            options[]=
+            {
+                "stock"
+            };
+            class stock
+            {
+                label = "Stock";
+                changeingame = 1;
+                changedelay = 3;
+                values[]=
+                {
+                    "unfold_stock",
+                    "fold_stock"
+                };
+                class unfold_stock
+                {
+                    label = "Full";
+                    actionLabel = "Unfold Stock";
+                    icon = "\vn\weapons_f_vietnam_04\ui\icon_vn_l2a3_ca.paa";
+                };
+                class fold_stock
+                {
+                    label = "Folded";
+                    actionLabel = "Fold Stock";
+                    icon = "\vn\weapons_f_vietnam_04\ui\icon_vn_l2a3_f_ca.paa";
+                };
+            };
+        };
     };
 };

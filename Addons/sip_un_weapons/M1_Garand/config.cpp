@@ -28,11 +28,7 @@ class cfgPatches
             "SiP_m1d_garand",
             "SiP_m1d_garand_scope"
         };
-        magazines[] = 
-        {
-            "SiP_m1_garand_mag",
-            "SiP_m1_garand_mag_t"
-        };
+        magazines[] = {};
     };
 };
 
@@ -155,7 +151,7 @@ class cfgWeapons
     {
         author = "Letlev";
         displayName = "M1 Garand";
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag_t"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_t_mag"};
         magazineWell[] = {};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
@@ -265,7 +261,7 @@ class cfgWeapons
     {
         author = "Letlev";
         displayName = "M1C Garand";
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag_t"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_t_mag"};
         magazineWell[] = {};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
@@ -396,7 +392,7 @@ class cfgWeapons
     {
         author = "Letlev";
         displayName = "M1 Garand (Rifle Grenade)";
-        magazines[] = {"SiP_m1_garand_mag","SiP_m1_garand_mag_t"};
+        magazines[] = {"vn_m1_garand_mag","vn_m1_garand_t_mag"};
         magazineWell[] = {};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
@@ -598,18 +594,15 @@ class cfgWeapons
 
 class cfgMagazines
 {
-    class vn_m1_garand_mag;
+    class vn_riflemag_base;
 
-    class SiP_m1_garand_mag: vn_m1_garand_mag
-    {
-        author = "Letlev";
-        displayName = "8Rnd. Garand EnBloc Clip";
-        mass = 2.5;
+    class vn_m1_garand_mag: vn_riflemag_base
+	{
+        displayName = "8Rnd .30-06 Garand EnBloc Clip";
+        mass = 3.5;
     };
-    class SiP_m1_garand_mag_t: SiP_m1_garand_mag
-    {
-        displayName = "8Rnd. Garand EnBloc Clip (Tracer)";
-        tracersEvery = 1;
-        lastRoundsTracer = 8;
+    class vn_m1_garand_t_mag: vn_m1_garand_mag
+	{
+        displayName = "8Rnd .30-06 Garand EnBloc Clip (Tracer)";
     };
 };

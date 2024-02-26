@@ -30,7 +30,7 @@ class CfgSoundShaders
     class SiP_Greasegun_closeShot_SoundShader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\M3A1_Greasegun\sounds\Greasegun_shot.wss",1}};
-        volume = "(1.5-interior)";
+        volume = "(0.5-interior)";
         range = 50;
         rangeCurve[] = {{0,1.5},{20,1.15},{40,0.25}};
         limitation = 0;
@@ -38,7 +38,7 @@ class CfgSoundShaders
     class SiP_Greasegun_close_distance_shot_soundshader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\M3A1_Greasegun\sounds\Greasegun_shot.wss",1}};
-        volume = "1.5*(1-interior)";
+        volume = "0.5*(1-interior)";
         range = 100;
         rangecurve[] = {{0,0},{10,1},{100,0}};
     };
@@ -46,7 +46,9 @@ class CfgSoundShaders
 
 class cfgsoundsets
 {
-    class SiP_Greasegun_shot_soundset
+    class vn_m3a1_shot_soundset;
+
+    class SiP_Greasegun_shot_soundset: vn_m3a1_shot_soundset
     {
         soundShaders[] = 
         {
@@ -61,18 +63,6 @@ class cfgsoundsets
             "FoW_45ACP_Interior_Far",
             "FoW_SMG_Interior_Casings"
         };
-        volumeFactor = 1;
-        volumeCurve = "InverseSquare1Curve";
-        sound3DProcessingType = "WeaponMediumShot3DProcessingType";
-        spatial = 1;
-        doppler = 0;
-        loop = 0;
-        frequencyRandomizer = 1;
-        frequencyRandomizerMin = 0.5;
-        distanceFilter = "weaponShotDistanceFreqAttenuationFilter";
-        soundShadersLimit = 7;
-        occlusionFactor = 0.4;
-        obstructionFactor = 0.1;
     };
 };
 
@@ -96,7 +86,7 @@ class cfgWeapons
         };
         class Single: Mode_SemiAuto
         {
-            reloadTime = 0.15;
+            reloadTime = 0.115;
             dispersion = 0.0021;
             minRange = 400;
             minRangeProbab = 0.3;
@@ -118,7 +108,7 @@ class cfgWeapons
         };
         class Full: Mode_FullAuto
         {
-            reloadTime = 0.15;
+            reloadTime = 0.115;
             dispersion = 0.0021;
             minRange = 1;
             minRangeProbab = 1;
@@ -140,7 +130,7 @@ class cfgWeapons
         };
         class Burst_AI: Mode_Burst
         {
-            reloadTime = 0.15;
+            reloadTime = 0.115;
             dispersion = 0.0021;
             showToPlayer = 0;
             soundBurst = 0;
@@ -166,5 +156,21 @@ class cfgWeapons
                 soundsetshot[] = {"SiP_Greasegun_shot_soundset","vn_762x25mm_smg_fullauto_tails_soundset"};
             };
         };
+    };
+};
+
+class cfgMagazines
+{
+    class vn_smgmag_base;
+
+    class vn_m3a1_mag: vn_smgmag_base
+	{
+        displayName = "30Rnd .45 Grease Gun Mag";
+        mass = 6.7;
+    };
+    class vn_m3a1_t_mag: vn_m3a1_mag
+	{
+        displayName = "30Rnd .45 Grease Gun Mag (Tracer)";
+        mass = 6.7;
     };
 };

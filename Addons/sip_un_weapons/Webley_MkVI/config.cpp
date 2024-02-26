@@ -61,12 +61,12 @@ class cfgMagazines
 	class SiP_webley_6_mag: LIB_6Rnd_455
 	{
 		author = "Letlev";
-		displayName = "6Rnd. Webley Cylinder";
+		displayName = "6Rnd .455 Webley Cylinder";
 		ammo = "vn_1143x23";
 	};
 	class SiP_webley_6_mag_t_mag: SiP_webley_6_mag
 	{
-		displayName = "6Rnd. Webley Cylinder (Tracer)";
+		displayName = "6Rnd .455 Webley Cylinder (Tracer)";
 		tracersEvery = 1;
 		lastRoundsTracer = 6;
 		mass = 0.245;

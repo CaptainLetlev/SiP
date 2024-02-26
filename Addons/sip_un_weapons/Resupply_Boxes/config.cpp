@@ -253,29 +253,29 @@ class CfgVehicles
         maximumLoad = 5800;
         class TransportMagazines
         {
-            class _xx_SiP_m1911_mag
+            class _xx_vn_m1911_mag
             {
-                magazine = "SiP_m1911_mag";
+                magazine = "vn_m1911_mag";
                 count = 20;
             };
             class _xx_SiP_m1_garand_mag
             {
-                magazine = "SiP_m1_garand_mag";
+                magazine = "vn_m1_garand_mag";
                 count = 30;
             };
-            class _xx_SiP_springfield_5_mag
+            class _xx_vn_m1903_mag
             {
-                magazine = "SiP_springfield_5_mag";
+                magazine = "vn_m1903_mag";
                 count = 30;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 30;
             };
-            class _xx_SiP_carbine_30_mag
+            class _xx_vn_carbine_30_mag
             {
-                magazine = "SiP_carbine_30_mag";
+                magazine = "vn_carbine_30_mag";
                 count = 20;
             };
             class _xx_vn_m1897_fl_mag
@@ -318,9 +318,9 @@ class CfgVehicles
                 magazine = "vn_m3a1_mag";
                 count = 20;
             };
-            class _xx_vn_m1918_mag
+            class _xx_vn_m1918_t_mag
             {
-                magazine = "vn_m1918_mag";
+                magazine = "vn_m1918_t_mag";
                 count = 20;
             };
             class _xx_ace_compat_sip_m1919_250

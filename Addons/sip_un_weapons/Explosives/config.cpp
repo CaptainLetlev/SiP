@@ -130,7 +130,7 @@ class CfgMagazines
         author = "Letlev";
         displayName = "[US] Comp. B (1/2-Pound)";
         descriptionShort = "Half-Pound Composition B Explosive Blocks";
-        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\halfpound_compB.paa";
+        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\halfpound_compB_ca.paa";
         model = "\WW2\SPE_Assets_m\Weapons\Mines_m\SPE_TNT_Half_Pound.p3d";
         ammo = "SiP_Explosive_compB_halfpound_ammo";
         class Library
@@ -161,7 +161,7 @@ class CfgMagazines
     {
         displayName = "[US] Comp. B (1-Pound)";
         descriptionShort = "1-Pound Composition B Explosive Blocks";
-        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\1pound_compB.paa";
+        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\1pound_compB_ca.paa";
         model = "\fow\fow_weapons\explosives\HLS_TNT_US_OnePound";
         ammo = "SiP_Explosive_compB_1pound_ammo";
         ACE_Explosives_SetupObject = "SiP_Explosives_compB_1pound_place";
@@ -171,7 +171,7 @@ class CfgMagazines
     {
         displayName = "[US] Comp. B (2 1/2-Pounds)";
         descriptionShort = "2 Half-Pound Composition B Explosive Blocks";
-        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\2halfpound_compB.paa";
+        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\2halfpound_compB_ca.paa";
         model = "\fow\fow_weapons\explosives\HLS_TNT_US_DualHalfPound";
         ammo = "SiP_Explosive_compB_2halfpound_ammo";
         ACE_Explosives_SetupObject = "SiP_Explosives_compB_2halfpound_place";
@@ -180,7 +180,7 @@ class CfgMagazines
     {
         displayName = "[US] Comp. B (2-Pound)";
         descriptionShort = "2-Pound Composition B Explosive Blocks";
-        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\2pound_compB.paa";
+        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\2pound_compB_ca.paa";
         model = "\fow\fow_weapons\explosives\HLS_TNT_US_DualOnePound";
         ammo = "SiP_Explosive_compB_2pound_ammo";
         ACE_Explosives_SetupObject = "SiP_Explosives_compB_1pound_place";
@@ -190,7 +190,7 @@ class CfgMagazines
     {
         displayName = "[US] Comp. B (4-Pound)";
         descriptionShort = "4-Pound Composition B Explosive Blocks";
-        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\4pound_compB.paa";
+        picture = "\SiP\Addons\sip_un_weapons\Explosives\data\UI\4pound_compB_ca.paa";
         model = "\WW2\SPE_Assets_m\Weapons\Mines_m\SPE_TNT_4pound.p3d";
         ammo = "SiP_Explosive_compB_4pound_ammo";
         ACE_Explosives_SetupObject = "SiP_Explosives_compB_4pound_place";

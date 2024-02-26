@@ -20,13 +20,7 @@ class cfgPatches
             "SiP_m2_carbine",
             "SiP_m1a1_carbine"
         };
-        magazines[] = 
-        {
-            "SiP_carbine_30_mag",
-            "SiP_carbine_30_t_mag",
-            "SiP_carbine_15_mag",
-            "SiP_carbine_15_t_mag"
-        };
+        magazines[] = {};
     };
 };
 
@@ -35,15 +29,15 @@ class CfgSoundShaders
     class SiP_carbine_shot_fp_soundShader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\Carbine\sounds\carbine_shot.wss",1}};
-        volume = 1.5;
-        range = 17;
+        volume = 1.75;
+        range = 20;
         rangeCurve[] = {{0,1},{17,0}};
     };
     class SiP_carbine_close_shot_soundshader
     {
         samples[] = {{"\SiP\Addons\sip_un_weapons\Carbine\sounds\carbine_shot.wss",1}};
-        volume = 1.5;
-        range = 95;
+        volume = 1.75;
+        range = 100;
         rangeCurve[] = {{0,0},{17,0.9},{95,0}};
     };
 };
@@ -114,7 +108,6 @@ class cfgWeapons
         displayName = "M1 Carbine";
         recoil = "sp_fwa_recoil_assaultrifle_556_medium";
         recoilProne = "sp_fwa_recoil_assaultrifle_556_medium";
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_t_mag","SiP_carbine_30_mag","SiP_carbine_30_t_mag"};
         magazineWell[] = {};
         class WeaponSlotsInfo: WeaponSlotsInfo
         {
@@ -165,7 +158,7 @@ class cfgWeapons
             sounds[] = {"StandardSound"};
             class StandardSound
             {
-                soundSetShot[] = {"SiP_carbine_shot_soundset","SPE_rifle_med_ob_Tail_SoundSet","SPE_m1car_stereoLayer_SoundSet"};
+                soundSetShot[] = {"SiP_carbine_shot_soundset","vn_762x39mm_rifle_tails_soundset","vn_m45_smg_trigger_reset_soundset"};
             };
             burst = 1;
             burstRangeMax = -1;
@@ -184,7 +177,7 @@ class cfgWeapons
             sounds[] = {"StandardSound"};
             class StandardSound
             {
-                soundSetShot[] = {"SiP_carbine_shot_soundset","SPE_rifle_med_ob_Tail_SoundSet","SPE_m1car_stereoLayer_SoundSet"};
+                soundSetShot[] = {"SiP_carbine_shot_soundset","vn_762x39mm_rifle_tails_soundset","vn_m45_smg_trigger_reset_soundset"};
             };
             burst = 1;
             burstRangeMax = -1;
@@ -206,7 +199,6 @@ class cfgWeapons
         displayName = "M2 Carbine";
         recoil = "sp_fwa_recoil_assaultrifle_556_medium";
         recoilProne = "sp_fwa_recoil_assaultrifle_556_medium";
-        magazines[] = {"SiP_carbine_30_mag","SiP_carbine_30_t_mag","SiP_carbine_15_mag","SiP_carbine_15_t_mag"};
         magazineWell[] = {};
         modes[] = {"FullAuto","Single","close","short","medium"};
         class WeaponSlotsInfo: WeaponSlotsInfo
@@ -284,7 +276,7 @@ class cfgWeapons
         displayName = "M1A1 Carbine";
         recoil = "sp_fwa_recoil_assaultrifle_556_medium";
         recoilProne = "sp_fwa_recoil_assaultrifle_556_medium";
-        magazines[] = {"SiP_carbine_15_mag","SiP_carbine_15_t_mag","SiP_carbine_30_mag","SiP_carbine_30_t_mag"};
+        magazines[] = {"vn_carbine_15_mag","vn_carbine_15_t_mag","vn_carbine_30_mag","vn_carbine_30_t_mag"};
         magazineWell[] = {};
         magazineReloadSwitchPhase = 0.5625;
         magazineReloadTime = 4;
@@ -393,30 +385,28 @@ class cfgWeapons
 
 class cfgMagazines
 {
-    class vn_carbine_15_mag;
-    class vn_carbine_30_mag;
+    class vn_riflemag_base;
 
-    class SiP_carbine_15_mag: vn_carbine_15_mag
-    {
-        displayName = "15Rnd. Carbine Mag";
+    class vn_carbine_15_mag: vn_riflemag_base
+	{
+        displayName = "15Rnd .30 Carbine Mag";
         mass = 2.5;
     };
-    class SiP_carbine_15_t_mag: SiP_carbine_15_mag
-    {
-        displayName = "15Rnd. Carbine Mag (Tracer)";
+    class vn_carbine_15_t_mag: vn_carbine_15_mag
+	{
+        displayName = "15Rnd .30 Carbine Mag (Tracer)";
         tracersEvery = 1;
         lastRoundsTracer = 15;
     };
-    class SiP_carbine_30_mag: vn_carbine_30_mag
-    {
-        displayName = "30Rnd. Carbine Mag";
-        mass = 5.58;
+    class vn_carbine_30_mag: vn_riflemag_base
+	{
+        displayName = "30Rnd .30 Carbine Mag";
+        mass = 3;
     };
-    class SiP_carbine_30_t_mag: SiP_carbine_30_mag
-    {
-        displayName = "30Rnd. Carbine Mag (Tracer)";
+    class vn_carbine_30_t_mag: vn_carbine_30_mag
+	{
+        displayName = "30Rnd .30 Carbine Mag (Tracer)";
         tracersEvery = 1;
         lastRoundsTracer = 15;
-        mass = 5.58;
     };
 };

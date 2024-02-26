@@ -18,10 +18,7 @@ class cfgPatches
         {
             "SiP_m1911"
         };
-        magazines[] = 
-        {
-            "SiP_m1911_mag"
-        };
+        magazines[] = {};
     };
 };
 
@@ -76,7 +73,7 @@ class cfgWeapons
         author = "Letlev";
         displayName = "M1911";
         recoil = "sp_fwa_recoil_pistol_45_medium";
-        magazines[] = {"SiP_m1911_mag"};
+        magazines[] = {"vn_m1911_mag"};
         magazineWell[] = {};
         class Single: Single
         {
@@ -102,10 +99,11 @@ class cfgWeapons
 
 class CfgMagazines
 {
-    class vn_m1911_mag;
+    class vn_pistolmag_base;
 
-    class SiP_m1911_mag: vn_m1911_mag
-    {
+    class vn_m1911_mag: vn_pistolmag_base
+	{
+        displayName = "7Rnd .45 ACP M1911 Mag";
         mass = 0.245;
     };
 };

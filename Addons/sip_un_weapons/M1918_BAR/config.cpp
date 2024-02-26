@@ -79,6 +79,7 @@ class cfgWeapons
     {
         author = "Letlev";
         displayName = "M1918A2 BAR";
+        magazines[] = {"vn_m1918_mag","vn_m1918_t_mag"};
         magazineWell[] = {};
         class FullAuto: FullAuto
         {
@@ -131,5 +132,20 @@ class cfgWeapons
                 item = "vn_bipod_m1918";
             };
         };
+    };
+};
+
+class cfgMagazines
+{
+    class vn_lmgmag_base;
+
+    class vn_m1918_mag: vn_lmgmag_base
+	{
+        displayName = "20Rnd .30-06 BAR Mag";
+        mass = 9;
+    };
+    class vn_m1918_t_mag: vn_m1918_mag
+	{
+        displayName = "20Rnd .30-06 BAR Mag (Tracer)";
     };
 };
