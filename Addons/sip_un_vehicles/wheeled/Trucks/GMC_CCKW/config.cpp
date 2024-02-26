@@ -16,14 +16,17 @@ class cfgPatches
             "SiP_GMC_CCKW_ammo",
             "SiP_GMC_CCKW_fuel",
             "SiP_GMC_CCKW_repair",
+            "SiP_GMC_CCKW_ambulance",
 
             "SiP_GMC_CCKW_transport_open_marines",
             "SiP_GMC_CCKW_transport_marines",
             "SiP_GMC_CCKW_ammo_marines",
             "SiP_GMC_CCKW_fuel_marines",
             "SiP_GMC_CCKW_repair_marines",
+            "SiP_GMC_CCKW_ambulance_marines",
 
-            "SiP_GMC_CCKW_repair_uk"
+            "SiP_GMC_CCKW_repair_uk",
+            "SiP_GMC_CCKW_ambulance_uk"
         };
         weapons[] = {};
     };
@@ -52,6 +55,10 @@ class cfgVehicles
     {
         class UserActions;
     };
+    class LIB_US_GMC_Ambulance: LIB_US_GMC_Base
+    {
+        class UserActions;
+    };
      
     class SiP_GMC_CCKW_transport_open: LIB_US_GMC_Open
     {
@@ -65,11 +72,32 @@ class cfgVehicles
         vehicleClass = "SiP_Trucks_vehicle_class";
         crew = "SiP_US_Army_driver";
         hiddenSelectionsTextures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
-        textureList[] = {};
         attenuationEffectType = "vn_openvehicle_attenuation";
         obstructSoundsWhenIn = 0;
         occludeSoundsWhenIn = 0;
         outsideSoundFilter = 0;
+        weapons[] = {"SiP_ooga_horn_weapon"};
+        magazines[] = {"vn_ship_horn_mag"};
+        class textureSources
+        {
+            class GMC_G
+			{
+				displayName = "Green";
+				author = "Unitatoe24";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+                factions[] = {"SiP_US_Army","SiP_US_Marines"};                
+            };
+            class GMC_OD: GMC_G
+			{
+				displayName = "Olive Drab";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck_light.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+			};
+        };
+        textureList[] = 
+        {
+            "GMC_G",1,
+            "GMC_OD",1
+        };
         class UserActions: UserActions
         {
             class music_player
@@ -101,7 +129,28 @@ class cfgVehicles
         occludeSoundsWhenIn = 0;
         outsideSoundFilter = 0;
         hiddenSelectionsTextures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
-        textureList[] = {};
+        weapons[] = {"SiP_ooga_horn_weapon"};
+        magazines[] = {"vn_ship_horn_mag"};
+        class textureSources
+        {
+            class GMC_G
+			{
+				displayName = "Green";
+				author = "Unitatoe24";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+                factions[] = {"SiP_US_Army","SiP_US_Marines"};                
+            };
+            class GMC_OD: GMC_G
+			{
+				displayName = "Olive Drab";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck_light.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+			};
+        };
+        textureList[] = 
+        {
+            "GMC_G",1,
+            "GMC_OD",1
+        };
         class UserActions: UserActions
         {
             class music_player
@@ -134,7 +183,28 @@ class cfgVehicles
         occludeSoundsWhenIn = 0;
         outsideSoundFilter = 0;
         hiddenSelectionsTextures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
-        textureList[] = {};
+        weapons[] = {"SiP_ooga_horn_weapon"};
+        magazines[] = {"vn_ship_horn_mag"};
+        class textureSources
+        {
+            class GMC_G
+			{
+				displayName = "Green";
+				author = "Unitatoe24";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+                factions[] = {"SiP_US_Army","SiP_US_Marines"};                
+            };
+            class GMC_OD: GMC_G
+			{
+				displayName = "Olive Drab";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck_light.paa","","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+			};
+        };
+        textureList[] = 
+        {
+            "GMC_G",1,
+            "GMC_OD",1
+        };
         class UserActions: UserActions
         {
             class music_player
@@ -151,19 +221,19 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_springfield_5_mag
+            class _xx_vn_m1903_mag
             {
-                magazine = "SiP_springfield_5_mag";
+                magazine = "vn_m1903_mag";
                 count = 25;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 30;
             };
-            class _xx_SiP_carbine_30_mag
+            class _xx_vn_carbine_30_mag
             {
-                magazine = "SiP_carbine_30_mag";
+                magazine = "vn_carbine_30_mag";
                 count = 25;
             };
             class _xx_vn_m1a1_30_mag
@@ -178,17 +248,17 @@ class cfgVehicles
             };
             class _xx_SiP_m1_garand_mag
             {
-                magazine = "SiP_m1_garand_mag";
+                magazine = "vn_m1_garand_mag";
                 count = 100;
             };
-            class _xx_vn_m1918_mag
+            class _xx_vn_m1918_t_mag
             {
-                magazine = "vn_m1918_mag";
+                magazine = "vn_m1918_t_mag";
                 count = 25;
             };
-            class _xx_SiP_m1911_mag
+            class _xx_vn_m1911_mag
             {
-                magazine = "SiP_m1911_mag";
+                magazine = "vn_m1911_mag";
                 count = 10;
             };
             class _xx_SiP_M6A3_rocket
@@ -284,9 +354,9 @@ class cfgVehicles
                 weapon = "SiP_m1928a1_thompson";
                 count = 2;
             };
-            class _xx_SiP_m1918A2_bar_bipod
+            class _xx_SiP_m1918A2_bar
             {
-                weapon = "SiP_m1918A2_bar_bipod";
+                weapon = "SiP_m1918A2_bar";
                 count = 5;
             };
             class _xx_SiP_m1919a6
@@ -357,7 +427,28 @@ class cfgVehicles
         occludeSoundsWhenIn = 0;
         outsideSoundFilter = 0;
         hiddenSelectionsTextures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","\HQ_Trucks\textures\gmc\gmc_fuel.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
-        textureList[] = {};
+        weapons[] = {"SiP_ooga_horn_weapon"};
+        magazines[] = {"vn_ship_horn_mag"};
+        class textureSources
+        {
+            class GMC_G
+			{
+				displayName = "Green";
+				author = "Unitatoe24";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","\HQ_Trucks\textures\gmc\gmc_fuel.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+                factions[] = {"SiP_US_Army","SiP_US_Marines"};                
+            };
+            class GMC_OD: GMC_G
+			{
+				displayName = "Olive Drab";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck_light.paa","\HQ_Trucks\textures\gmc\gmc_fuel_light.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+			};
+        };
+        textureList[] = 
+        {
+            "GMC_G",1,
+            "GMC_OD",1
+        };
         class UserActions: UserActions
         {
             class music_player
@@ -388,8 +479,82 @@ class cfgVehicles
         obstructSoundsWhenIn = 0;
         occludeSoundsWhenIn = 0;
         outsideSoundFilter = 0;
-        hiddenSelectionsTextures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","\HQ_Trucks\textures\gmc\gmc_fuel.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
-        textureList[] = {};
+        hiddenSelectionsTextures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","\HQ_Trucks\textures\gmc\gmc_rep.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+        weapons[] = {"SiP_ooga_horn_weapon"};
+        magazines[] = {"vn_ship_horn_mag"};
+        class textureSources
+        {
+            class GMC_G
+			{
+				displayName = "Green";
+				author = "Unitatoe24";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","\HQ_Trucks\textures\gmc\gmc_rep.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+                factions[] = {"SiP_US_Army","SiP_US_Marines"};                
+            };
+            class GMC_OD: GMC_G
+			{
+				displayName = "Olive Drab";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck_light.paa","\HQ_Trucks\textures\gmc\gmc_rep_light.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+			};
+        };
+        textureList[] = 
+        {
+            "GMC_G",1,
+            "GMC_OD",1
+        };
+        class UserActions: UserActions
+        {
+            class music_player
+            {
+                displayName = "$STR_VN_VEHICLE_RADIO_DN";
+                position = "zamerny";
+                showWindow = 0;
+                onlyForPlayer = 0;
+                radius = 2;
+                priority = -99;
+                condition = "alive this && { local this && { missionnamespace getvariable ['vn_jukebox_enable', true] && { driver this isEqualTo player } } }";
+                statement = "['open'] call vn_fnc_music";
+            };
+        };
+    };
+    class SiP_GMC_CCKW_ambulance: LIB_US_GMC_Ambulance
+    {
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "GMC CCKW Truck (Ambu)";
+        faction = "SiP_US_Army";
+        side = 1;
+        editorCategory = "SiP_US_Army_Editor_Category";
+        editorSubcategory = "SiP_Trucks_Editor_Subcategory";
+        vehicleClass = "SiP_Trucks_vehicle_class";
+        crew = "SiP_US_Army_driver";
+        attenuationEffectType = "vn_openvehicle_attenuation";
+        obstructSoundsWhenIn = 0;
+        occludeSoundsWhenIn = 0;
+        outsideSoundFilter = 0;
+        hiddenSelectionsTextures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","\HQ_Trucks\textures\gmc\gmc_med.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+        weapons[] = {"SiP_ooga_horn_weapon"};
+        magazines[] = {"vn_ship_horn_mag"};
+        class textureSources
+        {
+            class GMC_G
+			{
+				displayName = "Green";
+				author = "Unitatoe24";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck.paa","\HQ_Trucks\textures\gmc\gmc_med.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+                factions[] = {"SiP_US_Army","SiP_US_Marines"};                
+            };
+            class GMC_OD: GMC_G
+			{
+				displayName = "Olive Drab";
+				textures[] = {"\HQ_Trucks\textures\gmc\gmc_truck_light.paa","\HQ_Trucks\textures\gmc\gmc_med_light.paa","\HQ_Trucks\textures\usa.paa","\HQ_Trucks\textures\info.paa"};
+			};
+        };
+        textureList[] = 
+        {
+            "GMC_G",1,
+            "GMC_OD",1
+        };
         class UserActions: UserActions
         {
             class music_player
@@ -436,8 +601,20 @@ class cfgVehicles
         editorCategory = "SiP_US_Marines_Editor_Category";
         crew = "SiP_US_Marines_driver";
     };
+    class SiP_GMC_CCKW_ambulance_marines: SiP_GMC_CCKW_ambulance
+    {
+        faction = "SiP_US_Marines";
+        editorCategory = "SiP_US_Marines_Editor_Category";
+        crew = "SiP_US_Marines_driver";
+    };
 
     class SiP_GMC_CCKW_repair_uk: SiP_GMC_CCKW_repair
+    {
+        faction = "SiP_BCFK";
+        editorCategory = "SiP_BCFK_Editor_Category";
+        crew = "SiP_BCFK_driver";
+    };
+    class SiP_GMC_CCKW_ambulance_uk: SiP_GMC_CCKW_ambulance
     {
         faction = "SiP_BCFK";
         editorCategory = "SiP_BCFK_Editor_Category";

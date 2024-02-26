@@ -14,9 +14,13 @@ class cfgPatches
             "SiP_M3_Halftrack",
             "SiP_M3_Halftrack_open",
 
+            "SiP_M16_Halftrack",
+
             "SiP_M5A1_Halftrack",
             "SiP_M5_Halftrack",
-            "SiP_M5_Halftrack_open"
+            "SiP_M5_Halftrack_open",
+
+            "SiP_M16_Halftrack_UK"
         };
         weapons[] = 
         {
@@ -141,7 +145,8 @@ class cfgVehicles
         editorCategory = "SiP_US_Army_Editor_Category";
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
-        
+        weapons[] = {"SiP_Light_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class Turrets: Turrets
         {
             class MainTurret: MainTurret
@@ -206,9 +211,9 @@ class cfgVehicles
                 weapon = "SiP_m3a1_greasegun";
                 count = 1;
             };
-            class _xx_SPE_M1A1_Bazooka
+            class _xx_SiP_m9a1_bazooka
             {
-                weapon = "SPE_M1A1_Bazooka";
+                weapon = "SiP_m9a1_bazooka";
                 count = 1;
             };
             class _xx_SiP_m2_carbine
@@ -219,24 +224,24 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_springfield_5_mag
+            class _xx_vn_m1903_mag
             {
-                magazine = "SiP_springfield_5_mag";
+                magazine = "vn_m1903_mag";
                 count = 12;
             };
             class _xx_SiP_m1_garand_mag
             {
-                magazine = "SiP_m1_garand_mag";
+                magazine = "vn_m1_garand_mag";
                 count = 48;
             };
-            class _xx_vn_m1918_mag
+            class _xx_vn_m1918_t_mag
             {
-                magazine = "vn_m1918_mag";
+                magazine = "vn_m1918_t_mag";
                 count = 10;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 15;
             };
             class _xx_vn_m3a1_mag
@@ -274,9 +279,9 @@ class cfgVehicles
                 magazine = "SPE_US_M18_Yellow";
                 count = 1;
             };
-            class _xx_SiP_M28A2_heat_rocket
+            class _xx_SiP_M6A3_rocket
             {
-                magazine = "SiP_M28A2_heat_rocket";
+                magazine = "SiP_M6A3_rocket";
                 count = 6;
             };
         };
@@ -295,19 +300,14 @@ class cfgVehicles
         };
         class TransportItems
         {
-            class _xx_SPE_US_FirstAidKit
-            {
-                name = "SPE_US_FirstAidKit";
-                count = 10;
-            };
             class _xx_SiP_ACE_Items_personalAidKit
             {
                 name = "SiP_ACE_Items_personalAidKit";
                 count = 1;
             };
-            class _xx_SPE_ToolKit
+            class _xx_SPE_ToolKit_NoMass
             {
-                name = "SPE_ToolKit";
+                name = "SPE_ToolKit_NoMass";
                 count = 1;
             };
         };
@@ -324,7 +324,8 @@ class cfgVehicles
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
         class textureSources{};
-        
+        weapons[] = {"SiP_Light_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class UserActions: UserActions
         {
             class music_player
@@ -346,9 +347,9 @@ class cfgVehicles
                 weapon = "SiP_m3a1_greasegun";
                 count = 1;
             };
-            class _xx_SPE_M1A1_Bazooka
+            class _xx_SiP_m9a1_bazooka
             {
-                weapon = "SPE_M1A1_Bazooka";
+                weapon = "SiP_m9a1_bazooka";
                 count = 1;
             };
             class _xx_SiP_m2_carbine
@@ -359,24 +360,24 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_springfield_5_mag
+            class _xx_vn_m1903_mag
             {
-                magazine = "SiP_springfield_5_mag";
+                magazine = "vn_m1903_mag";
                 count = 12;
             };
             class _xx_SiP_m1_garand_mag
             {
-                magazine = "SiP_m1_garand_mag";
+                magazine = "vn_m1_garand_mag";
                 count = 48;
             };
-            class _xx_vn_m1918_mag
+            class _xx_vn_m1918_t_mag
             {
-                magazine = "vn_m1918_mag";
+                magazine = "vn_m1918_t_mag";
                 count = 10;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 15;
             };
             class _xx_vn_m3a1_mag
@@ -414,9 +415,9 @@ class cfgVehicles
                 magazine = "SPE_US_M18_Yellow";
                 count = 1;
             };
-            class _xx_SiP_M28A2_heat_rocket
+            class _xx_SiP_M6A3_rocket
             {
-                magazine = "SiP_M28A2_heat_rocket";
+                magazine = "SiP_M6A3_rocket";
                 count = 6;
             };
         };
@@ -435,11 +436,6 @@ class cfgVehicles
         };
         class TransportItems
         {
-            class _xx_SPE_US_FirstAidKit
-            {
-                name = "SPE_US_FirstAidKit";
-                count = 10;
-            };
             class _xx_SiP_ACE_Items_personalAidKit
             {
                 name = "SiP_ACE_Items_personalAidKit";
@@ -463,6 +459,8 @@ class cfgVehicles
         editorCategory = "SiP_US_Army_Editor_Category";
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
+        weapons[] = {"SiP_Light_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class textureSources{};
         
         class UserActions: UserActions
@@ -486,9 +484,9 @@ class cfgVehicles
                 weapon = "SiP_m3a1_greasegun";
                 count = 1;
             };
-            class _xx_SPE_M1A1_Bazooka
+            class _xx_SiP_m9a1_bazooka
             {
-                weapon = "SPE_M1A1_Bazooka";
+                weapon = "SiP_m9a1_bazooka";
                 count = 1;
             };
             class _xx_SiP_m2_carbine
@@ -499,24 +497,24 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_springfield_5_mag
+            class _xx_vn_m1903_mag
             {
-                magazine = "SiP_springfield_5_mag";
+                magazine = "vn_m1903_mag";
                 count = 12;
             };
             class _xx_SiP_m1_garand_mag
             {
-                magazine = "SiP_m1_garand_mag";
+                magazine = "vn_m1_garand_mag";
                 count = 48;
             };
-            class _xx_vn_m1918_mag
+            class _xx_vn_m1918_t_mag
             {
-                magazine = "vn_m1918_mag";
+                magazine = "vn_m1918_t_mag";
                 count = 10;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 15;
             };
             class _xx_vn_m3a1_mag
@@ -554,9 +552,9 @@ class cfgVehicles
                 magazine = "SPE_US_M18_Yellow";
                 count = 1;
             };
-            class _xx_SiP_M28A2_heat_rocket
+            class _xx_SiP_M6A3_rocket
             {
-                magazine = "SiP_M28A2_heat_rocket";
+                magazine = "SiP_M6A3_rocket";
                 count = 6;
             };
         };
@@ -575,11 +573,6 @@ class cfgVehicles
         };
         class TransportItems
         {
-            class _xx_SPE_US_FirstAidKit
-            {
-                name = "SPE_US_FirstAidKit";
-                count = 10;
-            };
             class _xx_SiP_ACE_Items_personalAidKit
             {
                 name = "SiP_ACE_Items_personalAidKit";
@@ -604,7 +597,8 @@ class cfgVehicles
         editorCategory = "SiP_US_Army_Editor_Category";
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
-        
+        weapons[] = {"SiP_Light_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class Turrets: Turrets
         {
             class MainTurret: MainTurret
@@ -685,11 +679,6 @@ class cfgVehicles
 		};
         class TransportItems
         {
-            class _xx_SPE_US_FirstAidKit
-            {
-                name = "SPE_US_FirstAidKit";
-                count = 10;
-            };
             class _xx_SiP_ACE_Items_personalAidKit
             {
                 name = "SiP_ACE_Items_personalAidKit";

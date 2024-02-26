@@ -258,6 +258,8 @@ class cfgVehicles
         armor = 400;
         armorStructural = 7;
         damageResistance = 0.00547;
+        weapons[] = {"SiP_Heavy_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class Turrets: Turrets
         {
             class MainTurret: MainTurret

@@ -212,10 +212,10 @@ class cfgMagazines
     {
         author = "Letlev";
         displayName = "81mm M301 Illum Round";
-        picture = "\SiP\Addons\sip_un_vehicles\static\mortars\data\UI\81mm_illum_mag_UI.paa";
+        picture = "\SiP\Addons\sip_un_vehicles\static\mortars\data\UI\81mm_illum_mag_ui_ca.paa";
         model = "\WW2\SPE_Assets_m\Weapons\AmmoBoxes_m\Mortars\SPE_Shell80.p3d";
         hiddenSelections[] = {"camo1"};
-		hiddenSelectionsTextures[] = {"SiP\Addons\sip_un_vehicles\static\mortars\data\UI\81mm_illum_mag_UI.paa"};
+		hiddenSelectionsTextures[] = {"SiP\Addons\sip_un_vehicles\static\mortars\data\UI\81mm_illum_mag_ui_ca.paa"};
         type = 256;
         count = 1;
         mass = 15;
@@ -232,7 +232,7 @@ class cfgMagazines
         picture = "\WW2\Assets_t\Weapons\Equipment_t\Magazines\Mortars\M_60_HE_ca.paa";
         model = "\WW2\Assets_m\Weapons\Ammoboxes_m\mortars\WW2_shell60.p3d";
         hiddenSelections[] = {"camo1"};
-        hiddenSelectionsTextures[] = {"SiP\Addons\sip_un_vehicles\static\mortars\data\textures\60mm_HE_mag.paa"};
+        hiddenSelectionsTextures[] = {"SiP\Addons\sip_un_vehicles\static\mortars\data\textures\60mm_HE_mag_co.paa"};
         mass = 10;
     };
     class ace_compat_SiP_60mm_wp: vn_mortar_m2_mag_wp_x8
@@ -259,7 +259,7 @@ class cfgMagazines
         picture = "\WW2\Assets_t\Weapons\Equipment_t\Magazines\Mortars\m_60_illum_ca.paa";
         model = "\WW2\Assets_m\Weapons\Ammoboxes_m\mortars\WW2_shell60.p3d";
         hiddenSelections[] = {"camo1"};
-        hiddenSelectionsTextures[] = {"SiP\Addons\sip_un_vehicles\static\mortars\data\textures\60mm_illum_mag.paa"};
+        hiddenSelectionsTextures[] = {"SiP\Addons\sip_un_vehicles\static\mortars\data\textures\60mm_illum_mag_co.paa"};
         mass = 10;
     };
     

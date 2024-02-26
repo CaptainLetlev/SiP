@@ -203,7 +203,7 @@ class cfgVehicles
         side = 1;
         editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
         vehicleClass = "SiP_Machineguns_vehicle_class";
-        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_un_vehicles\static\m2\data\m2_gun.paa","vn\static_f_vietnam\m2\data\vn_static_m2_high_02_co.paa"};
+        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_un_vehicles\static\m2\data\m2_gun_co.paa","vn\static_f_vietnam\m2\data\vn_static_m2_high_02_co.paa"};
         class Turrets: Turrets
         {
             class MainTurret: MainTurret
@@ -257,10 +257,10 @@ class cfgVehicles
     {
         author = "Letlev";
         side = 1;
-        displayName = "M2HB (High)";
+        displayName = "M2HB (Low)";
         editorSubcategory = "SiP_Machineguns_Editor_Subcategory";
         vehicleClass = "SiP_Machineguns_vehicle_class";
-        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_un_vehicles\static\m2\data\m2_gun_low.paa","vn\static_f_vietnam\m2\data\vn_static_m2_low_02_co.paa"};
+        hiddenSelectionsTextures[] = {"\SiP\Addons\sip_un_vehicles\static\m2\data\m2_gun_low_co.paa","vn\static_f_vietnam\m2\data\vn_static_m2_low_02_co.paa"};
         class Turrets: Turrets
         {
             class MainTurret: MainTurret

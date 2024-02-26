@@ -126,6 +126,8 @@ class CfgVehicles
         attenuationEffectType = "OpenCarAttenuation";
         armor = 300;
 		armorStructural = 2;
+        weapons[] = {"SiP_Medium_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class Turrets: Turrets
         {
             class Turret1: Tuuret_1

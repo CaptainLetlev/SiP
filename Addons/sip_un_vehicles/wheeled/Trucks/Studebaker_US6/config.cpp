@@ -50,7 +50,8 @@ class cfgVehicles
         editorSubcategory = "SiP_Trucks_Editor_Subcategory";
         vehicleClass = "SiP_Trucks_vehicle_class";
         crew = "SiP_US_Army_driver";
-        weapons[] = {"LIB_OpelBlitzHorn"};
+        weapons[] = {"SiP_Medium_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class UserActions: UserActions
         {
             class music_player
@@ -77,7 +78,8 @@ class cfgVehicles
         editorSubcategory = "SiP_Trucks_Editor_Subcategory";
         vehicleClass = "SiP_Trucks_vehicle_class";
         crew = "SiP_US_Army_driver";
-        weapons[] = {"LIB_OpelBlitzHorn"};
+        weapons[] = {"SiP_Medium_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class UserActions: UserActions
         {
             class music_player
@@ -105,7 +107,8 @@ class cfgVehicles
         editorSubcategory = "SiP_Trucks_Editor_Subcategory";
         vehicleClass = "SiP_Trucks_vehicle_class";
         crew = "SiP_US_Army_driver";
-        weapons[] = {"LIB_OpelBlitzHorn"};
+        weapons[] = {"SiP_Medium_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class UserActions: UserActions
         {
             class music_player
@@ -122,19 +125,19 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_springfield_5_mag
+            class _xx_vn_m1903_mag
             {
-                magazine = "SiP_springfield_5_mag";
+                magazine = "vn_m1903_mag";
                 count = 25;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 30;
             };
-            class _xx_SiP_carbine_30_mag
+            class _xx_vn_carbine_30_mag
             {
-                magazine = "SiP_carbine_30_mag";
+                magazine = "vn_carbine_30_mag";
                 count = 25;
             };
             class _xx_vn_m1a1_30_mag
@@ -149,17 +152,17 @@ class cfgVehicles
             };
             class _xx_SiP_m1_garand_mag
             {
-                magazine = "SiP_m1_garand_mag";
+                magazine = "vn_m1_garand_mag";
                 count = 100;
             };
-            class _xx_vn_m1918_mag
+            class _xx_vn_m1918_t_mag
             {
-                magazine = "vn_m1918_mag";
+                magazine = "vn_m1918_t_mag";
                 count = 25;
             };
-            class _xx_SiP_m1911_mag
+            class _xx_vn_m1911_mag
             {
-                magazine = "SiP_m1911_mag";
+                magazine = "vn_m1911_mag";
                 count = 10;
             };
             class _xx_SiP_M6A3_rocket
@@ -260,9 +263,9 @@ class cfgVehicles
                 weapon = "SiP_m1928a1_thompson";
                 count = 2;
             };
-            class _xx_SiP_m1918A2_bar_bipod
+            class _xx_SiP_m1918A2_bar
             {
-                weapon = "SiP_m1918A2_bar_bipod";
+                weapon = "SiP_m1918A2_bar";
                 count = 5;
             };
             class _xx_SiP_m1919a6
@@ -332,17 +335,17 @@ class cfgVehicles
         {
             class _xx_SiP_m1_garand_mag
             {
-                magazine = "SiP_m1_garand_mag";
+                magazine = "vn_m1_garand_mag";
                 count = 25;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 30;
             };
-            class _xx_SiP_carbine_30_mag
+            class _xx_vn_carbine_30_mag
             {
-                magazine = "SiP_carbine_30_mag";
+                magazine = "vn_carbine_30_mag";
                 count = 25;
             };
             class _xx_vn_m1a1_30_mag
@@ -365,9 +368,9 @@ class cfgVehicles
                 magazine = "SiP_enfield_10_mag";
                 count = 150;
             };
-            class _xx_vn_m1918_mag
+            class _xx_vn_m1918_t_mag
             {
-                magazine = "vn_m1918_mag";
+                magazine = "vn_m1918_t_mag";
                 count = 25;
             };
             class _xx_SiP_webley_6_mag

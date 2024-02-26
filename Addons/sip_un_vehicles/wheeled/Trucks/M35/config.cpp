@@ -55,7 +55,8 @@ class cfgVehicles
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
         animationList[] = {"user_canopy_front_hide",1,"user_canopy_rear_hide",1,"user_canopy_rear_frame_hide",1,"user_canopy_rear_frame_02_hide",0,"user_toolbox_hide",0.33};
-        weapons[] = {"TruckHorn3"};
+        weapons[] = {"SiP_Heavy_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class TextureSources
         {
             class Army
@@ -103,14 +104,14 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_m1911_mag
+            class _xx_vn_m1911_mag
             {
-                magazine = "SiP_m1911_mag";
+                magazine = "vn_m1911_mag";
                 count = 6;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 6;
             };
             class _xx_SiP_mk2_grenade_mag
@@ -172,7 +173,8 @@ class cfgVehicles
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
         animationList[] = {"user_canopy_front_hide",0,"user_canopy_rear_hide",0,"user_canopy_rear_frame_hide",1,"user_canopy_rear_frame_02_hide",0,"user_toolbox_hide",0.33};
-        weapons[] = {"TruckHorn3"};
+        weapons[] = {"SiP_Heavy_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class TextureSources
         {
             class Army
@@ -220,14 +222,14 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_m1911_mag
+            class _xx_vn_m1911_mag
             {
-                magazine = "SiP_m1911_mag";
+                magazine = "vn_m1911_mag";
                 count = 6;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 6;
             };
             class _xx_SiP_mk2_grenade_mag
@@ -289,7 +291,8 @@ class cfgVehicles
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
         animationList[] = {"user_canopy_front_hide",0,"user_canopy_rear_frame_hide",1,"user_canopy_rear_frame_02_hide",0,"user_toolbox_hide",0.33};
-        weapons[] = {"TruckHorn3"};
+        weapons[] = {"SiP_Heavy_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class TextureSources
         {
             class Army
@@ -347,29 +350,29 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_m1911_mag
+            class _xx_vn_m1911_mag
             {
-                magazine = "SiP_m1911_mag";
+                magazine = "vn_m1911_mag";
                 count = 20;
             };
             class _xx_SiP_m1_garand_mag
             {
-                magazine = "SiP_m1_garand_mag";
+                magazine = "vn_m1_garand_mag";
                 count = 30;
             };
-            class _xx_SiP_springfield_5_mag
+            class _xx_vn_m1903_mag
             {
-                magazine = "SiP_springfield_5_mag";
+                magazine = "vn_m1903_mag";
                 count = 30;
             };
-            class _xx_SiP_carbine_15_mag
+            class _xx_vn_carbine_15_mag
             {
-                magazine = "SiP_carbine_15_mag";
+                magazine = "vn_carbine_15_mag";
                 count = 30;
             };
-            class _xx_SiP_carbine_30_mag
+            class _xx_vn_carbine_30_mag
             {
-                magazine = "SiP_carbine_30_mag";
+                magazine = "vn_carbine_30_mag";
                 count = 20;
             };
             class _xx_vn_m1897_fl_mag
@@ -412,9 +415,9 @@ class cfgVehicles
                 magazine = "vn_m3a1_mag";
                 count = 20;
             };
-            class _xx_vn_m1918_mag
+            class _xx_vn_m1918_t_mag
             {
-                magazine = "vn_m1918_mag";
+                magazine = "vn_m1918_t_mag";
                 count = 20;
             };
             class _xx_ace_compat_sip_m1919_250
@@ -499,7 +502,8 @@ class cfgVehicles
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
         animationList[] = {"user_canopy_front_hide",0};
-        weapons[] = {"TruckHorn3"};
+        weapons[] = {"SiP_Heavy_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class TextureSources
         {
             class Army
@@ -546,9 +550,9 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_m1911_mag
+            class _xx_vn_m1911_mag
             {
-                magazine = "SiP_m1911_mag";
+                magazine = "vn_m1911_mag";
                 count = 6;
             };
             class _xx_vn_m3a1_mag
@@ -613,7 +617,8 @@ class cfgVehicles
         crew = "SiP_US_Army_driver";
         typicalCargo[] = {"SiP_US_Army_driver"};
         animationList[] = {"user_canopy_front_hide",0};
-        weapons[] = {"TruckHorn3"};
+        weapons[] = {"SiP_Heavy_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class TransportItems
         {
             class _xx_vn_b_item_firstaidkit
@@ -629,9 +634,9 @@ class cfgVehicles
         };
         class TransportMagazines
         {
-            class _xx_SiP_m1911_mag
+            class _xx_vn_m1911_mag
             {
-                magazine = "SiP_m1911_mag";
+                magazine = "vn_m1911_mag";
                 count = 6;
             };
             class _xx_vn_m3a1_mag
@@ -685,6 +690,7 @@ class cfgVehicles
         };
     };
     
+    //Marines
     class SiP_m35_transport_open_marines: SiP_m35_transport_open
     {
         faction = "SiP_US_Marines";
@@ -737,7 +743,7 @@ class cfgVehicles
         typicalCargo[] = {"SiP_US_Marines_driver"};
     };
     
-    
+    //UK
     class SiP_m35_transport_open_uk: SiP_m35_transport_open
     {
         faction = "SiP_BCFK";

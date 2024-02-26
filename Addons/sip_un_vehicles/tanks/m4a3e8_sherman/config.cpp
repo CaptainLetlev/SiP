@@ -13,9 +13,11 @@ class cfgPatches
         units[] = 
         {
             "SiP_m4a4e8_sherman",
+
             "SiP_m4a4e8_sherman_can_sqdC",
             "SiP_m4a4e8_sherman_can_sqdB",
             "SiP_m4a4e8_sherman_can_sqdA",
+
             "SiP_m4a4e8_sherman_marines"
         };
         weapons[] = 
@@ -209,9 +211,10 @@ class cfgVehicles
 
     class SiP_m4a4e8_sherman: LIB_M4A3_76_HVSS
     {
+        scope = 2;
+        scopecurator = 2;
         author = "Letlev";
         displayname = "M4A3E8 Sherman";
-        scope = 2;
         side = 1;
         faction = "SiP_US_Army";
         editorCategory = "SiP_US_Army_Editor_Category";
@@ -222,6 +225,8 @@ class cfgVehicles
         armorStructural = 250;
         unitInfoType = "RscUnitInfoTank_SPE";
         hiddenSelectionsTextures[] = {"\simc_uaf_44_panzers\sjerman\hvss\hvsssherman_co.paa","\simc_uaf_44_panzers\sjerman\hvss\hvsstside_co.paa","\simc_uaf_44_panzers\sjerman\hvss\hvsstracks_co.paa","\simc_uaf_44_panzers\sjerman\hvss\alpha_co.paa"};
+        weapons[] = {"SiP_Medium_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class Sounds
         {
             soundSetsExt[] = {"SPE_tank_sherman_ext_idle_SoundSet","SPE_tank_sherman_ext_slow_SoundSet","SPE_tank_sherman_ext_mid_SoundSet","SPE_tank_sherman_ext_fast_SoundSet","SPE_tank_sherman_exhaust_ext_idle_SoundSet","SPE_tank_sherman_exhaust_ext_slow_SoundSet","SPE_tank_sherman_exhaust_ext_mid_SoundSet","SPE_tank_sherman_exhaust_ext_fast_SoundSet","SPE_tank_sherman_dist_slow_SoundSet","SPE_tank_sherman_dist_mid_SoundSet","SPE_tank_sherman_dist_high_SoundSet","SPE_tank_sherman_ext_tracks_slow_soundSet","SPE_tank_sherman_ext_tracks_mid_soundSet","SPE_tank_sherman_ext_tracks_fast_soundSet","SPE_tank_sherman_ext_rumble_soundSet","SPE_tank_ext_internalFire_soundSet","SPE_trackSurfaceSound_ext_soft_soundSet","SPE_trackSurfaceSound_ext_hard_soundSet","SPE_trackSurfaceSound_ext_sand_soundSet","SPE_tank_Ext_rain_light_soundSet","SPE_tank_Ext_rain_hard_soundSet","Tank_General_Collision_SoundSet"};

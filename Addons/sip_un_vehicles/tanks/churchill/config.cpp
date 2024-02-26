@@ -73,7 +73,6 @@ class cfgVehicles
         };
         class AnimationSources;
     };
-    
     class LIB_Churchill_Mk7_Crocodile: LIB_Churchill_base
     {
         class Turrets: Turrets
@@ -104,6 +103,8 @@ class cfgVehicles
         editorSubcategory = "SiP_Tanks_Editor_Subcategory";
         vehicleClass = "SiP_tanks_vehicle_class";
         crew = "SiP_BCFK_tank_driver";
+        weapons[] = {"SiP_Medium_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class Turrets: Turrets
         {
             class MainTurret: MainTurret
@@ -176,6 +177,8 @@ class cfgVehicles
         editorSubcategory = "SiP_Tanks_Editor_Subcategory";
         vehicleClass = "SiP_tanks_vehicle_class";
         crew = "SiP_BCFK_tank_driver";
+        weapons[] = {"SiP_Medium_Horn_weapon"}; 
+        magazines[] = {"vn_ship_horn_mag"};
         class Turrets: Turrets
         {
             class MainTurret: MainTurret
@@ -218,6 +221,7 @@ class cfgVehicles
         };
     };
 };
+
 class cfgWeapons
 {
     class MGun;

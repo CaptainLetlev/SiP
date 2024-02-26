@@ -49,6 +49,6 @@ class cfgVehicles
         editorCategory = "SiP_ROK_Army_Editor_Category";
         editorSubcategory = "EdSubcat_Planes";
         crew = "SiP_USAF_Fighter_Pilot";
-        hiddenSelectionsTextures[] = {"SiP\Addons\sip_un_vehicles\planes\F51\data\p51_rok.paa"};
+        hiddenSelectionsTextures[] = {"SiP\Addons\sip_un_vehicles\planes\F51\data\p51_rok_co.paa"};
     };
 };

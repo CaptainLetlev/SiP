@@ -116,6 +116,7 @@ class cfgVehicles
 		crew = "SiP_BCFK_driver";
 		typicalCargo[] = {"SiP_BCFK_driver","SiP_BCFK_gunner"};
 		hiddenSelectionsTextures[] = {"\WW2\Assets_t\Vehicles\Tanks_t\I44_UniversalCarrier\carrier_star_co.paa"};
+		weapons[] = {"vn_CivCarHorn3"};
 		class Turrets: Turrets
 		{
 			class Turret_Main: Turret_Main
